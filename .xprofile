@@ -1,0 +1,2 @@
+[ -z $SSH_CLIENT ] && xkbcomp ~/.xkb $DISPLAY 2>/dev/null
+redshift -P -O 4500

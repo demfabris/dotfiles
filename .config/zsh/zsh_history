@@ -1,0 +1,10089 @@
+./lib
+rustc lib.rs
+./lib
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+./lib
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+exit
+cargo test
+cargo test
+cargo test
+cargo test
+cargo test
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+exit
+cd src/components/Images
+ll
+cd components
+vim ImageWithFallback.tsx
+ll
+vim ObservedImage.tsx
+vim DefaultImage.tsx
+vim ObservedImage.tsx
+exit
+ll
+cd src/components/Images
+ll
+cd components
+ll
+vim ImageWithFallback.styles.ts
+ll
+..
+ll
+mkdir _components
+cd _components
+ll
+vim Picture.tsx
+exit
+cd src/components/Images/components
+ll
+vim ImageWithFallback.styles.ts
+exit
+cd src/components/ObservedWrapper
+ll
+vim ObservedWrapper.tsx
+exit
+vim Picture.styles.ts
+..
+cd components
+ll
+vim ImageWithFallback.styles.ts
+..
+ll
+vim cd components
+ll
+cd components
+ll
+vim ImageWithFallback.tsx
+exit
+ll
+cd src/components/Images
+ll
+vim ImageContainer.styles.ts
+cd components
+ll
+vim DefaultImage.tsx
+exit
+ll
+cd src/components/Slider
+ll
+cd components
+ll
+rm -rf dellxps13.xkm
+ll
+..
+ll
+..
+cd Images
+ll
+cd components
+ll
+vim ImageWithFallback.styles.ts
+ll
+..
+ll
+cd components
+ll
+vim ImageWithFallback.tsx
+..
+cd _components
+ll
+vim Picture.styles.ts
+..
+ll
+rm -rf _components
+ll
+vim ImageContainer.tsx
+gs
+..
+..
+git checkout .
+ll
+cd components/Images
+ll
+exit
+..
+cd src/components/Bubble
+ll
+rm -rf dellxps13.xkm
+ll
+vim Bubble.styles.ts
+exit
+ll
+yarn build:next
+cd build
+ll
+vim bundle-next.js
+yarn build:next
+ll
+vim bundle-next.js
+http-server -p 3000 .
+exit
+cd src/common
+ll
+cd types
+ll
+..
+ll
+cd utils
+ll
+vim raiseOutput.ts
+vim mockEvent.ts
+vim index.ts
+..
+..
+cd hooks
+ll
+vim request.ts
+vim error.ts
+cd queue
+ll
+vim telemetry.ts
+..
+cd routine
+ll
+vim emerge.ts
+vim init.ts
+vim notify.ts
+vim idle.ts
+..
+exit
+ll
+cd src
+ll
+vim index.tsx
+exit
+cd src/common/utils
+vim raiseOutput.ts
+..
+..
+..
+ll
+cd src
+ll
+vim index.tsx
+exit
+ll
+cd scripts
+..
+cd config
+ll
+vim webpack.config.next.js
+ll
+ll
+..
+ll
+mv webpack.config.dev.js config
+cd config
+ll
+..
+ll
+vim package.json
+cd config
+ll
+vim webpack.config.dev.js
+ll
+..
+ll
+cd templates
+ll
+vim index.html
+..
+ll
+cd config
+ll
+vim webpack.config.dev.js
+..
+ll
+rm -rf build
+ll
+gs
+vim .env
+ll
+gs
+vim env.pre
+ll
+gs
+cd config
+ll
+vim webpack.config.dev.js
+vim webpack.config.next.js
+vim webpack.config.pre.js
+..
+ll
+gs
+git add .
+git commit -e
+ll
+gs
+yarn deploy:next && yarn deploy:next
+git describe -all
+git describe --all
+git describe --tags
+ll
+git checkout -B refactor/script-params
+ll
+cd src/services
+ll
+vim configuration.ts
+exit
+tmux
+cd src/services
+ll
+vim eva.ts
+exit
+ll
+cd templates
+ll
+vim index.html
+git checkout -b refactor/images
+git checkout next
+gs
+..
+ll
+gs
+git add .
+git commit -e
+yarn deploy:next && yarn deploy:next
+ll
+yarn deploy:next
+yarn deploy:next
+ll
+cd build
+ll
+..
+rm -rf build
+yarn deploy:next
+ll
+cd templates
+ll
+vim index.html
+ll
+..
+ll
+gs
+vim package.json
+cd templates
+ll
+vim index.html
+gs
+git add .
+git commit -m "refactor(script): attempt to remove script params to old devices SOL"
+gs
+..
+git add .
+git commit --amend
+ll
+gl
+ll
+yarn build:dev
+git checkout next
+ll
+vim babel.config.json
+exit
+cd src/components/Images
+ll
+vim ImageContainer.styles.ts
+cd components
+ll
+vim ImageWithFallback.styles.ts
+vim DefaultImage.styles.ts
+vim ObservedImage.styles.ts
+vim DefaultImage.styles.ts
+vim ImageWithFallback.styles.ts
+ll
+..
+..
+cd Slider
+ll
+cd components
+l
+ll
+vim Indicator.styles.ts
+gs
+exit
+cd src/components/Slider/components
+ll
+git restore Indicator.styles.ts
+vim Arrows.styles.ts
+exit
+cd src/hooks
+ll
+vim request.ts
+exit
+vim eva.ts
+exit
+ll
+tmux a
+cd src/assets
+ll
+cd wrappers
+ll
+vim icons.tsx
+exot
+exit
+ll
+cd src/components/Buttons
+ll
+cd components
+ll
+vim SendButton.tsx
+cat SendButton.tsx > ShareFlowButton.tsx
+vim ShareFlowButton.tsx
+exit
+cd src/components/Buttons/components
+ll
+..
+ll
+vim Button.styles.ts
+exit
+ll
+cd src/components/Message
+ll
+vim Message.tsx
+..
+..
+cd components/Feed/components
+vim FeedEntries.tsx
+exit
+tmux a
+cd src/services
+ll
+vim eva.ts
+gs
+gs
+..
+..
+ll
+git add .
+git commit -e
+cd src/services
+ll
+vim eva.ts
+git checkout -B feat/share-flows
+ll
+git add .
+..
+..
+git add .
+git commit -e
+exit
+ll
+yarn build:dev
+yarn add -D @babel/preset-env
+yarn build:dev
+yarn build:dev
+ll
+vim tsconfig.json
+ll
+gs
+vim .env
+vim .env
+git checkout .
+ll
+vim .env
+cd templates
+ll
+vim index-next.html
+..
+ll
+vim .env
+cd src/components/Images
+ll
+cd components
+ll
+vim ObservedImage.tsx
+git restore ImageWithFallback.styles.ts
+ll
+vim ImageWithFallback.styles.ts
+..
+..
+..
+..
+ll
+gs
+gs
+git add .
+git commit -e
+gs
+ll
+vim .env
+vim env.pre
+vim env.prod
+vim .env
+vim env.pre
+vim env.prod
+vim .env
+vim .env
+exit
+cd Documents/Projects/Development/Everis/Luli
+ll
+gs
+yarn start
+yarn start
+yarn start
+yarn start
+yarn start
+yarn start
+yarn start
+yarn start
+yarn start
+yarn start
+yarn start
+yarn start
+yarn start
+yarn start
+yarn start
+yarn start
+yarn start
+yarn start
+exit
+ll
+ll
+tmux a
+tmux a
+sudo emerge --sync
+sudo emerge -av --deep --update --changed-use @world
+ll
+exit
+tmux a
+tmux a
+vim release.config.js
+yarn semantic-release
+git checkout next
+yarn semantic-release
+exit
+cd Documents/Projects/Development/Everis/Luli
+ll
+git describe
+git describe --tags
+cd build
+ll
+..
+ll
+cd config
+ll
+vim webpack.config.next.js
+..
+ll
+exit
+tmux a
+exit
+tmux a
+cargo test
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+exit
+ll
+cd ..
+cd tests
+vim saddle-points.rs
+exit
+ll
+rustc lib.rs
+./lib
+ll
+..
+ll
+vim README.md
+cd src
+ll
+ll
+rm -rf lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+rustc lib.rs
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+./lib
+rustc lib.rs
+./lib
+exit
+..
+cd src/hooks
+vim request.ts
+..
+..
+cd scripts
+ll
+vim deploy-to-prod.sh
+gl
+git rebase -i
+exit
+iwctl
+exit
+tmux a
+cargo test
+cargo test -- --ignored
+cargo test -- --ignored
+exit
+ll
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+exit
+..
+cd tests
+ll
+vim isogram.rs
+ll
+..
+exit
+cd src/components/Feed/components
+vim FeedEntries.styles.ts
+exit
+ll
+cd src/components/Feed/components
+vim FeedEntries.tsx
+ll
+..
+..
+cd Message
+ll
+vim Message.tsx
+exit
+ll
+cd src/components/Buttons
+ll
+cd components
+ll
+vim index.ts
+..
+ll
+vim index.ts
+..
+ll
+vim index.ts
+exit
+cd src/components/Buttons
+ll
+cd components
+ll
+vim ShareFlowButton.tsx
+..
+..
+cd Header
+ll
+vim Header.tsx
+vim Header.tsx
+..
+cd Buttons/components
+ll
+vim ShareFlowButton.tsx
+exit
+ll
+cd src/assets
+ll
+cd wrappers
+ll
+vim icons.tsx
+exit
+ll
+exit
+cd Documents/Projects/Development/Everis/Luli
+ll
+gs
+gl
+ll
+git gs
+git checkout pre
+git merge next
+git reset origin pre
+git reset --hard origin/pre
+git rebase pre
+git rebase next
+gl
+ll
+cd scripts
+ll
+vim deploy-to-pre.sh
+vim deploy-to-prod.sh
+git rebase --continue
+git add .
+git rebase --continue
+gl
+git fetch -all
+git fetch --all
+gl
+ll
+..
+cd config
+ll
+vim webpack.config.next.js
+..
+vim .env
+ll
+vim env.prod
+git checkout next
+gs
+gl
+ll
+vim .env
+git checkout feat/share-button
+gs
+gl
+ll
+cd src/components/Message
+ll
+cd handlers
+ll
+rm -rf dellxps13.xkm
+ll
+..
+..
+..
+..
+ll
+gl
+git checkout feat/share-flows
+gs
+gl
+git checkout pre
+gl
+gs
+git push origin pre
+git push origin pre --force
+git checkout master
+gl
+git rebase pre
+cd scripts
+vim deploy-to-prod.sh
+git add .
+git rebase --continue
+gl
+git reset --hard origin/master
+git merge pre
+git add .
+..
+git merge --continue
+gl
+cd scripts
+ll
+vim deploy-to-prod.sh
+git add .
+git rebase --continue
+vim deploy-to-prod.sh
+git add .
+git rebase --continue
+vim deploy-to-prod.sh
+git add .
+git rebase --continue
+gl
+yarn semantic-release
+gl
+git reset --hard origin/master
+..
+gl
+git fetch --all
+git merge pre
+cd scripts
+vim deploy-to-prod.sh
+git add .
+git merge --continue
+gl
+git rebase -i
+git reset --hard origin/master
+git rebase --abort
+gl
+yarn semantic-release
+qgl
+gl
+git rebase -i
+git rebase --abort
+git log
+git rebase -i 7dbf114
+git rebase --abort
+git rebase -i 989b6dd4
+gl
+yarn semantic-release
+gs
+git push origin master
+git push origin master --force
+gl
+git describe --all
+git describe --tags
+gl
+git reset --hard origin/pre
+gl
+yarn semantic-release
+git push origin master --force
+..
+git fetch --all
+gl
+ll
+git rebase -i
+gl
+git checkout next
+gl
+yarn deploy:prod
+ll
+cd scripts
+ll
+vim deploy-to-prod.sh
+..
+..
+cd Luli
+ll
+git add .
+git commit -m "chore(deploy): update prod script SAS url"
+git push origin next
+git checkout pre
+git merge next
+gl
+git checkout master
+gl
+git merge pre
+git push origin master
+git checkout feat/share-flows
+gs
+ll
+yarn start
+exit
+tmux a
+ll
+tmux a
+tmux a
+tmux a
+iwctl
+exit
+exit
+date
+hwclock -h
+hwclock -s
+sudo hwclock -s
+date
+exit
+exit
+brave-bin
+sudo chmod 4755 /opt/brave/chrome-sandbox
+exit
+ll
+tmux a
+tmux -s work
+tmux -n work
+tmux
+tmux a
+ll
+cd src/components/Buttons/components
+ll
+vim ShareFlowButton.tsx
+exit
+ll
+cd src/components/Message
+ll
+vim Message.tsx
+vim Message.tsx
+exit
+ll
+cd src/services
+vim eva.ts
+gl
+git cherry-pick d9fced
+gs
+gl
+ll
+vim eva.ts
+gs
+exit
+cd src/hooks
+ll
+cd queue
+l
+ll
+vim latency.ts
+exit
+tmux a
+tmux a
+tmux a
+ll
+cd src/hooks/queue
+ll
+vim queue.ts
+..
+..
+cd common/types
+ll
+vim eVAv3.d.ts
+vim feed.d.ts
+exit
+cd src/hooks
+ll
+cd queue
+ll
+vim latency.ts
+exit
+cd src/common/types
+ll
+vim feed.d.ts
+exit
+ll
+gs
+..
+..
+..
+ll
+git add .
+git commit -e
+gs
+git restore .
+gs
+git restore --staged .
+gs
+git checkout -B feat/improve-feed
+git add .
+git commit -e
+git checkout master
+cd src/services
+ll
+vim eva.ts
+..
+..
+gl
+git reset --hard c2771a9
+yarn build:prod
+cd build
+ll
+..
+cd scripts
+ll
+vim deploy-to-prod.sh
+..
+vim package.json
+vim package.json
+yarn deploy:prod
+cd src/services
+ll
+vim eva.ts
+..
+..
+git reset --hard origin/master
+gs
+cd src/services
+vim eva.ts
+..
+..
+cd scripts
+ll
+vim deploy-to-prod.sh
+..
+ll
+yarn deploy:prod
+cd src/services
+ll
+vim eva.ts
+yarn deploy:prod
+gs
+git checkout .
+..
+..
+ll
+git checkout feat/improve-feed
+cd src/services
+ll
+vim agent.ts
+..
+cd hooks/queue
+vim latency.ts
+vim queue.ts
+exit
+ll
+cd src/services
+ll
+vim parser.ts
+exit
+cd src/common/types
+ll
+vim eVAv3.d.ts
+exit
+ll
+cd src/components/Feed
+ll
+vim Feed.tsx
+exit
+cd src/common/types
+ll
+vim traffic.d.ts
+exit
+ll
+cd src/common/types
+ll
+vim feed.d.ts
+gs
+exit
+ll
+vim entities.d.ts
+rm -rf entities.d.ts
+ll
+ll
+ll
+gs
+exit
+ll
+ll
+git add .
+git commit --amend
+git checkout next
+gs
+git add .
+git commit -e
+exit
+cd Documents/Projects/Development/Everis/Luli
+ll
+gs
+git add .
+git commit -m "experimenting with round share button"
+git checkout next
+git checkout feat/share-flows
+ll
+gs
+ll
+yarn start
+exit
+tmux a
+exit
+cargo test
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test
+exit
+ll
+..
+cd tests
+vim run-length-encoding.rs
+exit
+ll
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+exit
+ll
+cd Documents/Learning/RustExercism/rust
+ll
+cd run-length-encoding
+ll
+cd src
+ll
+vim lib.rs
+vim lib.rs
+..
+ll
+cd src
+ll
+exercism submit lib.rs
+..
+..
+ll
+ll
+exercism download --exercise=isbn-verifier --track=rust
+cd isbn-verifier
+ll
+cd src
+ll
+vim lib.rs
+exit
+cargo test
+cargo test -- --ignored
+exit
+ll
+..
+cd tests
+ll
+vim isbn-verifier.rs
+exit
+exit
+tmux a
+tmux a
+sudo reboot
+tmux a
+exit
+exit
+ll
+exit
+tmux
+vim .zshrc
+iwctl
+exit
+exit
+ll
+rm -rf .xkb
+ll
+cd Documents/Learning/RustExercism/rust
+ll
+cd isbn-verifier
+ll
+cd src
+ll
+vim lib.rs
+vim lib.rs
+vim lib.rs
+exit
+ll
+cd isbn-verifier
+ll
+cd src
+ll
+vim lib.rs
+tmux
+tmux a
+exit
+ll
+cd Documents/Learning/RustExercism/rust
+ll
+cd isbn-verifier
+ll
+cd src
+ll
+vim lib.rs
+exit
+..
+cd tests
+vim isbn-verifier.rs
+exit
+tmux a
+sudo reboot
+ll
+ll
+cd Documents/Learning/RustExercism/rust
+ll
+cd isbn-verifier
+ll
+tmux
+ll
+cd src
+ll
+cd Documents/Projects
+ll
+cd Development
+ll
+git clone https://github.com/fabricio7p/dogehouse.git
+ifconfig
+exit
+ll
+l
+l
+ll
+exit
+l
+exit
+iwctl
+iwctl
+ll
+cd Documents
+ll
+cd Projects
+ll
+cd Development
+ll
+git clone https://github.com/fabricio7p/dogehouse.git
+ll
+cd dogehouse
+ll
+cd kofta
+l
+ll
+npm i
+ll
+gs
+vim package.json
+npm run start
+npm run start:staging
+ll
+gs
+..
+git checkout .
+ll
+git checkout staging
+vim CONTRIBUTING.md
+ll
+ll
+ll
+cd kofta/
+ll
+mv CONTRIBUTING.md COMMIT_GUIDELINES.md
+cp COMMIT_GUIDELINES.md ..
+ll
+rm -rf COMMIT_GUIDELINES.md
+ll
+..
+ll
+gs
+vim COMMIT_GUIDELINES.md
+vim CONTRIBUTING.md
+gs
+vim COMMIT_GUIDELINES.md
+l
+ll
+rm -rf COMMIT_GUIDELINES.md
+cd .vscode
+ll
+mv CONTRIBUTING.md ../COMMIT_GUIDELINES.md
+..
+ll
+gs
+vim COMMIT_GUIDELINES.md
+exit
+exit
+iwctl
+exit
+ifconfig
+ifconfig
+exit
+man hwclock
+sudo hwclock --hctosys
+date
+exit
+exit
+ll
+cd src/common/utils
+ll
+vim index.ts
+exit
+ll
+exit
+cd src/common/utils
+vim makeEntry.ts
+exit
+ll
+cd src
+ll
+cd common
+ll
+cd utils
+ll
+vim mockFeedEntry.ts
+ll
+vim throttle.ts
+vim computations.ts
+vim throttle.ts
+ll
+gs
+vim mockEvent.ts
+..
+..
+cd hooks
+ll
+cd routine
+ll
+..
+cd queue
+ll
+vim synthetic.ts
+..
+..
+cd common/utils
+ll
+vim makeEntry.ts
+..
+..
+cd hooks/queue
+vim trigger.ts
+vim trigger.ts
+exit
+vim ind
+cd src/common/utils
+vim index.ts
+..
+..
+cd store
+vim FeedContext.tsx
+exit
+cd src/services
+vim parser.ts
+vim parser.ts
+exit
+cd src/hooks
+ll
+cd queue
+ll
+vim latency.ts
+exit
+cd src/hooks
+cd queue
+ll
+vim queue.ts
+exit
+ll
+cd src/common/types
+ll
+vim feed.d.ts
+exit
+cd src/hooks/queue
+vim queue.ts
+exit
+cd src/services
+vim parser.ts
+exit
+cd src/components/Slider
+ll
+vim Slider.tsx
+exit
+ll
+cd src/common/types
+ll
+vim feed.d.ts
+exit
+cd src/components/Buttons
+ll
+vim ButtonContainer.tsx
+exit
+cd src/components/Buttons
+ll
+vim Button.styles.ts
+exit
+cd src/services
+vim parser.ts
+exit
+cd src/components/Images
+cd components
+ll
+vim ObservedImage.tsx
+ll
+vim DefaultImage.tsx
+exit
+cd src/common/types
+ll
+vim feed.d.ts
+exit
+cd src/components/Slider
+ll
+cd handlers
+ll
+vim slide.ts
+exit
+cd src/common/types
+ll
+vim eVAv3.d.ts
+..
+..
+cd components/Images/components
+ll
+..
+..
+cd Slider
+ll
+vim Slider.tsx
+exit
+cd src/components/Feed/components
+vim FeedEntries.tsx
+vim FeedEntries.tsx
+exit
+cd src/components/Images
+ll
+vim ImageContainer.tsx
+exit
+cd src/components/Feed
+vim Feed.tsx
+exit
+exit
+cd src/store
+ll
+vim FeedContext.tsx
+..
+..
+cd src/services
+vim parser.ts
+..
+cd hooks/queue
+vim queue.ts
+vim latency.ts
+..
+..
+..
+git add .
+git cherry-pick --abort
+gl
+exit
+ll
+gs
+ll
+cd src/services
+ll
+vim eva.ts
+vim .env
+..
+..
+ll
+vim .eva
+vim .env
+ll
+gs
+gs
+git add .
+ll
+git commit -e
+git push origin feat/improve-feed
+ll
+git checkout next
+gl
+ll
+git merge feat/improve-feed
+gs
+gl
+git rebase -i
+git rebase -i next
+git reset --hard origin/next
+gl
+git merge feat/improve-feed --squash
+gs
+gl
+git checkout .
+git reset --hard origin/next
+git rebase -i feat/improve-feed
+git merge feat/improve-feed
+gs
+gl
+git reset --hard origin/next
+git rebase -i feat/improve-feed
+gl
+git rebase -i 61baf15
+git rebase --abort
+git reset --hard origin/next
+gl
+git merge --squash feat/improve-feed
+git commit
+gl
+git reset --hard origin/next
+gl
+gl
+ll
+git checkout feat/improve-feed
+gl
+git rebase -i
+git rebase -i HEAD
+git rebase -i .
+git rebase -i ~
+git rebase -i feat/improve-feed
+git rebase -i abf3dd7
+gl
+git reset --hard origin/feat/improve-feed
+gl
+git checkout next
+git branch -D feat/new-feed
+git branch -B feat/new-feed
+git checkout -B feat/new-feed
+gl
+git cherry-pick bd92368
+gl
+git merge feat/improve-feed
+gl
+git checkout feat/improve-feed
+gl
+git branch -D feat/new-feed
+gl
+git rebase -i next
+git rebase --edit-todo
+git rebase --abort
+gl
+git checkout next
+gl
+git merge feat/improve-feed
+gl
+git rebase -i HEAD^4
+git rebase -i HEAD~3
+git reset --hard origin/next
+gl
+gl
+gl
+git reset --hard origin/next
+gl
+git reset --hard origin/feat/improve-feed
+gl
+git merge --squash feat/improve-feed
+git reset --hard 61baf15
+gl
+git merge feat/improve-feed --squash
+gl
+yarn semantic-release
+gl
+git reset --hard origin/master
+git push origin next --force
+gl
+git fetch --all
+gl
+gl
+git log
+gl
+git merge --squash feat/improve-feed
+git commit -e
+gl
+yarn semantic-release
+gl
+yarn deploy:next
+gl
+yarn deploy:next
+git push origin next
+gl
+ll
+vim .env
+cd scripts
+ll
+vim deploy-to-next.sh
+..
+ll
+vim package.json
+cd config
+ll
+vim webpack.config.next.js
+cp .env env.next
+..
+cp .env env.next
+ll
+vim env.next
+cd config
+ll
+vim webpack.config.next.js
+ll
+..
+ll
+gs
+git add .
+git commit -e
+yarn deploy:next
+yarn deploy:next
+exit
+gl
+git merge feat/improve-feed --squash
+git commit -e
+gl
+git push origin next
+yarn deploy:next
+ll
+git commit -e
+git push origin next --force
+exit
+cd Documents/Projects/Development/Everis/Luli
+ll
+yarn start
+yarn start
+exit
+tmux
+exit
+ll
+tmux a
+tmux
+ping google.com
+ifconfig
+exit
+exit
+cd Documents/Learning/RustExercism/rust
+ll
+cd isbn-verifier
+ll
+cd src
+ll
+vim lib.rs
+vim lib.rs
+ll
+..
+cd tests
+ll
+vim isbn-verifier.rs
+iwctl
+exit
+ping google.com
+ping google.com
+ping google.com
+ping google.com
+ping google.com
+ping google.com
+iwctl
+ping google.com
+iwctl
+ping google.com
+ping google.com
+ping google.com
+ping google.com
+ping google.com
+ping google.com
+ping google.com
+ping google.com
+ll
+ifconfig
+ifconfig
+ifconfig
+ifconfig
+ifconfig
+ifconfig
+iwctl
+sudo reboot
+ping google.com
+exit
+exit
+sudo hwclock --hctosys
+date
+exit
+exit
+cd src/hooks/queue
+vim trigger.ts
+..
+..
+cd components/Slider
+ll
+vim Slider.tsx
+exit
+cd src/hooks/queue
+ll
+..
+..
+cd services
+ll
+vim parser.ts
+exit
+ll
+cd src/assets
+ll
+cd static
+ll
+vim static.ts
+ll
+..
+ll
+l..
+..
+..
+cd src/components/Images
+ll
+vim ImageContainer.tsx
+cd components
+ll
+vim ImageWithFallback.tsx
+exit
+cd src/hooks
+vim request.ts
+vim request.ts
+gs
+git checkout .
+vim request.ts
+git checkout pre
+ll
+vim request.ts
+exit
+ll
+vim env.next
+vim env.pre
+vim env.next
+vim env.pre
+vim env.prod
+ll
+gs
+vim .env
+ll
+gs
+git add .
+git commit -m "refactor(assets): changed cdn url to new `luli` storage acc"
+ll
+gs
+gl
+yarn deploy:next
+yarn deploy:next
+git checkout master
+ll
+vim env.prod
+gl
+ll
+cd config
+ll
+vim webpack.config.prod.js
+..
+ll
+git checkout next
+vim env.next
+git add .
+git commit --amend
+yarn deploy:next
+yarn deploy:next
+cd src/assets
+ll
+cd static
+ll
+vim static.ts
+..
+ll
+..
+..
+cd src/components/Buttons
+ll
+cd components
+ll
+vim RegularButton.tsx
+..
+..
+..
+ll
+..
+git add .
+git commit --amend
+yarn deploy:next
+git checkout master
+cd src/components/Typing
+ll
+vim Typing.tsx
+git checkout master
+...
+..
+..
+cd hooks
+vim request.ts
+exit
+ll
+vim env.prod
+exit
+ll
+vim env.next
+gs
+vim add .
+gs
+git add .
+git commit -m "fix(triggers): fix output triggering on blank trigger"
+ll
+git checkout next
+gs
+gl
+git checkout .
+git checkout pre
+ll
+vim env.pre
+git checkout prod
+git checkout master
+ll
+vim env.prod
+cd src/hooks
+ll
+vim request.ts
+..
+..
+cd scripts
+ll
+..
+yarn deploy:prod
+ll
+git add .
+git commit -m "hotfix"
+yarn deploy:prod
+gl
+exit
+ll
+gl
+git checkout next
+gl
+ll
+cd src/hooks
+vim request.ts
+exit
+ll
+ll
+gl
+ghl
+gl
+ll
+git describe --tags
+exit
+ll
+git checkout pre
+ll
+git checkout next
+ll
+vim env.next
+vim env.prod
+ll
+vim env.next
+vim env.pre
+vim env.prod
+ll
+gl
+cd src/components/Buttons
+ll
+cd components
+ll
+vim RegularButton.tsx
+vim SendButton.tsx
+..
+..
+..
+cd components/Images
+ll
+cd components
+ll
+vim ImageWithFallback.tsx
+exit
+cd src/components/Images
+ll
+cd components
+ll
+vim ObservedImage.tsx
+exit
+cd src/services
+vim parser.ts
+..
+..
+cd src/assets
+ll
+cd static
+ll
+vim static.ts
+exit
+ll
+vim env.next
+gl
+cd src/components/Images
+ll
+cd components
+ll
+vim ImageWithFallback.tsx
+exit
+ll
+vim README.md
+gs
+vim README.md
+gs
+git checkout README.md
+gs
+git add .
+git commit -m "fix(typing): fix dangling typing animation when response arrives too fast"
+ll
+yarn deploy:next
+vim env.next
+vim env.next
+gs
+git add .
+git commit -m "refactor(images): prepend cdn url to image srcs"
+yarn deploy:next
+exit
+exit
+ll
+exit
+ll
+exit
+cd Documents/Projects/Development/Everis/Luli
+ll
+yarn start
+yarn start
+gs
+yarn start
+yarn start
+yarn start
+exit
+tmux
+cargo test
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+exit
+..
+cd tests
+vim isbn-verifier.rs
+exit
+cd Documents/Learning/RustExercism/rust
+ll
+cd isbn-verifier
+ll
+cd src
+ll
+vim lib.rs
+exit
+ll
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+./lib
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+./lib
+./lib
+./lib
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+..
+ll
+cd src
+exercism submit lib.rs
+exit
+cargo test
+cargo test
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test
+cargo test
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test
+cargo test
+cargo test -- --ignored
+exit
+ll
+..
+cd tests
+vim perfect-numbers.rs
+exit
+exercism submit lib.rs
+ll
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+rustc lib.rs
+rustc lib.rs
+./lib
+rustc lib.rs
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+exit
+tmux a
+tmux 
+tmux a
+tmux
+cd src/components/Slider/components
+ll
+..
+ll
+cd handlers
+ll
+vim observedWrapperStyling.ts
+gs
+exit
+..
+..
+..
+cd common/types
+ll
+vim feed.d.ts
+exit
+ll
+cd src/services
+ll
+vim configuration.ts
+exit
+ll
+cd src/components/Slider
+ll
+..
+cd ObservedWrapper
+ll
+..
+cd Images
+ll
+cd components
+ll
+vim ObservedImage.tsx
+exit
+cd src/common/types
+ll
+vim feed.d.ts
+exit
+cd src/components/Slider
+ll
+cd components
+ll
+vim Arrows.styles.ts
+git add .
+git commit -m "refactor(slider): arrows are now opaque and have box-shadow"
+..
+..
+..
+..
+ll
+vim env.next
+vim env.pre
+cd src/components/Slider
+ll
+vim Slider.tsx
+..
+..
+..
+ll
+cd templates
+ll
+vim index.html
+exit
+cd src/store
+ll
+vim UIContext.tsx
+..
+cd hooks
+ll
+cd routine
+ll
+vim emerge.ts
+..
+..
+cd store
+ll
+vim UIContext.tsx
+..
+exit
+cd src/components/Images
+ll
+vim ImageContainer.styles.ts
+exit
+gs
+git stash
+gl
+gs
+git checkout pre
+git merge next --squash
+git add .
+git commit
+git push origin pre
+git checkout next
+git stash pop
+gs
+exit
+git stash
+git checkout pre
+gl
+yarn semantic-release
+git merge next
+exit
+cd src/assets
+cd static
+vim static.ts
+..
+..
+..
+vim env.next
+git add .
+git merge --continue
+yarn semantic-release
+gl
+git reset --hard b1b0030
+gs
+git merge origin/next
+gs
+yarn semantic-release
+gl
+git push origin pre --force
+ll
+git checkout next
+git stash pop
+exit
+gs
+cd src/assets
+ll
+cd static
+ll
+vim static.ts
+..
+..
+cd components/Images
+ll
+vim ImageContainer.tsx
+vim ImageContainer.styles.ts
+exit
+ll
+cd templates
+ll
+vim index.html
+gs
+exit
+cd src/components/Images
+ll
+vim ImageContainer.styles.ts
+cd components
+ll
+vim DefaultImage.tsx
+exit
+cd src/services
+vim configuration.ts
+gs
+..
+..
+ll
+gl
+git commit --amend -e
+gs
+git add .
+git commit --amend -e
+gl
+cd src/hooks
+ll
+cd routine
+ll
+vim emerge.ts
+ll
+vim init.ts
+..
+ll
+cd routine
+ll
+..
+ll
+cd queue
+ll
+vim queue.ts
+gs
+gs
+..
+..
+ll
+gs
+ll
+cd components/Images
+ll
+vim ImageContainer.tsx
+exit
+cd src/components/Images
+ll
+cd components
+ll
+vim DefaultImage.styles.ts
+exit
+cd src/components/Images
+ll
+cd components
+ll
+vim ImageWithFallback.styles.ts
+exit
+cd src/components/Images
+ll
+cd components
+ll
+vim ImageWithFallback.tsx
+exit
+ll
+gs
+git add .
+git commit -m "fix(config): allow underscore in query param"
+ll
+vim .env
+gs
+gs
+git add .
+git commit -e
+exit
+cd Documents/Projects/Development/Everis/Luli
+ll
+yarn start
+yarn start
+yarn start
+exit
+cd Documents/Learning/RustExercism/rust
+ll
+exercism download --exercise=perfect-numbers --track=rust
+cd perfect-numbers
+ll
+cd src
+ll
+vim lib.rs
+exercism submit lib.rs
+..
+..
+ll
+exercism download --exercise=hamming --track=rust
+cd hamming
+ll
+exit
+tmux a
+tmux a
+exit
+exit
+sudo pkill picom
+exit
+exit
+sudo powertop
+exit
+cd Documents/Projects/Development/Everis/Luli
+ll
+yarn start
+yarn start --offline
+yarn webpack --help
+ll
+iwctl
+exit
+ll
+cd templates
+ll
+vim index.html
+..
+vim .env
+gs
+exit
+vim /tmp/1.json
+exit
+vim /tmp/1.json
+exit
+exit
+cd src/components/Slider
+vim Slider.tsx
+exit
+cd src/assets
+ll
+cd static
+ll
+vim static.ts
+exit
+exit
+iwctl
+exit
+tmux a
+tmux 
+ll
+vim .zshrc
+vim .gitconfig
+cd /etc/zsh
+ll
+sudo nvim zshenv
+source zshenv
+exit
+ll
+gs
+gs
+git add .
+git commit -m "fix(assets): correctly adjust cdn prefix"
+yarn deploy:next
+gs
+yarn deploy:next
+ll
+vim env.next
+vim env.pre
+vim env.prod
+git commit --amend
+gs
+git add .
+git commit --amend
+yarn deploy:next
+git checkout pre
+git merge next
+git push origin pre
+gl
+gs
+git log
+git push origin pre --force
+git push origin pre --force
+git push origin pre --force
+vim .env
+cd src/assets
+ll
+cd static
+ll
+vim static.ts
+yarn deploy:pre
+gl
+git checkout feat/new-images
+git log --stat
+git stash pop
+gs
+ll
+cd
+ll
+cd Documents/Projects/Development/Everis/Luli
+ll
+vim env.next
+vim env.pre
+git stash
+git checkout pre
+cd src/hooks
+vim request.ts
+git checkout next
+vim request.ts
+git checkout feat/new-images
+git stash pop
+git stash
+git checkout next
+git checkout master
+vim request.ts
+gl
+gl
+git checkout next
+ll
+vim request.ts
+git add .
+gl
+gl
+git commit -m "fix(ui): fix dangling type animation when fast response"
+..
+..
+ll
+gl
+git push origin next
+gl
+git push origin next --force
+gl
+yarn deploy:next
+gl
+git tag -h
+git tag -d v2.0.2
+gl
+yarn deploy:next
+gl
+git reset --hard origin/next
+gl
+git tag v2.0.2
+gl
+ll
+vim release.config.js
+gs
+ll
+rm -rf .xkm .xkb
+ll
+ll
+rm -rf .xkm
+gs
+ll
+rm -rf .xkm
+exit
+vim DefaultImage.styles.ts
+exit
+cd src/components/Images
+ll
+cd components
+ll
+vim DefaultImage.tsx
+exit
+ll
+cd src/components/Images
+ll
+vim ImageContainer.tsx
+vim ImageWithFallback.styles.ts
+tmux a
+cd src/components/Images/components
+ll
+vim ImageWithFallback.tsx
+git stash
+gl
+git checkout pre
+ll
+vim env.pre
+gl
+git checkout next
+git checkout -B feat/new-images
+git stash pop
+git add .
+git commit -m "dev state, pointed to test intent"
+gs
+ll
+git checkout next
+gl
+git reset --hard fef0c2d
+gl
+gs
+git push origin next
+gl
+git checkout pre
+git merge next
+vim env.pre
+vim env.next
+vim env.pre
+git push origin pre
+gl
+gl
+git checkout feat/new-images
+ll
+gs
+ll
+git stash
+git checkout next
+ll
+gl
+cd src/components/Images
+ll
+cd components
+vim ImageWithFallback.tsx
+gs
+..
+..
+..
+cd assets
+ll
+cd static
+ll
+vim static.ts
+..
+..
+cd components/Buttons
+ll
+cd components
+ll
+vim RegularButton.tsx
+cd Documents/Projects/Development/Everis/Luli
+l
+ll
+yarn start
+yarn start
+yarn start
+vim ImageContainer.styles.ts
+cd /etc/zsh
+ll
+sudo nvim zshenv
+source zshenv
+ll
+echo $SSH_CLIENT
+sudo nvim zshenv
+sudo nvim zshenv
+source zshenv
+sudo nvim zshenv
+source zshenv
+exit
+cd /etc/zsh
+ll
+sudo nvim zshenv
+source zshenv
+exit
+ll
+xkbcomp .xkm
+xkbcomp .xkb
+xkbcomp .xkb $DISPLAY
+ll
+exit
+exit
+ll
+ll
+cd src/components/Bubble
+vim Bubble.styles.ts
+exit
+ll
+gl
+ll
+cd src/components
+ll
+cd Greetings
+ll
+vim Greetings.tsx
+..
+ll
+cd Tooltip
+ll
+vim Tooltip.tsx
+..
+ll
+cd Banner
+ll
+vim Banner.tsx
+..
+cd Bubble
+ll
+vim Bubble.tsx
+exit
+exit
+cd src/components/Images/components
+vim ImageWithFallback.tsx
+exit
+cd src/hooks/queue
+..
+cd routine
+vim emerge.ts
+exit
+ll
+gs
+git add .
+git commit -m "fix(ui): rename banner and bubble badge"
+ll
+git push origin next
+gl
+git push origin next --force
+yarn deploy:next
+gl
+git reset --hard origin/next
+yarn semantic-release
+git rebase -i origin/next
+yarn semantic-release
+gl
+git checkout -b fix-next
+gl
+git reset --hard fef0c2d
+gl
+git branch -d fix-next
+git checkout next
+git branch -d fix-next
+gl
+git checkout -B fix-next
+git checkout next
+git reset --hard fef0c2d
+git push origin next --force
+gl
+yarn deploy:next
+gl
+git merge fix-next
+yarn deploy:next
+gl
+git reset --hard 7bb78a9
+git push origin next
+git pull origin next
+gl
+yarn semantic-release
+yarn deploy:next
+gl
+git rebase -i HEAD~2
+git commit -e
+git commit
+gl
+git reset --hard 7bb78a9
+gl
+git push origin next --force
+git pull origin next
+gl
+gl
+git tag v2.0.4
+gl
+yarn deploy:next
+gl
+gl
+git checkout pre
+git merge next
+gl
+git rebase -i f5529f8
+gl
+git rebase -i 30040b8
+gl
+git reset --hard origin/pre
+gl
+git merge next --squash
+git add .
+git commit
+gl
+git reset --hard origin/pre
+git merge next
+gl
+yarn deploy:pre
+yarn semantic-release
+yarn deploy:pre
+gl
+git push origin pre
+git checkout next
+gl
+git checkout feat/new-images
+ll
+git rebase next
+git add src/components/Images/components/ImageWithFallback.tsx
+git rebase --continue
+gl
+git stash pop
+gl
+ll
+ll
+rm -rf .xkm
+ll
+exit
+cd Documents/Projects/Development/Everis/Luli
+ll
+gs
+rm -rf .xkm
+ll
+yarn start
+exit
+exit
+exit
+exit
+cd src/components/Images
+ll
+vim ImageContainer.tsx
+exit
+cd /etc/zsh
+sudo nvim zshenv
+exit
+tmux a
+tmux
+cd Documents/Projects/Development/Everis/Luli
+tmux a
+sudo emerge -av --update --deep --changed-use @world
+sudo emerge --sync
+sudo emerge -av --update --deep --changed-use @world
+tmux
+sudo emerge -av --update --changed-use --deep @world
+sudo emerge --depclean
+sudo dispatch-conf
+ll
+exit
+..
+..
+..
+ll
+cd Development
+ll
+mkdir Observed
+cd Observed
+ll
+exit
+cd src/components/Images
+cd components
+ll
+vim DefaultImage.styles.ts
+exit
+ll
+cd src/components/Images
+ll
+ll
+cd components
+ll
+vim DefaultImage.tsx
+ll
+ll
+rm -rf DefaultImage.styles.ts DefaultImage.tsx
+ll
+vim index.ts
+..
+ll
+vim index.tsx
+..
+vim index.ts
+ll
+exit
+cd src/components/ObservedWrapper
+ll
+vim ObservedWrapper.styles.ts
+exit
+cd src/components
+ll
+cd ObservedWrapper
+ll
+vim ObservedWrapper.tsx
+exit
+ll
+cd src/components/Images
+ll
+cd components
+ll
+ll
+ll
+..
+vim ImageContainer.tsx
+exit
+cd src/components/Slider/handlers
+ll
+vim observedWrapperStyling.ts
+exit
+cd src/components/ObservedWrapper
+ll
+vim ObservedWrapper.tsx
+exit
+cd src/components/Slider
+vim Slider.styles.ts
+ll
+cd components
+ll
+vim Arrows.tsx
+cd hand
+..
+cd handlers
+ll
+vim slide.ts
+..
+ll
+cd components
+ll
+vim Indicator.tsx
+exit
+brave
+brave-bin
+sudo chmod 4755 /opt/brave/chrome-sandbox
+exit
+cd src/components/Slider/components
+vim Arrows.tsx
+exit
+ll
+cd src/components/Slider/handlers
+vim slide.ts
+ll
+rm -rf slide.ts
+vim observedWrapperStyling.ts
+rm -rf observedWrapperStyling.ts
+rm -rf shouldDispatchEvent.ts
+ll
+vim index.ts
+..
+ll
+rm -rf handlers
+ll
+cd components
+ll
+vim Arrows.tsx
+ll
+..
+ll
+vim index.ts
+vim Slider.styles.ts
+cd components
+ll
+vim Indicator.tsx
+exit
+..
+..
+cd Slider
+ll
+vim Slider.tsx
+exit
+cd src/components/Images/components
+vim StandaloneImage.styles.ts
+exit
+cd src/components/Images
+cd components
+vim StandaloneImage.tsx
+exit
+cd src/components/Images
+vim ImageContainer.styles.ts
+exit
+cd src/components/Images
+vim ImageContainer.tsx
+exit
+ll
+gl
+gs
+git stash
+git checkout pre
+yarn semantic-release --no-ci
+git pull origin pre
+gl
+git reset --hard next
+git push origin pre --force
+git fetch --all --tags
+gl
+ll
+gl
+git push origin pre --force
+git fetch --all
+gl
+git pull origin pre
+gl
+ll
+ll
+git describe --tags
+gl
+git branch -d fix-next
+git push origin pre
+git reset --hard next
+git push origin pre
+git push origin pre --force --tags
+gl
+git checkout feat/new-images
+git stash pop
+gs
+gs
+ll
+l
+ll
+gs
+..
+..
+..
+..
+ll
+git add .
+git commit -e
+git push origin feat/new-images
+gl
+exit
+cd Documents/Projects/Development/Everis/Luli
+ll
+ll
+rm -rf .xkm
+yarn start
+exit
+tmux a
+tmux a
+cd Documents
+ll
+l
+ll
+ll
+..
+ll
+rm -rf Observed
+ll
+mkdir suckless-react-observer
+cd suckless-react-observer
+ll
+npm init -y
+ll
+git init .
+gl
+ll
+vim package.json
+git remote add origin https://github.com/fabricio7p/suckless-react-observer.git
+gs
+git fetch --all
+gl
+git pull origin master
+gl
+ll
+gs
+git add .
+ll
+vim .gitignore
+ll
+npm install -D typescript eslint webpack prettier jest
+ll
+gs
+npm eslint --init
+npm run eslint --init
+npm run eslint --config
+gl
+ll
+vim package.json
+./node_modules/.bin/eslint --init
+ll
+vim .eslintrc.js
+vim tsconfig.json
+tsc
+npm run tsc
+l
+ll
+vim tsconfig.json
+ll
+vim jest.config.js
+npm install -D ts-jest
+vim webpack.config.js
+exit
+cd Documents/Projects/Development/Everis/Luli
+ll
+rm -rf StandaloneImage.styles.ts StandaloneImage.tsx
+ll
+vim package.json
+vim babel.config.json
+vim .eslintrc.js
+ll
+vim tsconfig.json
+..
+cd tests
+vim hamming.rs
+exit
+ll
+cargo test
+cargo test
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test
+..
+..
+ll
+cd hamming
+ll
+cd src
+ll
+exercism submit lib.rs
+exit
+vim lib.rs
+..
+..
+ll
+exit
+tmux a
+exit
+sudo reboot
+tmux a
+cd Documents
+ll
+cd Projects
+l
+..
+..
+cd Learning/RustExercism/rust
+ll
+cd hamming
+ll
+cd src
+ll
+tmux
+ll
+exit
+exit
+exit
+ll
+ll
+ll
+ll
+l
+ll
+ll
+cd Documents/Learning/RustExercism/rust
+ll
+exercism download --exercise=simple-linked-list --track=rust
+l
+ll
+cd src
+ll
+vim lib.rs
+ll
+ll
+ping google.com
+ll
+l
+cd Documents/Learning/RustExercism/rust
+l
+ll
+cd src
+ll
+vim lib.rs
+cd Documents/Learning/RustExercism/rust
+ll
+exit
+iwctl
+exit
+cd Documents/Learning/RustExercism/rust
+ll
+cd simple-linked-list
+tmux a
+iwctl
+exit
+tmux a
+cd Documents/Projects/Development/Everis/Luli
+ll
+tmux 
+exit
+cd Documents/Learning/RustExercism/rust
+ll
+cd simple-linked-list
+ll
+cd src
+vim lib.rs
+exit
+..
+cd tests
+ll
+vim simple-linked-list.rs
+exit
+exit
+exit
+sudo reboot
+sudo hwclock --hctosys
+exit
+cd Documents/Projects/Development/Everis/Luli
+ll
+ll
+ping 192.168.1.7
+exit
+ping 192.168.1.7
+tmux
+exit
+date
+exit
+exit
+tmux
+exit
+iwctl
+exit
+cd src/components/Slider/components
+vim Arrows.styles.ts
+exit
+cd src/components/Slider/components
+vim Indicator.tsx
+exit
+cd src/components/Slider/components
+ll
+vim Arrows.tsx
+exit
+ll
+cd src/components/Slider
+ll
+vim Slider.styles.ts
+exit
+ll
+ll
+cd src/components/Images/components
+ll
+vim StandaloneImage.styles.ts
+exit
+cd src/components/Slider
+ll
+vim Slider.tsx
+vim Slider.tsx
+exit
+ll
+ll
+cd src
+ll
+cd common
+ll
+mkdir constants
+cd constants
+ll
+vim ui.ts
+exit
+ll
+..
+cd convert_tif/images
+..
+..
+cd Luli
+cd src/components/Images
+ll
+cd components
+ll
+vim StandaloneImage.styles.ts
+exit
+cd src/components/Slider
+ll
+vim Slider.tsx
+exit
+cd src/components/Images
+ll
+cd components
+ll
+vim ImageWithFallback.styles.ts
+exit
+cd src/components/Images/components
+ll
+vim StandaloneImage.styles.ts
+exit
+cd src/components/ObservedWrapper
+ll
+vim ObservedWrapper.tsx
+exit
+cd src/components/Slider
+ll
+vim Slider.tsx
+exit
+ll
+gs
+cd src/components/Images
+ll
+cd components
+ll
+vim ImageWithFallback.styles.ts
+..
+ll
+vim ImageContainer.styles.ts
+exit
+ll
+cd src/components/Images/components
+ll
+vim StandaloneImage.tsx
+rm -rf ObservedImage.styles.ts ObservedImage.tsx
+ll
+..
+ll
+vim index.tsx
+cd components
+ll
+vim index.ts
+..
+ll
+..
+ll
+vim index.ts
+gs
+..
+..
+ll
+gs
+git add .
+git commit -e
+gl
+git push origin feat/new-images
+gl
+cd src/components/Images
+ll
+vim ImageContainer.tsx
+vim ImageContainer.tsx
+exit
+cd src/components/Images/components
+ll
+cd ProductLinks
+ll
+vim index.ts
+exit
+cd src/components/Images
+vim ImageContainer.tsx
+exit
+cd src/components/Images/components/ProductLinks
+ll
+exit
+cd src/assets
+ll
+cd wrappers
+ll
+vim icons.tsx
+vim icons.tsx
+cd sta
+..
+cd static
+ll
+vim icons.tsx
+..
+ll
+cd wrappers
+ll
+vim icons.tsx
+exit
+ll
+cd src/assets/wrappers
+ll
+vim index.ts
+exit
+cd src/components/Images/components
+ll
+vim ImageWithFallback.tsx
+exit
+cd src/components/Images/components
+vim StandaloneImage.styles.ts
+exit
+cd src/components/Images
+ll
+cd components
+ll
+vim StandaloneImage.tsx
+exit
+ll
+vim ProductLinks.styles.ts
+vim ProductLinks.styles.ts
+vim ProductLinks.styles.ts
+exit
+gl
+git checkout next
+ll
+git merge feat/new-images --squash
+gs
+git add .
+git commit
+gl
+git reset --hard origin/next
+git merge feat/new-images --squash
+git commit
+gl
+git reset --hard origin/next
+git merge feat/new-images --squash
+git commit
+gl
+git reset --hard origin/next
+ll
+gl
+git cherry-pick 9bb2236
+git cherry-pick --abort
+gl
+git merge feat/new-images
+gl
+git rebase -i 7bb78a9
+git rebase --abort
+gl
+git reset --hard origin/next
+gl
+git rebase -i feat/new-images
+gl
+git reset --hard origin/next
+gl
+git merge --squash feat/new-images
+git commit
+gl
+git commit -e --amend
+gl
+git push origin next --tags
+yarn deploy:next
+gl
+git reset --hard origin/next
+git commit -e --amend
+gl
+git push origin next --tags
+git push origin next --tags --force
+tl
+gl
+yarn deploy:next
+gl
+git log
+git push origin next --tags
+gl
+ll
+gl
+git push origin next --tags
+gl
+ll
+git checkout -b feat/carousel-links
+cd src/common/types
+ll
+vim feed.d.ts
+..
+..
+cd components/Images/components
+ll
+vim mkdir ExternalLinks
+ll
+mkdir ProductLinks
+ll
+cd ProductLinks
+ll
+vim ProductLinks.tsx
+vim ProductLinks.tsx
+exit
+ll
+gs
+gl
+git add .
+git commit -e
+gl
+exit
+cd src/common/constants
+vim ui.ts
+..
+..
+..
+ll
+git add .
+git commit -e
+git push origin feat/new-images
+gl
+ll
+cd scripts
+ll
+vim deploy-to-next.sh
+..
+ll
+vim package.json
+yarn deploy:next
+ll
+cd build
+surge
+..
+gs
+git add .
+git commit -m "fix(deploy): fix deploy script for next branch"
+git push origin next --tags
+git commit -m "fix(deploy): fix deploy script for next branch"
+yarn deploy:next
+ll
+exit
+cd Documents/Projects/Development/Everis/Luli
+ll
+rm -rf .xkm
+ll
+yarn start
+exit
+tmux a
+tmux a
+tmux
+cd src/components/Images/components
+vim ImageWithFallback.tsx
+exit
+cd src/components/Images/components
+vim ImageWithFallback.styles.ts
+exit
+ll
+cd src/common/constants
+vim ui.ts
+exit
+cd src/components/Images/components
+ll
+vim StandaloneImage.styles.ts
+vim StandaloneImage.styles.ts
+exit
+ll
+cd src/components/Images/components
+vim ImageWithFallback.styles.ts
+vim StandaloneImage.styles.ts
+exit
+cd src/components/Images/components
+vim ImageWithFallback.styles.ts
+exit
+cd src/components/Bubble
+ll
+vim Bubble.styles.ts
+vim Bubble.tsx
+exit
+tmux a
+cd src/components/Images/components
+ll
+vim ImageWithFallback.styles.ts
+exit
+cd src/components/Images/components
+vim ImageWithFallback.tsx
+exit
+cd src/components/Feed
+ll
+vim Feed.tsx
+exit
+cd src/components/Images/components/ProductLinks
+vim ProductLinks.styles.ts
+vim ProductLinks.styles.ts
+vim ProductLinks.styles.ts
+exit
+cd src/components/Images/components
+cd ProductLinks
+ll
+vim ProductLinks.tsx
+vim ProductLinks.tsx
+exit
+cd src/components/Slider
+ll
+cd components
+ll
+vim Arrows.tsx
+exit
+cd src/components/Slider/components
+ll
+vim Arrows.tsx
+..
+vim Slider.tsx
+exit
+ll
+cd src/components/Images/components
+vim StandaloneImage.styles.ts
+exit
+cd src/components/Images/components
+ll
+vim StandaloneImage.tsx
+exit
+cd src/components/Images
+vim ImageContainer.styles.ts
+..
+ll
+cd Images/components
+ll
+..
+..
+cd Slider
+ll
+vim Slider.tsx
+exit
+cd src/components/Images
+ll
+vim ImageContainer.tsx
+exit
+cd src/components/Feed/components
+ll
+vim FeedEntries.tsx
+exit
+ll
+gs
+git add .
+gl
+git commit -e
+gl
+ll
+ll
+cd src/components/Images
+ll
+vim ImageContainer.tsx
+exit
+cd src/components/Feed
+ll
+vim Feed.tsx
+exit
+cd src/components/Feed
+vim Feed.styles.ts
+exit
+ll
+cd build
+ll
+surge
+ll
+..
+ll
+gl
+git checkout next
+git merge feat/carousel-links --squash
+git commit
+gl
+yarn deploy:next
+gs
+exit
+cd Documents/Projects/Development/Everis/Luli
+ll
+yarn start
+yarn start
+exit
+tmux a
+exit
+ll
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+cd Documents/Learning/RustExercism/rust
+ll
+cd simple-linked-list
+ll
+cd src
+vim lib.rs
+sudo reboot
+ll
+ping google.com
+ll
+ll
+exit
+exit
+sudo hwclock --hctosys
+ping google.com
+ping google.com
+ll
+cd Documents/Projects/Development/Everis/Luli
+ll
+gs
+git checkout .
+gl
+git push origin next --tags
+gl
+ll
+exit
+exit
+ll
+exit
+ll
+tmux a
+tmux
+ping google.com
+exit
+..
+..
+ll
+cd Footer
+ll
+vim Footer.tsx
+exit
+ll
+cd src/assets/wrappers
+ll
+vim icons.styles.ts
+exit
+gl
+exit
+iwctl
+exit
+exit
+tmux a
+exit
+..
+..
+cd components/Header
+ll
+mkdir components
+cd components
+ll
+vim Minimize.tsx
+ll
+vim HeaderButton.styles.ts
+ll
+vim Resize.tsx
+vim Resize.tsx
+ll
+vim Share.tsx
+vim Resize.tsx
+vim Minimize.tsx
+ll
+vim Share.tsx
+ll
+vim HeaderButton.styles.ts
+exit
+cd src/components/Buttons
+ll
+vim Button.styles.ts
+exit
+..
+..
+cd components/Header
+ll
+vim Header.tsx
+exit
+tmux a
+cd src/common/types
+ll
+vim assets.d.ts
+exit
+cd src/assets
+ll
+cd wrappers
+l
+ll
+gs
+ll
+..
+cd static
+ll
+vim SvgMinimize.tsx
+vim SvgClose.tsx
+vim SvgSend.tsx
+ll
+vim SvgClose.tsx
+vim SvgShare.tsx
+vim SvgClose.tsx
+vim SvgShare.tsx
+ll
+vim SvgExpand.tsx
+vim SvgClose.tsx
+vim SvgExpand.tsx
+vim SvgClose.tsx
+ll
+vim SvgRetract.tsx
+ll
+ll
+..
+ll
+cd wrappers
+ll
+vim avatar.tsx
+exit
+cd src/assets
+ll
+cd avatar
+ll
+cd wrappers
+ll
+l
+çll
+ll
+mv avatar.styles.ts ../
+mv avatar.tsx ../
+..
+ll
+exit
+ll
+vim Share.tsx
+vim Resize.tsx
+vim Minimize.tsx
+ll
+ll
+mv HeaderButton.styles.ts HeaderButtons.styles.ts
+exit
+ll
+cd icons
+ll
+vim index.ts
+exit
+ll
+vim HeaderLogo.styles.ts
+ll
+exit
+ll
+cd src/components/Header/components
+ll
+vim index.ts
+ll
+exit
+cd src/components/Header/components
+ll
+vim HeaderLogo.tsx
+vim HeaderLogo.styles.ts
+exit
+ll
+vim ChatAvatar.styles.ts
+ll
+ll
+vim FeedEntries.tsx
+ll
+mv FeedEntries.styles.ts Entries.styles.ts
+mv FeedEntries.tsx Entries.tsx
+vim index.ts
+ll
+..
+vim Feed.tsx
+cd components
+vim Entries.tsx
+exit
+ll
+cd src/assets
+ll
+cd avatar
+ll
+..
+ll
+..
+cd components/Header
+ll
+cd components
+ll
+vim HeaderButton.styles.ts
+vim Share.tsx
+ll
+vim HeaderButtons.tsx
+ll
+l
+ll
+vim HeaderLogo.tsx
+vim HeaderButtons.tsx
+ll
+ll
+vim index.ts
+ll
+..
+ll
+vim Header.tsx
+..
+cd Feed
+ll
+cd components
+ll
+vim ChatAvatar.tsx
+vim ChatAvatar.tsx
+exit
+ll
+cd src/components/Banner
+ll
+mkdir components
+cd components
+ll
+ll
+vim WelcomeAvatar.tsx
+vim WelcomeAvatar.tsx
+..
+ll
+vim Banner.tsx
+exit
+cd src/components/Banner/components
+vim WelcomeAvatar.styles.ts
+exit
+cd src/components/Bubble/components
+ll
+vim BubbleAvatar.styles.ts
+exit
+ll
+git checkout -B refactor/assets
+ll
+cd src/assets
+ll
+vim index.ts
+cd static
+ll
+vim expand.svg
+ll
+vim static.ts
+vim avatar_min.webp
+..
+ll
+cd wrappers
+ll
+vim icons.tsx
+ll
+ll
+rm -rf icons.styles.ts icons.tsx
+vim avatar.tsx
+ll
+vim index.ts
+..
+ll
+cd static
+ll
+vim static.ts
+ll
+..
+ll
+ll
+cd static
+ll
+vim minimize.svg
+ll
+vim fechar.svg
+ll
+vim send.svg
+ll
+vim share.svg
+vim expand.svg
+vim retract.svg
+ll
+l
+ll
+vim static.ts
+ll
+l
+ll
+cd wrappers
+ll
+..
+ll
+cd static
+ll
+l
+ll
+\
+\
+
+..
+ll
+mv static icons
+ll
+mkdir avatar
+l
+ll
+..
+ll
+vim index.ts
+rm -rf index.ts
+ll
+vim static.ts
+cd icons
+ll
+vim index.ts
+ll
+..
+ll
+vim static.ts
+ll
+cd avatar
+ll
+..
+ll
+cd avatar
+ll
+..
+ll
+vim static.ts
+cd avatar
+ll
+rm -rf avatar__min.png
+ll
+..
+ll
+vim static.ts
+cd wrappers
+ll
+..
+ll
+mv -r wrappers avatar/
+mv wrappers avatar/
+ll
+cd avatar
+ll
+cd wrappers
+ll
+ll
+vim avatar.styles.ts
+ll
+..
+ll
+rm -rf wrappers
+ll
+vim avatar.tsx
+ll
+rm -rf avatar.tsx
+exit
+cd src/assets
+ll
+cd avatar
+ll
+vim avatar.styles.ts
+ll
+rm -rf avatar.styles.ts
+exit
+cd src/components/Idle
+cd components
+vim IdleAvatar.styles.ts
+exit
+..
+.
+cd components/Feed/components
+ll
+vim FeedEntries.tsx
+..
+..
+..
+cd assets
+ll
+vim static.ts
+cd avatar
+ll
+..
+ll
+vim static.ts
+cd icons
+ll
+..
+ll
+cd avatar
+ll
+ll
+..
+ll
+vim static.ts
+vim index.ts
+ll
+cd avatar
+ll
+..
+ll
+exit
+cd src/components/Feed/components
+ll
+vim index.ts
+ll
+exit
+cd src/components/Feed
+vim Feed.tsx
+exit
+..
+..
+cd Header/components
+ll
+vim HeaderButtons.styles.ts
+vim HeaderButtons.styles.ts
+vim HeaderButtons.tsx
+exit
+sudo emerge --sync
+sudo emerge -av --update --deep --changed-use @world
+sudo emerge -av --update --deep --changed-use @world
+exit
+tmux a
+cd src/components/Footer
+ll
+mkdir components
+cd components
+ll
+exit
+ll
+vim MultichoiceButton.tsx
+ll
+vim RegularButton.styles.ts
+vim BaseButton.styles.ts
+ll
+rm -rf RegularButton.styles.ts BaseButton.styles.ts
+ll
+vim Buttons.styles.ts
+ll
+vim Buttons.styles.ts
+ll
+vim MultichoiceButton.tsx
+ll
+vim EscapeButton.tsx
+ll
+vim SendButton.tsx
+exit
+..
+..
+cd Buttons
+ll
+cd components
+ll
+vim EscapeButton.tsx
+ll
+vim SendButton.tsx
+ll
+..
+ll
+vim Button.styles.ts
+cd components
+ll
+..
+ll
+vim Button.styles.ts
+ll
+mv Button.styles.ts ButtonContainer.styles.ts
+ll
+vim ButtonContainer.tsx
+exit
+ll
+cd handlers
+ll
+..
+ll
+cd components
+ll
+vim BaseButton.styles.ts
+ll
+vim RegularButton.tsx
+ll
+ll
+vim BaseButton.styles.ts
+ll
+vim MultichoiceButton.tsx
+vim RegularButton.styles.ts
+ll
+vim MultichoiceButton.styles.ts
+ll
+vim RegularButton.tsx
+ll
+vim RegularButton.tsx
+ll
+ll
+ll
+gs
+ll
+ll
+vim index.ts
+..
+ll
+ll
+gs
+ll
+..
+cd Input
+ll
+vim Input.styles.ts
+..
+cd NPS
+ll
+vim NPS.styles.ts
+exit
+cd src/components/Bubble
+ll
+mkdir components
+cd components
+ll
+vim BubbleAvatar.tsx
+..
+ll
+vim Bubble.tsx
+..
+..
+cd components/Idle
+ll
+mkdir components
+cd components
+ll
+vim IdleAvatar.tsx
+ll
+..
+ll
+gs
+ll
+..
+ll
+..
+cd assets
+ll
+l
+ll
+cd components/Idle
+ll
+vim Idle.tsx
+..
+cd Header
+ll
+cd components
+ll
+vim HeaderLogo.tsx
+..
+l
+..
+..
+cd __tests__/Footer
+..
+..
+cd components/Footer
+ll
+vim Footer.tsx
+ll
+exit
+cd src/components/Buttons/components
+vim SendButton.tsx
+vim SendButton.tsx
+exit
+cd Documents/Projects/Development/Everis/Luli/src
+ll
+exit
+iwctl
+exit
+ll
+l
+l
+mkdir imagens
+exit
+cd src/assets
+ll
+cd avatar
+ll
+exit
+cd Downloads
+ll
+unzip _imagens.zip
+ll
+l
+ll
+l
+ll
+l
+ll
+mv banner_1000x625.png banner.png
+mv banner_200x125_blur.png banner__min.png
+ll
+mv banner_inatividade_200x125_blur.png idle__min.png
+mv banner_inatividade_1000x625.png idle.png
+mv avatar_100x100.png avatar.png
+mv avatar_blur.png avatar__min.png
+ll
+mv logo-unilever-30x30@3x.png logo-unilever.png
+ll
+exit
+cd
+cd Downloads
+ll
+ll
+cd imagens
+ll
+l
+ll
+exit
+ll
+cd src/components/Header/components
+ll
+vim HeaderLogo.tsx
+ll
+exit
+cd src/components/Header/components
+vim HeaderLogo.styles.ts
+exit
+cd src/assets
+ll
+vim static.ts
+exit
+cd src/components/Images/components/ProductLinks
+ll
+vim ProductLinks.tsx
+exit
+cd src/components/Banner/components
+ll
+vim WelcomeAvatar.tsx
+exit
+cd src/components/Header
+ll
+vim Header.tsx
+..
+..
+cd components/Banner
+ll
+vim Banner.tsx
+exit
+vim .env
+exit
+cd src/components/Dialog
+vim index.ts
+exit
+l
+exit
+cd src/hooks/queue
+ll
+..
+ll
+cd routine
+ll
+vim emerge.ts
+gs
+..
+..
+..
+ll
+git add .
+git commit -e
+yarn deploy:next
+gl
+git push origin next --tags
+gl
+git checkout -B feat/close-button
+cd src/hooks/queue
+ll
+vim queue.ts
+..
+..
+cd components
+ll
+mkdir Dialog
+vim index.ts
+ll
+cd Dialog
+ll
+vim Dialog.tsx
+exit
+vim Dialog.styles.ts
+exit
+ll
+gs
+ll
+ll
+cd src
+ll
+mkdir modules
+vim index.tsx
+ll
+ll
+cd modules
+ll
+ll
+ll
+ll
+vim index.ts
+ll
+ll
+vim index.ts
+..
+ll
+vim index.tsx
+cd modules
+ll
+vim Idle
+cd Idle
+ll
+vim Idle.tsx
+vim Idle.styles.ts
+exit
+..
+ll
+vim jest.config.js
+vim webpack.config.js
+cd config
+ll
+vim webpack.config.next.js
+vim webpack.config.pre.js
+vim webpack.config.prod.js
+gs
+..
+ll
+cd src/components
+ll
+rm -rf __StatusIndicator
+ll
+mv NPS ../modules
+ll
+mv Agreement/ ../modules
+ll
+vim index.ts
+mv Idle ../modules
+vim index.ts
+ll
+exit
+cd src/components/Window
+ll
+vim Window.tsx
+exit
+cd Downloads
+ll
+cd imagens
+ll
+mv MicrosoftTeams-image.png avatar.png
+exit
+cd src/assets
+ll
+cd avatar
+ll
+\
+\
+
+..
+ll
+vim static.ts
+exit
+cd Downloads
+ll
+cd imagens
+ll
+l
+exit
+ll
+cd src/assets/avatar
+ll
+gl
+ll
+rm -rf avatar.png
+ll
+ll
+rm -rf avatar__min.png
+exit
+cd src/assets
+vim static.ts
+exit
+cd src/components/Bubble
+vim Bubble.styles.ts
+cd components
+ll
+vim BubbleAvatar.styles.ts
+exit
+cd src/services
+ll
+vim parser.ts
+..
+cd components/Images/components/ProductLinks
+ll
+vim ProductLinks.tsx
+..
+..
+..
+cd Slider
+ll
+vim Slider.tsx
+exit
+ll
+..
+..
+ll
+cd components/Images/components
+ll
+vim ImageWithFallback.tsx
+vim ImageWithFallback.tsx
+exit
+gs
+cd src/components/Bubble
+ll
+cd components
+ll
+vim BubbleAvatar.tsx
+vim BubbleAvatar.tsx
+exit
+cd src/styles
+ll
+vim theme.ts
+exit
+cd src/assets/icons
+ll
+vim SvgClose.tsx
+exit
+..
+..
+cd Header
+ll
+vim Header.styles.ts
+cd components
+ll
+vim HeaderLogo.styles.ts
+exit
+..
+..
+..
+cd components/Banner
+ll
+vim Banner.styles.ts
+exit
+..
+cd components
+ll
+mv Dialog ../modules
+..
+cd modules
+ll
+cd Dialog
+ll
+vim Dialog.styles.ts
+exit
+ll
+cd src/modules
+ll
+ll
+cd Dialog
+ll
+vim Dialog.tsx
+exit
+..
+..
+cd components/Window
+ll
+vim Window.tsx
+exit
+cd src/components/Buttons
+ll
+cd components
+ll
+vim RegularButton.tsx
+exit
+vim Modal.styles.ts
+exit
+cd src/components
+ll
+vim index.ts
+..
+cd modules
+ll
+vim index.ts
+ll
+cd ..
+ll
+cd components
+ll
+mkdir Modal
+vim index.ts
+ll
+cd Modal
+ll
+vim Modal.tsx
+vim index.ts
+ll
+vim Modal.tsx
+exit
+cd Documents/Projects/Development/Everis/Luli
+yarn start
+yarn start
+yarn start
+yarn start
+exit
+ll
+gs
+rm -rf .xkm
+ll
+gs
+ll
+ll
+cd src/components/Buttons/components
+vim index.ts
+ll
+..
+..
+..
+..
+ll
+gs
+git add .
+gs
+ll
+git commit -e
+gl
+ll
+ll
+ll
+gs
+git add .
+git log
+gl
+git commit -e
+gl
+git checkout next
+git merge --squash refactor/assets
+gs
+git commit
+gl
+git push origin next --tags
+yarn deploy:next
+ll
+gs
+git stash
+gs
+git stash pop
+gl
+gs
+gl
+git add .
+gs
+git commit -e
+git checkout next
+ll
+vim README.md
+ll
+git add .
+git commit -m "docs(readme): update readme bundle url"
+yarn deploy:next
+ll
+cd src/components/Bubble
+ll
+vim Bubble.tsx
+..
+cd Message
+ll
+..
+ll
+cd Feed/components
+ll
+vim ChatAvatar.styles.ts
+..
+..
+..
+ll
+gs
+..
+ll
+gs
+gl
+git checkout -B fix/refact-image-srcs
+git add .
+git commit -e
+ll
+git push origin fix/refact-image-srcs
+git checkout next
+gl
+git merge fix/refact-image-srcs
+gl
+git push origin next --tags
+yarn deploy:next
+gl
+gl
+git checkout feat/close-button
+git checkout next
+git push origin next --tags
+gl
+git checkout feat/close-button
+git rebase next
+gl
+ll
+ll
+gs
+git add .
+git commit -e
+git checkout next
+gl
+git checkout pre
+git merge next
+gl
+git push origin pre --tags
+gl
+ll
+exit
+exit
+cd src/components/Images/components
+ll
+vim StandaloneImage.tsx
+exit
+ll
+cd src/components/Slider
+ll
+vim Slider.tsx
+exit
+cd src/components/Buttons/components
+ll
+vim SendButton.tsx
+exit
+cd src/components/Header
+ll
+vim Header.tsx
+..
+cd Footer
+ll
+vim Footer.tsx
+exit
+ll
+ll
+gs
+git add .
+gs
+git commit -m "fix(slider): disable product links for now"
+yarn deploy:next
+gl
+git push origin next --tags
+gl
+git checkout pre
+git merge next
+git push origin pre --tags
+git checkout next
+gs
+git add .
+git commit -e
+ll
+gl
+yarn deploy:next
+git push origin next --tags
+gl
+git checkout pre
+git push origin pre --tags
+ll
+gl
+git merge next
+git push origin pre --tags
+gl
+git checkout master
+git merge pre
+gl
+git push origin master --tags
+gl
+git checkout next
+ll
+vim env.prod
+vim env.pre
+vim env.prod
+vim env.next
+git add .
+git commit -e
+yarn deploy:next
+gl
+git push origin next --tags
+git checkout pre
+git merge next
+git push origin pre --tags
+git checkout master
+git merge pre
+ll
+git push origin master --tags
+exit
+sudo loginctl suspend
+cd Documents/Projects/Development/Everis/Luli/src
+..
+ll
+git checkout next
+yarn start
+exit
+exit
+exit
+exit
+cd Downloads
+ll
+mv Luli\ \(1\).zip Luli-Prod.zip
+ll
+exit
+exit
+cd Documents/Learning/RustExercism/rust
+ll
+cd simple-linked-list
+ll
+cd src
+ll
+ll
+vim lib.rs
+vim lib.rs
+exit
+ll
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+exit
+ll
+..
+cd tests
+vim simple-linked-list.rs
+exit
+iwctl
+exit
+cargo test
+cargo test -- --ignored
+cargo test -- --ignored
+..
+ll
+cd src
+vim lib.rs
+exercism submit lib.rs
+..
+..
+ll
+exercism download --exercise=pascals-triangle --track=rust
+cd pascals-triangle
+ll
+cd src
+ll
+vim lib.rs
+exit
+ll
+..
+cd tests
+ll
+vim pascals-triangle.rs
+exit
+exit
+exit
+exit
+sudo reboot
+iwctl
+sudo hwclock --hctosys
+exit
+ll
+cd .config
+ll
+cd
+exit
+exit
+ll
+vim .env
+vim webpack.config.js
+exit
+ll
+vim .zshrc
+cd Documents/Projects/Development/Everis/Luli
+ll
+tmux
+exit
+ll
+exit
+cd src/components/Modal
+vim Modal.styles.ts
+exit
+cd src/components/Modal
+ll
+vim Modal.tsx
+ll
+exit
+cd src/store
+ll
+vim UIContext.tsx
+..
+cd common/ui
+ll
+vim hide.ts
+vim terminate.ts
+exit
+..
+cd common/ui
+ll
+vim terminate.ts
+vim terminate.ts
+ll
+rm -rf terminate.ts
+vim hide.ts
+rm -rf hide.ts
+ll
+vim expand.ts
+ll
+rm -rf expand.ts
+..
+ll
+rm -rf ui
+ll
+..
+ll
+vim index.tsx
+exit
+cd src/hooks
+ll
+vim index.ts
+exit
+cd src/components/Header
+ll
+vim Header.tsx
+exit
+exit
+cd src/store
+ll
+vim UIContext.tsx
+exit
+cd src/components/Bubble/components
+ll
+vim BubbleAvatar.tsx
+vim BubbleAvatar.tsx
+exit
+ll
+cd src/store
+ll
+vim UIContext.tsx
+..
+..
+cd src/components/Bubble
+ll
+vim Bubble.styles.ts
+exit
+cd src/components/Header
+ll
+vim Header.tsx
+exit
+cd src/modules/Idle
+ll
+vim Idle.tsx
+exit
+cd src/hooks
+ll
+vim interface.ts
+vim interface.ts
+exit
+cd src/components/Input
+ll
+vim Confirm.tsx
+exit
+cd src/hooks
+ll
+cd queue
+vim trigger.ts
+exit
+cd src/components/Bubble
+ll
+vim Bubble.tsx
+exit
+cd src/components/Bubble/components
+ll
+vim BubbleAvatar.styles.ts
+exit
+cd src/modules/Dialog
+ll
+vim Dialog.styles.ts
+exit
+ll
+gl
+git checkout feat/close-button
+git rebase next
+gl
+ll
+cd src/modules/Dialog
+ll
+vim Dialog.tsx
+vim Dialog.tsx
+exit
+cd src/components/Window
+ll
+vim Window.tsx
+exit
+cd src/modules/Dialog
+ll
+..
+..
+cd modules
+ll
+..
+cd components/Modal
+ll
+vim Modal.tsx
+vim Modal.styles.ts
+exit
+cd src/components/Bubble
+ll
+vim Bubble.styles.ts
+exit
+cd src/components/Bubble
+ll
+vim Bubble.tsx
+exit
+ll
+ll
+cd templates
+vim index.html
+..
+ll
+gs
+git add .
+git commit -e
+gs
+gl
+gs
+git checkout .
+exit
+ll
+ll
+cd Documents/Projects/Development/Everis/Luli
+ll
+yarn start
+yarn start
+yarn start
+exit
+ll
+tmux
+exit
+exit
+exit
+vim .
+exit
+exit
+exit
+exit
+exit
+ll
+cd /usr/src
+ll
+cd st
+ll
+vim config.def.h
+make
+ll
+ls -lah
+rm -rf st
+make
+ll
+ls -lah
+ll
+rm -rf st
+sudo make clean
+ls -lah
+make
+ls -lah
+vim config.def.h
+make clean
+make
+cd Documents/Learning/RustExercism/rust
+ll
+cd pascals-triangle
+cd Documents/Learning/RustExercism/rust
+ll
+cd pascals-triangle
+l
+ll
+cd src
+ll
+vim lib.rs
+tmux
+ll
+ll
+rm -rf .xkm
+ll
+vim lib.rs
+sudo emerge --sync
+sudo emerge -av --update --changed-use --deep @world
+ll
+cd Documents/Projects/Development/Everis/Luli
+ll
+yarn start
+exit
+tmux a
+exit
+tmux a
+tmux
+yarn start
+yarn
+yarn start
+yarn dev
+ll
+vim package.json
+yarn start:dev
+exit
+ll
+cd Documents/Projects/Development/Everis/Luli
+ll
+ll
+exit
+ll
+exit
+ll
+rm -rf node_modules
+ll
+..
+ll
+curl cheat.sh/zip
+zip -r vskey.zip vskey-web
+ll
+cd vskey-web
+ll
+..
+ll
+rm -rf vskey.zip
+ll
+du
+du -h
+ll
+cd vskey-web
+ll
+cd test
+ll
+..
+ll
+..
+ll
+tar -xzcf vskey-web
+ll
+curl cheat.sh/zip
+zip -r vskey.zip vskey-web
+ll
+tmux a
+ll
+exit
+ll
+tmux a
+cd src/common/types
+ll
+vim feed.d.ts
+exit
+vim BubbleAvatar.styles.ts
+exit
+ll
+cd src/components/Bubble/components
+ll
+vim BubbleAvatar.tsx
+exit
+ll
+cd src/modules/Dialog
+ll
+vim Dialog.tsx
+..
+..
+cd components/Modal
+ll
+vim Modal.tsx
+..
+cd Header
+ll
+vim Header.tsx
+exit
+cd src/hooks
+ll
+vim interface.ts
+exit
+cd src/components/Greetings
+vim Greetings.styles.ts
+exit
+cd src/components/Greetings
+ll
+vim Greetings.tsx
+exit
+brave
+brave-bin
+sudo chmod 4755 /opt/brave/chrome-sandbox
+ll
+cd src
+ll
+mkdir @types
+cd @types
+ll
+vim intesection-observer.d.ts
+vim intesection-observer.d.ts
+npm i react-dom
+npm i -D @types/react-dom
+exit
+cd config
+ll
+vim webpack.config.demo.js
+exit
+iwctl
+exit
+ll
+vim ObserverWrapper.tsx
+..
+ll
+gs
+vim package.json
+npm install react
+ll
+vim package.json
+ll
+vim webpack.config.js
+ll
+gs
+ll
+cd src
+ll
+vim useIntersectionObserver.ts
+ll
+vim ObserverWrapper.tsx
+vim ObserverWrapper.tsx
+vim ObserverWrapper.tsx
+npm i -D @types/react
+vim ObserverWrapper.tsx
+vim ObserverWrapper.tsx
+exit
+tmux a
+vim babel.config.js
+ll
+vim webpack.config.js
+cd config
+ll
+vim webpack.config.demo.js
+ll
+..
+ll
+mv babel.config.js babel.config.json
+vim babel.config.json
+mv babel.config.json babel.config.js
+ll
+cd config
+ll
+vim webpack.config.demo.js
+ll
+..
+ll
+ll
+mkdir dist
+ll
+cd demo
+ll
+vim index.html
+..
+ll
+cd config
+ll
+vim webpack.config.demo.js
+ll
+..
+ll
+vim package.json
+cd dist
+ll
+..
+ll
+cd config
+ll
+vim webpack.config.demo.js
+exit
+npm i -D @babel/core @babel/cli @babel/preset-typescript
+npm i -D babel-loader
+npm i -D url-loader
+npm i -D source-map-loader
+ll
+vim package.json
+rm -rf node_modules
+npm i
+ll
+rm -rf jest.config.js
+ll
+rm -rf babel.config.js
+ll
+vim tsconfig.json
+ll
+vim package.json
+npm i -D ts-loader
+vim tsconfig.json
+ll
+vim webpack.config.js
+npx webpack build
+ll
+cd dist
+ll
+vim build.js
+..
+ll
+vim tsconfig.json
+npx webpack build
+vim tsconfig.json
+ll
+ll
+cd dist
+ll
+ll
+vim index.html
+ll
+..
+ll
+vim webpack.config.js
+ll
+vim package.json
+npm run build
+ll
+vim tsconfig.json
+npm run build
+vim tsconfig.json
+ll
+vim .prettierrc.js
+vim .gitignore
+ll
+gs
+gl
+ll
+cd dist
+ll
+..
+ll
+cd src
+ll
+vim wrapper.tsx
+..
+ll
+cd dist
+ll
+vim build.js
+ll
+..
+ll
+cd src
+ll
+vim wrapper.tsx
+ll
+vim hook.ts
+ll
+..
+ll
+vim tsconfig.json
+exit
+vim package.json
+ll
+exit
+..
+ll
+cd suckless-react-observer
+ll
+vim .eslintrc.js
+npm i -D prettier
+vim .prettierrc.js
+ll
+vim package.json
+ll
+rm -rf node_modules
+npm i
+ll
+vim .eslintrc.js
+vim package.json
+ll
+gs
+git add .
+git commit -e
+ll
+git push origin master
+ll
+vim .eslintrc.js
+ll
+cd src
+ll
+..
+ll
+vim tsconfig.json
+ll
+cd src
+ll
+vim index.tsx
+ll
+vim useIntersectionObserver.ts
+ll
+vim ObserverWrapper.tsx
+ll
+mv ObserverWrapper.tsx wrapper.tsx
+mv useIntersectionObserver.ts hook.ts
+ll
+rm -rf @types
+ll
+vim index.tsx
+ll
+..
+ll
+cd src
+ll
+vim index.tsx
+exit
+ll
+cd src
+ll
+vim wrapper.tsx
+vim wrapper.tsx
+vim hook.ts
+ll
+vim wrapper.tsx
+exit
+npm -i -D esm-webpack-plugin
+npm i -D esm-webpack-plugin
+vim package.json
+npm run build
+vim package.json
+ll
+vim webpack.config.js
+cd config
+ll
+vim webpack.config.demo.js
+ll
+ll
+..
+ll
+vim package.json
+ll
+git add .
+git commit -e
+ll
+git push origin master
+npm publish
+npm adduser
+ll
+gs
+gl
+exit
+ll
+mkdir demo
+cd demo
+ll
+vim index.html
+ll
+..
+ll
+vim webpack.config.js
+ll
+mkdir config
+cd config
+ll
+vim webpack.config.demo.js
+ll
+..
+ll
+vim package.json
+npm run demo
+npm i -D html-webpack-plugin
+npm run demo
+npm run webpack serve
+npx webpack serve
+npx webpack serve
+npm run demo
+vim package.json
+npm run demo
+ll
+cd config
+ll
+vim webpack.config.demo.js
+..
+ll
+cd demo
+ll
+vim index.html
+..
+ll
+npm run demo
+npm run demo
+npm run demo
+npm run demo
+npm run demo
+npm run demo
+npm run demo
+npm run demo
+npm run demo
+npm run demo
+npm run demo
+npm run demo
+npm run demo
+ll
+npm run demo
+npm run demo
+npm run demo
+npx webpack build --config config/webpack.config.demo.js
+npx webpack build --config config/webpack.config.demo.js
+npx webpack build --config config/webpack.config.demo.js
+npx webpack build --config config/webpack.config.demo.js
+npm run demo
+exit
+cd Documents
+ll
+cd Projects
+ll
+cd Learning
+ll
+..
+ll
+cd Development
+ll
+mkdir gnome-extensions
+cd gnome-extensions
+ll
+git clone https://github.com/nunofarruca/WindowIsReady_Remover.git
+ll
+cd WindowIsReady_Remover
+ll
+cd windowIsReady_Remover@nunofarruca@gmail.com
+ll
+..
+ll
+..
+ll
+rm -rf WindowIsReady_Remover
+git clone https://github.com/fabricio7p/WindowIsReady_Remover.git
+cd WindowIsReady_Remover
+ll
+cd windowIsReady_Remover@nunofarruca@gmail.com
+ll
+vim metadata.json
+cd schemas
+..
+ll
+vim prefs.js
+ll
+..
+ll
+git checkout feat/shell-40
+git checkout -B feat/shell-40
+git add .
+git commit -m "bare minimum to work in shell 40"
+l
+git push origin feat/shell-40
+..
+..
+ll
+cd suckless-react-observer
+ll
+mkdir src
+ll
+cd src
+ll
+vim index.ts
+tmux
+tmux a
+iwctl
+exit
+exit
+tmux a
+cd Documents/Learning/RustExercism
+cd rust
+ll
+cd pascals-triangle
+ll
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+exit
+ll
+cd src
+ll
+vim lib.rs
+tmux
+tmux a
+ll
+cd Documents/Learning/RustExercism/rust
+ll
+ll
+cd pascals-triangle
+ll
+exit
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+exit
+ll
+vim lib.rs
+exit
+..
+cd tests
+vim pascals-triangle.rs
+exit
+cargo test
+cargo test -- --ignored
+exit
+tmux a
+tmux a
+ll
+rm -rf .xkm
+ll
+ll
+cd src/components/ObservedWrapper
+ll
+vim ObservedWrapper.tsx
+ll
+vim ObservedWrapper.styles.ts
+..
+..
+cd hooks
+ll
+cd assets
+ll
+vim observer.ts
+..
+..
+..
+ll
+vim .eslintrc.js
+ll
+vim .prettierrc.js
+vim package.json
+vim .eslintrc.js
+vim webpack.config.js
+cd config
+ll
+..
+vim package.json
+exit
+ll
+vim babel.config.json
+exit
+tmux a
+cd src/components
+vim App.tsx
+exit
+cd src/hooks
+vim interface.ts
+exit
+cd src/components/Feed/components
+vim Entries.tsx
+exit
+cd src/store
+ll
+vim UIContext.tsx
+exit
+cd src/components/Window
+ll
+vim Window.tsx
+..
+ll
+vim App.tsx
+exit
+cd src/components/Bubble
+ll
+vim Bubble.tsx
+exit
+iwctl
+cd src/components/Feed
+ll
+vim Feed.styles.ts
+exit
+cd src/services
+ll
+vim agent.ts
+exit
+cd src/components/Bubble/components
+ll
+vim BubbleAvatar.styles.ts
+exit
+cd src/components/Bubble/components
+ll
+vim MinifiedBubbleAvatar.tsx
+exit
+cd src/components/Bubble/components
+ll
+vim BubbleAvatar.tsx
+exit
+ll
+cd src/components/Bubble/components
+vim BubbleAvatar.styles.ts
+vim BubbleAvatar.styles.ts
+exit
+ll
+cd src/hooks
+ll
+cd queue
+ll
+..
+ll
+cd routine
+ll
+vim notify.ts
+..
+..
+ll
+cd components/Bubble
+cd components
+vim BubbleAvatar.tsx
+exit
+cd src/hooks
+ll
+cd queue
+vim trigger.ts
+exit
+cd src/components/Window
+vim Window.styles.ts
+exit
+ll
+cd src/components/Bubble
+ll
+vim Bubble.styles.ts
+ll
+vim _Bubble.styles.ts
+ll
+rm -rf Bubble.styles.ts
+mv _Bubble.styles.ts Bubble.styles.ts
+ll
+vim Bubble.styles.ts
+exit
+cd src/components/Bubble
+ll
+ll
+vim Bubble.tsx
+ll
+ll
+vim Bubble.tsx
+vim Bubble.tsx
+exit
+cd src/components/Window
+ll
+vim Window.tsx
+exit
+cd src/styles
+ll
+vim globalStyles.ts
+exit
+..
+cd src/components/Bubble
+ll
+gs
+ll
+cd components
+ll
+vim BubbleAvatar.tsx
+exit
+tmux a
+cd src/components/Header
+ll
+vim Header.tsx
+exit
+cd src/hooks
+ll
+cd routine
+ll
+vim emerge.ts
+exit
+cd src/modules/Idle
+ll
+vim Idle.tsx
+exit
+cd src/hooks
+ll
+vim interface.ts
+exit
+cd src/components/Bubble/components
+vim BubbleAvatar.styles.ts
+xit
+exit
+cd src/store
+vim UIContext.tsx
+exit
+ll
+vim release.config.js
+cd src/hooks
+ll
+cd queue
+ll
+vim latency.ts
+exit
+cd src/components/Header/components
+ll
+vim HeaderButtons.styles.ts
+vim HeaderButtons.tsx
+exit
+cd src/components/Header
+ll
+vim Header.tsx
+exit
+cd src/hooks/queue
+vim latency.ts
+exit
+cd src/hooks
+cd queue
+vim queue.ts
+exit
+cd src/hooks
+ll
+cd quew
+ll
+cd queue
+ll
+vim queue.ts
+vim latency.ts
+ll
+..
+..
+cd hooks
+vim interface.ts
+exit
+cd src/components/Bubble/components
+ll
+vim BubbleAvatar.styles.ts
+ll
+vim BubbleAvatar.tsx
+vim BubbleAvatar.tsx
+vim BubbleAvatar.styles.ts
+ll
+vim MinifiedBubbleAvatar.styles.ts
+exit
+ll
+cd src/components/Bubble
+ll
+vim Bubble.tsx
+exit
+cd src/components/Bubble
+ll
+vim Bubble.styles.ts
+exit
+cd src/components/Bubble/components
+vim MinifiedBubbleAvatar.tsx
+exit
+ll
+git checkout next
+gl
+cd src/components/Bubble/components
+ll
+vim MinifiedBubbleAvatar.tsx
+vim MinifiedBubbleAvatar.styles.ts
+exit
+ll
+vim .eslintrc.js
+cd config
+ll
+vim webpack.config.next.js
+gs
+..
+ll
+git add .
+git commit -e
+ll
+gl
+git checkout next
+ll
+git merge feat/close-button --squash
+git commit
+ll
+yarn semantic-release
+ll
+gl
+yarn deploy:next
+ll
+ll
+gl
+git push origin next --tags
+gl
+ll
+ll
+gl
+git checkout -B feat/adapt-carousel
+ll
+ll
+gs
+git add .
+git commit -m "fix(minified-bubble): fix incorrect label"
+yarn deploy:next
+ll
+gl
+git push origin next --tags
+git checkout feat/adapt-carousel
+git rebase next
+gl
+cd src/components/Slider
+ll
+vim Slider.tsx
+cd components
+ll
+exit
+ll
+cd src/hooks/routine
+ll
+vim emerge.ts
+ll
+vim init.ts
+exit
+cd src/hooks/routine
+vim emerge.ts
+exit
+cd src/common/types
+ll
+vim feed.d.ts
+exit
+cd src/components/Images
+ll
+vim ImageContainer.tsx
+..
+cd Slider
+ll
+vim Slider.tsx
+exit
+cd src/components/Images
+ll
+cd components
+ll
+vim StandaloneImage.tsx
+exit
+ll
+cd src/components/Images/components/ProductLinks
+vim ProductLinks.styles.ts
+exit
+ll
+..
+..
+ll
+cd Images/components/ProductLinks
+ll
+vim ProductLinks.tsx
+exit
+exit
+cd Documents/Projects/Development/Everis/Luli
+ll
+yarn start
+yarn start
+yarn start
+yarn start
+exit
+tmux a
+cd Documents
+l
+ll
+vim package.json
+npm i storybook -D
+npx sb init
+git add .
+git commit -m "chore: add storybook"
+git push origin master
+l
+ll
+ll
+ll
+cd src
+ll
+vim index.tsx
+ll
+..
+ll
+vim webpack.config.js
+cd config
+ll
+vim webpack.config.demo.js
+ll
+..
+ll
+cd src
+ll
+vim index.tsx
+..
+ll
+cd demo
+ll
+..
+ll
+cd src
+ll
+cd stories
+ll
+..
+ll
+..
+ll
+git add .
+git commit -m "chore: add sb structure"
+git push origin master
+ll
+exit
+exit
+cd src/components/Bubble
+ll
+vim Bubble.tsx
+..
+..
+cd components/Buttons/components
+ll
+vim RegularButton.tsx
+exit
+cd src/components/Slider
+ll
+vim Slider.tsx
+exit
+cd src/components/Slider/components
+ll
+..
+vim Slider.styles.ts
+exit
+gl
+exit
+ll
+cd src/components/Images
+ll
+vim index.tsx
+..
+vim index.ts
+..
+cd components/Slider
+vim Slider.tsx
+ll
+vim Slider.styles.ts
+cd components
+ll
+vim Indicator.styles.ts
+exit
+cd compo
+exit
+cd src/components/Images/components
+ll
+vim ImageWithFallback.styles.ts
+exit
+cd src/components/Images
+ll
+vim ImageContainer.tsx
+cd components
+ll
+vim ImageWithFallback.styles.ts
+..
+ll
+vim ImageContainer.tsx
+cd components
+ll
+vim ImageWithFallback.tsx
+exit
+cd src/components/Images
+vim ImageContainer.styles.ts
+cd components
+ll
+ll
+exit
+cd src/components/Images/components/ProductLinks
+ll
+vim index.ts
+exit
+cd src/components/Images/components
+vim StandaloneImage.styles.ts
+ll
+ll
+vim FeaturedImage.styles.ts
+exit
+cd src/components/Images/components
+ll
+vim StandaloneImage.tsx
+ll
+..
+..
+l
+ll
+rm -rf StandaloneImage.styles.ts StandaloneImage.tsx
+ll
+vim index.ts
+vim FeaturedImage.tsx
+exit
+ll
+cd src/components/Images/components/ProductLinks
+ll
+vim ProductLinks.styles.ts
+exit
+cd src/components/Images/components/ProductLinks
+ll
+vim ProductLinks.tsx
+exit
+ll
+exit
+cd Documents/Projects/Development/Everis/Luli
+ll
+yarn start
+sudo reboot
+tmux a
+tmux
+exit
+vim comprar.svg
+vim SvgClose.tsx
+vim comprar.svg
+ll
+rm -rf comprar.svg
+ll
+vim index.ts
+ll
+..
+ll
+vim index.ts
+vim index.ts
+exit
+cd src/assets
+ll
+cd icons
+ll
+vim SvgClose.tsx
+vim seta\ copy.svg
+exit
+cd src/assets
+ll
+cd icons
+ll
+vim SvgMinimize.tsx
+exit
+ll
+cd src/assets
+ll
+cd icons
+ll
+vim SvgFlip.tsx
+vim index.ts
+rm -rf seta\ copy.svg
+..
+ll
+vim index.ts
+..
+cd components/Slider
+cd components
+ll
+vim Arrows.styles.ts
+exit
+cd src/components/Slider/components
+vim Arrows.tsx
+vim Arrows.tsx
+exit
+cd src/assets
+ll
+cd icons
+ll
+vim SvgBuy.tsx
+..
+ll
+cd icons
+ll
+..
+..
+ll
+cd components/Images/components
+ll
+vim ImageWithFallback.styles.ts
+exit
+cd src/components/Images/components/ProductLinks
+ll
+vim ProductLinks.styles.ts
+vim ProductLinks.styles.ts
+exit
+cd src/components/Images/components/ProductLinks
+ll
+vim ProductLinks.tsx
+vim ProductLinks.tsx
+vim ProductLinks.tsx
+exit
+src/components/Images/components/FeaturedImage.tsx 
+cd src/components/Images/components
+ll
+vim FeaturedImage.styles.ts
+exit
+cd src/components/Images/components
+ll
+vim FeaturedImage.tsx
+ll
+exit
+exit
+ll
+gs
+exit
+cd src/components/Images/components
+ll
+vim FeaturedImage.styles.ts
+ll
+gs
+vim FeaturedImage.styles.ts
+exit
+cd src/hooks/queue
+ll
+..
+cd routine
+ll
+vim emerge.ts
+vim init.ts
+..
+..
+..
+ll
+gs
+git add .
+git commit -e
+gl
+git push origin feat/adapt-carousel
+git checkout next
+gl
+git merge feat/adapt-carousel
+gl
+yarn deploy:next
+gl
+git push origin next --tags
+gl
+ll
+ll
+git add .
+git commit -e
+gl
+yarn deploy:next
+git push origin next --tags
+gl
+ll
+ll
+git add .
+git commit --amend
+ll
+gl
+yarn deploy:next
+gl
+git push origin next --tags
+git push origin next --tags --force
+gl
+gl
+yarn deploy:next
+exit
+cd Documents/Projects/Development/Everis/Luli
+ll
+yarn start
+yarn start
+exit
+tmux
+exit
+ll
+exit
+ll
+ll
+sudo emerge --sync
+sudo emerge -av --deep --update --changed-use @world
+ll
+cd /etc/portage
+ll
+cd /etc/portage
+ll
+cd profile
+ll
+sudo nvim profile.bashrc
+cd package.provided
+ll
+sudo nvim rust
+ll
+..
+ll
+..
+ll
+sudo emerge -av --deep --update --changed-use @world
+cd /usr/src
+ll
+cp linux/.config linux-5.11.11-gentoo
+sudo cp linux/.config linux-5.11.11-gentoo
+ll
+cd linux-5.11.11-gentoo
+ll
+sudo make menuconfig
+lsblk
+sudo mount /dev/nvme0n1p5 /boot
+lsblk
+cd /boot
+ll
+cd /usr/src
+ll
+cd linux-5.11.11-gentoo
+sudo make && sudo make modules_install && sudo make install
+sudo make && sudo make modules_install && sudo make install
+cd /boot
+ll
+sudo rm -rg System.map-5.11.2-gentoo config-5.11.2-gentoo vmlinuz-5.11.2-gentoo
+sudo rm -rf System.map-5.11.2-gentoo config-5.11.2-gentoo vmlinuz-5.11.2-gentoo
+ll
+sudo grub-mkconfig -o grub/grub.cfg
+exit
+lsblk
+sudo mount /dev/nvme0n1p5 /boot
+sudo mkdir /mnt/eos
+lsblk
+sudo mount /dev/nvme0n1p3 /mnt/eos
+sudo mount /dev/nvme0n1p9 /mnt/eos
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+lsblk
+cd /etc/default
+ll
+sudo nvim grub
+..
+ll
+..
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo reboot
+ll
+cargo run
+..
+ll
+vim Cargo.toml
+cargo run
+cd src
+ll
+rustc lib.rs
+./i
+./lib
+./i
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+..
+ll
+vim Cargo.toml
+rustc lib.rs
+cd src
+ll
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+rustc lib.rs
+./lib
+exit
+cargo test
+cargo test
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test
+exit
+ll
+..
+cd tests
+ll
+vim pascals-triangle.rs
+exit
+cargo test
+cargo test -- --ignore
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test
+exit
+..
+cd tests
+ll
+vim scrabble-score.rs
+exit
+ll
+..
+cd tests
+vim pangram.rs
+exit
+cargo test
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test
+exit
+tmux
+tmux 
+cargo test
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test
+exit
+..
+cd tests
+vim nucleotide-count.rs
+exit
+gl
+git push origin next --tags
+gl
+ll
+ll
+cd src/services
+ll
+vim configuration.ts
+exit
+cd templates
+ll
+vim index.html
+vim index-next.html
+vim index-next.html
+vim index-pre.html
+vim unileverstore.html
+vim fikbella.html
+vim lojas-rede.html
+..
+ll
+ll
+vim README.md
+exit
+exit
+tmux a
+ll
+exit
+tmux
+..
+..
+cd components/Slider
+ll
+vim Slider.tsx
+..
+cd Images
+ll
+cd components
+ll
+vim ImageWithFallback.tsx
+vim FeaturedImage.tsx
+exit
+cd src/common/utils
+ll
+vim mockEvent.ts
+rm -rf mockEvent.ts
+vim index.ts
+vim throttle.ts
+vim promisify.ts
+ll
+exit
+tmux a
+cargo test
+ll
+cd etl
+ll
+cd src
+..
+cd tests
+ll
+cargo test
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test
+exit
+..
+ll
+cd rust
+ll
+cd etl/tests
+vim etl.rs
+rustup update
+ll
+gs
+..
+gs
+..
+gs
+cd etl/tests
+vim etl.rs
+exit
+exit
+cd acronym
+cargo test
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+exit
+ll
+cd acronym
+cd tests
+vim acronym.rs
+exit
+cd src/services
+ll
+vim agent.ts
+exit
+..
+cd Luli
+ll
+cd templates
+ll
+vim index.html
+exit
+ll
+gl
+git log
+git checkout -B feat/update-config-params
+ll
+gs
+git add .
+git commit -m "feat(config): prefix config params with data-luli"
+git push origin feat/update-config-params
+ll
+gl
+git checkout next
+git merge feat/update-config-params
+yarn deploy:next
+ll
+gl
+git push origin next --tags
+gl
+ll
+cd src/common
+ll
+cd utils
+ll
+vim raiseOutput.ts
+ll
+..
+..
+..
+ll
+git add .
+git commit -m "fix(config): fix raiseOutput query"
+yarn deploy:next
+gl
+git checkout next
+git push origin next --tags
+git checkout feat/greeting-message-param
+cd templates
+ll
+vim index.html
+exit
+cd src/components/Bubble
+ll
+vim Bubble.tsx
+exit
+ll
+cd src/components/Bubble
+ll
+vim Bubble.tsx
+cd components
+ll
+vim BubbleAvatar.tsx
+exit
+cd src/hooks/routine
+ll
+vim emerge.ts
+..
+..
+cd services
+ll
+mkdir runtime
+ll
+cd runtime
+ll
+..
+ll
+mv configuration.ts runtime
+ll
+vim index.ts
+ll
+cd runtime
+ll
+vim index.ts
+ll
+..
+ll
+vim index.ts
+ll
+cd runtime
+ll
+..
+..
+cd common/utils
+ll
+..
+cd types
+ll
+vim settings.d.ts
+vim settings.d.ts
+exit
+cd src/services
+ll
+vim configuration.ts
+cd runtime
+ll
+vim con configuration.ts
+vim configuration.ts
+vim configuration.ts
+exit
+cd src/common
+ll
+cd utils
+ll
+vim raiseOutput.ts
+..
+..
+cd store
+ll
+vim ConfigContext.tsx
+exit
+cd src/components
+lll
+vim index.ts
+vim App.tsx
+..
+cd hooks/routine
+ll
+vim bootstrap.ts
+exit
+exit
+tmux a
+tmux a
+cd sieve
+cd src
+ll
+vim lib.rs
+ll
+exit
+ll
+./install.sh
+sudo ./install.sh
+ll
+ipfs
+ipfs init
+cd /
+ll
+cd
+ll
+cd .ipfs
+ll
+ipfs cat /ipfs/QmQPeNsJPyVWPFDVHb77w8G42Fvo15z4bG2X8D2GhfbSXc/readme
+cargo test
+cd sieve
+cargo test
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test -- --ignored
+cargo test
+ll
+exit
+cd sieve
+cd tests
+vim sieve.rs
+exit
+ll
+tmux a
+cd src/hooks
+ll
+vim error.ts
+..
+..
+cd src/hooks
+ll
+vim request.ts
+exit
+ll
+yay gigolo
+exit
+yay xfce4-windowck-plugin
+sudo pacman -S xset xkbcomp
+sudo pacman -S xorg-xset xorg-xkb
+sudo pacman -S xorg-xset xorg-xkbcomp
+exit
+yay dockbarx
+yay dockbarx
+yay -S xfce4-docklike-plugin-git
+yay -Rcns dockbarx
+yay -Rcns xfce4-docklike-plugin-git
+yay -Rcns xfce4-docklike-plugin
+yay -S xfce4-docklike-plugin-git
+yay -Rcns xfce4-docklike-plugin-git
+yay -S xfce4-docklike-plugin-git
+yay -Rcns xfce4-docklike-plugin-git-20200904-1
+yay -Rcns xfce4-dockl
+lslbk
+lsblk
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+sudo pacman -S picom
+picom
+picom
+sudo pacman -S gedit
+sudo pacman -S xprop
+sudo pacman -S xorg-xprop
+xprop
+xprop
+sudo pkill picom
+sudo pkill picom
+sudo thunar
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+exit
+ll
+cargo install lsd
+ll
+exit
+exit
+exit
+exit
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \\
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+sudo pacman -S tmux
+sudo pacman -S nnn
+ll
+yay rustup
+rustup install stable
+cargo install starship
+ll
+vim .zshrc
+vim .zshrc
+exit
+ll
+vim .zshrc
+ll
+sudo pacman -S nodejs
+sudo pacman -S nodejs npm
+vim .zshrc
+sudo pacman -S redshift
+redshift -P -O 5000
+redshift -P -O 5500
+ll
+vim .xprofile
+ll
+source /etc/zsh/zshenv
+cd /etc/zsh
+sudo nvim zshenv
+source /etc/zsh/zshenv
+ll
+..
+..
+ll
+cd
+ll
+nvidia-settings
+yay redshift-gtk
+yay geoclue2
+sudo pacman -S mugshot
+yay lprof
+sudo pacman -Rcns redshift-gtk
+sudo pacman -Rcns redshift
+yay -R redshift
+yay -R redshift-gtk
+sudo pacman -Ss redshift
+sudo pacman -R redshift
+sudo pacman -Syyu
+yay flux
+redshift
+redshift -P -O 4500
+sudo pacman -Rcns xflux
+yay mailspring
+cd .themes
+ll
+cd Skeuos-Blue-Dark
+ll
+vim index.theme
+..
+..
+cd .icons
+ll
+cd Flat-Remix-Blue
+ll
+vim index.theme
+yay signal
+cargo install xcolor
+xcolor
+cd .config
+ll
+sudo pacman -S fzf
+cd gtk-3.0
+ll
+vim settings.ini
+cd /usr/share/gtk-3.0
+ll
+vim settings.ini
+sudo nvim settings.ini
+ll
+cp settings.ini ~/.config/gtk-3.0
+cd
+l
+sudo pacman -S plank
+plank
+sudo pacman -S gdm
+plank
+ll
+vim .xprofile
+source .xprofile
+plank
+cd .config
+ll
+vim user-dirs.dirs
+source user-dirs.dirs
+..
+plank
+cd .config
+ll
+vim user-dirs.dirs
+source user-dirs.dirs
+plank
+..
+ll
+vim .zshrc
+source .zshrc
+plank
+sudo pkill xinit
+ll
+vim .xinitrc
+sudo pkill xinit
+plank
+plank -d
+ll
+cd .config
+ll
+vim user-dirs.dirs
+vim mimeapps.list
+sudo pacman -S gdm
+ll
+..
+vim .zshrc
+ll
+vim .xinitrc
+ll
+rm -rf .xinitrc
+ll
+vim .xprofile
+sudo systemctl enable gdm
+sudo pkill xinit
+sudo systemctl start gdm
+ll
+vim .xprofile
+exit
+plank
+sudo pacman -S xfdashboard
+yay xfdashboard
+ll
+vim .xprofile
+sudo pacman -S xclip
+vim .xprofile
+redshift -P -O 4500\
+
+exit
+xcolor
+xcolor
+ll
+exit
+redshift -P -O 4500
+sudo systemctl start bluetooth
+sudo systemctl enable bluetooth
+sudo pacman -S blueman
+blueman
+ll
+source .xprofile
+vim .xprofile
+sudo systemctl start geoclue2
+yay discord spotify
+yay discord
+yay spotify
+cd .config/starship
+sudo pacman -S libsecret gnome-keyring
+xprop
+curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | gpg --import -
+yay spotify
+brave --disable-gpu-vsync --disable-frame-rate-limit
+redshift -P -O 4500
+redshift -P -O 3500
+ll
+ll
+cargo remove lsd
+cargo uninstall lsd
+yay lsd
+ll
+yay steam
+cd /etc/pulse
+ll
+cp default.pa default.pa.bak
+sudo cp default.pa default.pa.bak
+ll
+sudo cat <<EOT >> /etc/pulse/default.pa\
+load-module module-echo-cancel source_name=noechosource sink_name=noechosink\
+set-default-source noechosource\
+set-default-sink noechosink\
+EOT
+sudo sudo cat <<EOT >> /etc/pulse/default.pa\
+load-module module-echo-cancel source_name=noechosource sink_name=noechosink\
+set-default-source noechosource\
+set-default-sink noechosink\
+EOT
+sudo nvim default.pa
+exit
+redshift -P -O 3000
+redshift -P -O 3000
+redshift -P -O 3000
+redshift -P -O 3000
+redshift -P -O 3000
+redshift -P -O 3000
+redshift -P -O 3000
+redshift -P -O 3000
+redshift -P -O 3000
+redshift -P -O 3000
+redshift -P -O 3000
+redshift -P -O 3000
+redshift -P -O 3000
+redshift -P -O 3000
+redshift -P -O 3000
+redshift -P -O 3000
+redshift -P -O 3000
+sudo systemctl stop redshift
+redshift
+redshift -O -P 3000
+redshift -P -O 3000
+redshift -P -O 3500
+exit
+cd /etc
+sudo nvim pacman.conf
+ll
+sudo pacman -Syyuu
+sudo pacman -Syyu
+sudo pacman -S steam
+yay lutris
+steam
+sudo pacman -Rcns lib32-vulkan-radeon
+sudo pacman -Rcns lib32-amdvlk
+sudo pacman -R lib32-amdvlk
+sudo pacman -Rcns lib32-amdvlk
+sudo pacman -S steam
+sudo pacman -S wine-staging giflib lib32-giflib libpng lib32-libpng libldap lib32-libldap gnutls lib32-gnutls mpg123 lib32-mpg123 openal lib32-openal v4l-utils lib32-v4l-utils libpulse lib32-libpulse libgpg-error lib32-libgpg-error alsa-plugins lib32-alsa-plugins alsa-lib lib32-alsa-lib libjpeg-turbo lib32-libjpeg-turbo sqlite lib32-sqlite libxcomposite lib32-libxcomposite libxinerama lib32-libgcrypt libgcrypt lib32-libxinerama ncurses lib32-ncurses opencl-icd-loader lib32-opencl-icd-loader libxslt lib32-libxslt libva lib32-libva gtk3 lib32-gtk3 gst-plugins-base-libs lib32-gst-plugins-base-libs vulkan-icd-loader lib32-vulkan-icd-loader
+ll
+vim -v
+vim 
+ll
+ll
+ll
+l
+ll
+ll
+redshift -P -O 4500
+exit
+xcolor
+xcolor
+xcolor
+xcolor
+xcolor
+xcolor
+xcolor
+xcolor
+xcolor
+xcolor
+xcolor
+ll
+vim .zshrc
+ll
+exit
+ssh 192.168.1.7
+ll
+ll
+ssh 192.168.1.7
+cp -r st /usr/src
+sudo cp -r st /usr/src
+cd /usr/src
+ll
+sudo chmod -R 777 st
+ll
+sudo chown fabricio7p:fabricio7p st
+cd st
+ll
+sudo make clean install
+exit
+ssh 192.168.1.7
+yay color-emoji
+yay noto-emoji
+yay emoji
+cd /usr/share/applications
+ll
+vim xfce4-terminal.desktop
+cp xfce4-terminal.desktop ~/.local/share/
+cd
+cd .local/share
+ll
+mkdir applications
+mv xfce4-terminal.desktop applications
+cd applications
+ll
+mv xfce4-terminal.desktop st.desktop
+vim st.desktop
+exit
+cd .local/share/applications
+ll
+vim st.desktop
+exit
+ssh 192.168.1.7
+yay bgra
+redshift -P -O 4500
+exit
+exit
+ssh 192.168.1.7
+ssh 192.168.1.7
+vim /tmp/1.html
+cd /etc/pulse
+ll
+sudo rm -rf default.pa.bak
+sudo nvim default.pa
+pulseaudio -k
+pulseaudio --start
+sudo pacman -S xorg-xkill
+lsblk
+sudo mount /dev/nvme0n1p3 /mnt
+sudo pacman -S ntfs-3g
+sudo mount /dev/nvme0n1p3 /mnt
+lsblk
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+ssh 192.168.1.7
+cd /etc/X11
+ll
+cd xorg.conf.d
+ll
+..
+cd xinit
+ll
+..
+cd /usr/share/X11/ll
+cd /usr/share/X11/
+ll
+cd xorg.conf.d
+ll
+vim 40-libinput.conf
+sudo nvim 50-mouse-accel.conf
+redshift
+redshift
+redshift
+redshift
+redshift
+exit
+cd .config
+ll
+mkdir redshift
+cd redshift
+vim redshift.conf
+ll
+..
+..
+ll
+exit
+ssh 192.168.1.7
+sudo pacman -Rcns brave
+sudo pacman -Rcns brave-bin
+sudo pacman -Syyuu
+yay brave
+exit
+sudo pacman -Rcns brave-nightly-bin
+yay brave
+sudo pacman -Rcns brave-bin
+sudo pacman -S brave-bin
+yay brave
+sudo pacman -Rcns python-adblock
+yay brave
+yay teamviewer
+sudo systemctl start teamviewerd
+yay microsoft-fonts
+yay microsoft
+yay ttf-microsoft
+yay ttf-ms-fonts
+exit
+yay chrome
+exit
+sudo systemctl restart teamviewerd
+exit
+sudo pacman -Rcns teamviewer
+exit
+sudo systemctl stop teamviewerd
+exit
+cd /usr/share/gtk-3.0
+ll
+sudo nvim settings.ini
+exit
+https://github.com/ZorinOS/zorin-desktop-themes.git
+git clone https://github.com/ZorinOS/zorin-desktop-themes.git
+xcolor
+ssh 192.168.1.7
+ssh 192.168.1.7
+exit
+dconf list /org/
+dconf list /org/xfce
+dconf list /org/xfce/
+dconf list /org/xfce/mousepad/
+dconf list /org/xfce/mousepad/preferences/
+dconf list /org/xfce/mousepad/preferences/view/
+xfconf-query
+xfconf-query --help
+xfconf-query --list
+xfconf-query --help
+xfconf-query -c
+xfconf-query -l
+xfconf-query -l thunar
+xfconf-query thunar
+xfconf-query thunar -l
+xfconf-query -l
+xfconf-query --help
+xfconf-query -v
+xfconf-query -l -v
+xfconf-query -l
+xfconf-query -h
+xfconf-query -v
+xfconf-query -V
+dconf
+dconf list
+dconf list /
+dconf list /org
+dconf list / org
+dconf list org
+dconf list /org/
+dconf list /org/xfce/
+sudo pacman -S joplin
+yay joplin
+yay joplin
+cd Downloads
+wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
+sudo pacman -S wget
+wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
+cd /
+cd usr
+l
+sudo pacman -Rcns joplin
+sudo pacman -Rcns joplin-desktop
+exit
+cd .config
+ll
+rm -rf @joplin
+..
+ll
+rm -rf .joplin
+cd .config
+ll
+rm -rf @joplin
+..
+cd Downloads
+ll
+history
+wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
+sudo rm -rf .mount_JoplinZl2glG
+sudo rm -rf .mount_JoplinZl2glG
+cd .mount_JoplinZl2glG
+ll
+cd
+cd .cargo
+ll
+..
+cd .config
+ll
+rm -rf @joplin joplin-desktop
+xcolor
+xcolor
+xcolor
+xcolor
+xcolor
+xcolor
+ssh 192.168.1.7
+exit
+sudo pacman -S xdg-utils
+yay xdg
+cp -R Fira_Sans /usr/share/fonts
+cp -R Fira_Sans /usr/share/fonts
+sudo cp -R Fira_Sans /usr/share/fonts
+exit
+ssh 192.168.1.7
+yay noto
+exit
+ssh 192.168.1.7
+xcolor
+xcolor
+xcolor
+xcolor
+xcolor
+xcolor
+ssh 192.168.1.7
+exit
+redshift
+redshift -O -P 3500
+cd .config/redshift
+ll
+vim redshift.conf
+sudo pkill redshift
+sudo pkill redshift
+exit
+sudo pkill redshift
+sudo pkill redshift
+ssh 192.168.1.7
+uptime
+exit
+xcolor
+xcolor
+xcolor
+xcolor
+xcolor
+xcolor
+xcolor
+xcolor
+ssh 192.168.1.7
+yay
+ssh 192.168.1.7
+git clone https://github.com/olback/autoplank.git
+cargo build --release
+exit
+ll
+./autoplank
+sudo pacman -S xorg-xdotool
+sudo pacman -S xdotool
+./autoplank
+ll
+cp autoplank /usr/local/bin
+sudo cp autoplank /usr/local/bin
+exit
+yay menu-editor
+yay menu-edit
+yay menulibre
+sudo pkill autoplank
+exit
+ssh 192.168.1.7
+sudo rm -rf evolution-calendar.desktop
+exit
+yay
+exit
+yay figma
+exit
+xcolor
+wine setup_quern_-_undying_thoughts_1.2.0_hotfix2_\(19136\).exe
+brave --force-device-scale-factor=1.25
+brave --force-device-scale-factor=1.125
+brave --force-device-scale-factor=1.25
+brave --force-device-scale-factor=1.125
+brave --force-device-scale-factor=1.125
+exit
+yay
+yay gdebi
+yay gdeb
+yay binance
+rm -rf evolution-calendar.desktop
+sudo rm -rf evolution-calendar.desktop
+exit
+sudo thunar
+cd /home/fabricio7p/Desktop
+sudo chown fabricio7p:fabricio7p discord.desktop
+sudo chmod 777 discord.desktop
+yay
+yay mailspring
+sudo pacman -Rcns xfdashboard
+exit
+sudo pacman -S gnome-tweaks
+ssh 192.168.1.7
+ssh 192.168.1.7
+ssh 192.168.1.7
+ssh 192.168.1.7
+ssh 192.168.1.7
+ssh 192.168.1.7
+xcolor
+ssh 192.168.1.7
+exit
+xcolor
+xcolor
+vim /tmp/1.json
+cd
+ll
+exit
+python
+ssh 192.168.1.7
+ll
+ssh 192.168.1.7
+yay
+sudo pacman -Rcns google-chrome
+sudo pacman -S thunderbird
+sudo pacman -Rcns thunderbird
+exit
+sudo pacman -S geary
+sudo pacman -Rcns gearey
+sudo pacman -Rcns geary
+exit
+cd /etc/pulse
+sudo nvim default.pa
+exit
+ssh 192.168.1.7
+ssh 192.168.1.7
+exit
+ssh 192.168.1.7
+tmux a
+tmux
+ll
+ssh 192.168.1.7
+xcolor
+xcolor
+xcolor
+xcolor
+cd /etc/pulse
+ll
+sudo nvim default.pa
+exit
+sudo reboot
+vim
+yay teamviewer
+yay anydesk
+yay teamviewer
+sudo systemctl start teamviewerd
+sudo systemctl stop teamviewerd
+sudo systemctl disable teamviewerd
+exit
+sudo systemctl start teamviewerd
+sudo systemctl stop teamviewerd
+yay tibia
+exit
+yay marktext
+yay marktext
+exit
+sudo systemctl start teamviewerd
+sudo systemctl stop teamviewerd
+exit
+yay R
+sudo pacman -S r
+cd Documents
+ll
+mkdir R
+cd R
+ll
+yay rstudio
+rstudio
+rstudio-bin
+78, 95, 65, 99, 24
+78, 65, 95, 99, 24
+-> 78, 95, 65, 99, 24\
+
+78, 65, 95, 24, 99
+65, 78, 24, 95, 99
+vim
+yay qcalculate
+sudo pacman -S gnome-calculator
+yay
+yay
+yay truffle
+sudo npm install -g truffle
+ll
+yay ganache
+yay flameshot
+sudo systemctl start flameshot
+sudo systemctl start flameshotd
+flameshot
+yay
+ssh 192.168.1.7
+ssh 192.168.1.7
+ssh 192.168.1.7
+ssh 192.168.1.6
+ssh 192.168.1.7
+yay etcher
+yay etcher
+yay
+ssh 192.168.1.7
+vim /tmp/1.json
+exit
+xcolor
+yay libreoffice
+sudo pacman -S libreoffice
+xcolor
+yay insomnia
+sudo pacman -S docker
+ll
+sudo systemctl start docker
+sudo usermod -aG docker fabricio7p
+cargo
+cargo update
+rustup update
+exit
+cargo update
+cargo update
+cargo run
+ll
+ll
+cd Documents
+ll
+cd challenge
+ll
+cd boticario_cashback_api
+ll
+ll
+docker .
+docker up
+docker build .
+git clone https://github.com/fabricio7p/cashback_app.git
+ll
+cd cashback_app
+ll
+sudo npm install -g yarn
+yarn
+ll
+yarn dev
+ll
+git pull origin main
+yarn dev
+xcolor
+xcolor
+xcolor
+vim /tmp/1.json
+yay
+cfdisk /dev/nvme0n1p
+cfdisk /dev/nvme0n1
+sudo cfdisk /dev/nvme0n1
+exit
+xcolor
+xcolor
+vim /tmp/1.json
+yay
+exit
+ll
+sudo pacman -S pipewire pipewire-{alsa,jack,media-session,pulse,jack-dropin}
+sudo pacman -S pipewire pipewire-{alsa,jack,media-session,pulse}
+sudo pacman -S pulseeffects
+sudo pacman -S pipewire-pulse
+sudo pacman -S xdg-desktop-portal-gtk
+sudo reboot
+ps aux | grep pulse
+systemctl --user status pipewire.service
+cd /etc/pipewire/media-session.d
+ll
+sudo nvim bluez-monitor.conf
+systemctl --user restart pipewire.service
+systemctl --user enable --now pipewire-media-session.service
+systemctl --user status pipewire.service
+sudo pacman -S alsa-utils
+alsamixer
+sudo pacman -R pulseaudio-bluetooth
+sudo pacman -R pulseaudio
+alsamixer
+alsamixer
+exit
+sudo pacman -S pipewire-jack
+pw-jack
+yay pipewire-jack-dropin
+sudo pacman -R jack
+grep -i libjack
+ldd /usr/bin/qjackctl | grep -i libjack
+pactl info
+sudo nvim /etc/pipewire/media-session.d/alsa-monitor.conf
+sudo systemctl restart pipewire
+ps aux | grep pipe
+sudo systemctl restart pipewire-pulse
+sudo systemctl restart pipewire-media-session
+sudo pacman -Rcns pipewire
+sudo pacman -S pulseaudio
+sudo pacman -R pipewire-pulse
+sudo nvim /etc/pipewire/media-session.d/alsa-monitor.conf
+alsamixer
+ll
+sudo nvim /etc/pipewire/media-session.d/alsa-monitor.conf
+ll
+sudo pacman -S pipewire-alsa-monitor
+sudo pacman -S pipewire-alsa
+sudo nvim /etc/pipewire/media-session.d/alsa-monitor.conf
+ps aux | grep alsa
+ps aux | grep pipre
+ps aux | grep pipe
+sudo systemctl --services
+sudo systemctl list
+sudo systemctl list-jobs --services
+sudo systemctl list-jobs 
+sudo systemctl list-units
+sudo systemctl list-units --services
+sudo systemctl list-units -h
+sudo systemctl list-units | grep pipe
+sudo systemctl list-units | grep Pipe
+sudo systemctl list-units | grep pulse
+sudo systemctl list-units
+sudo systemctl start pipewire-pulse
+sudo pacman -S pipewire
+sudo systemctl start pipewire-pulse
+sudo systemctl --user start pipewire
+sudo systemctl --user start pipewire-pulse
+sudo systemctl start pipewire-pulse --user
+sudo pacman -S xdg-desktop-portal-gtk
+sudo pacman -S xdg-desktop-portal
+systemctl --user show-enviroment
+systemctl --user show-environment
+systemctl start pipewire
+systemctl start pipewire --user
+systemctl start pipewire.pulse --user
+systemctl start pipewire-pulse --user
+systemctl start pipewire-pulse --user
+systemctl restart pipewire-pulse --user
+systemctl restart pipewire-media-session --user
+sudo nvim /etc/pipewire/media-session.d/alsa-monitor.conf
+sudo nvim /etc/pipewire/media-session.d/alsa-monitor.conf
+ll
+sudo systemctl stop pipewire
+systemctl stop pipewire
+systemctl stop pipewire --user
+systemctl stop pipewire.socket --user
+systemctl stop pipewire-pulse --user
+systemctl stop pipewire-pulse.socket --user
+systemctl start pulseaudio
+systemctl start pulseaudio --user
+sudo systemctl start pulseaudio
+sudo pacman -S pulseaudio
+sudo pacman -Syy pulseaudio
+sudo pacman -Rcns pipewire
+sudo pacman -S pulseaudio
+sudo pacman -S gdm
+sudo nvim /etc/pipewire/media-session.d/alsa-monitor.conf
+ll
+ps aux | grep alsa
+systemctl restart pipewire-pulse
+systemctl restart pipewire-pulse --user
+systemctl restart pipewire-pulse --user
+systemctl restart pipewire-media-session --user
+systemctl restart pipewire --user
+pw-record --list-targets
+systemctl restart pipewire --user
+systemctl restart pipewire --user
+systemctl restart pipewire --user
+alsamixer
+systemctl restart pipewire --user
+systemctl restart pipewire-media-session --user
+systemctl restart pipewire-media-session --user
+sudo systemctl start pulseaudio
+pulseaudio
+pactl list | grep a2dp
+sudo pacman -S libldac
+yay pulseaudio-modules-bt
+ping alphamubr.com
+gtk-update-icon-cache
+sudo setcap 'CAP_SYS_RESOURCE=+ep' ~/.local/bin/noisetorch
+if [ -d "$HOME/.local/bin" ] ; then\
+    PATH="$HOME/.local/bin:$PATH"\
+fi
+noisetorch
+sudo pkill noisetorch
+ps aux | grep noise
+ps aux | grep torch
+pulseaudio
+pulseaudio --restart
+pulseaudio -h
+pulseaudio --kill
+pulseaudio --start
+pulseaudio --start
+noisetorch
+sudo pkill pulseaudio
+noisetorch
+sudo pacman -S pipewire-pulse
+alsamixer
+ll
+vim .zshrc
+ll
+cd .local
+ll
+cd bin
+ll
+..
+..
+vim .zshrc
+ll
+cd .local/bin
+ll
+./noisetorch
+yay cadmus
+cadmus
+pulseaudio -k
+systemctl --user stop pulseaudio.socket
+systemctl --user stop pulseaudio.service
+pulseaudio -v
+cd /etc/pulse
+ll
+sudo nvim default.pa
+yay noise-suppression
+pactl list sources short
+cd .config/pulse
+ll
+sudo nvim default.pa
+ll
+pulseaudio -k
+cadmus
+exit
+yay google-meet
+vim .zshrc
+xcolor
+xcolor
+ll
+ll
+ll
+yay
+sudo reboot
+ll
+ll
+vim .gitconfig
+vim .gitconfig
+vim .gitconfig
+ll
+cd /usr/src/st
+ll
+ll
+vim config.def.h
+git checkout .
+git pull origin gentoo
+sudo make clean install
+cd /usr/src/st
+vim config.def.h
+sudo make clean install
+gs
+ll
+yay vscode
+6 4
+python
+yay unrar
+unrar -x sc3970-GHIIIPCTUC.part1.rar
+unrar x sc3970-GHIIIPCTUC.part1.rar
+yay
+sudo pacman -S gnome-calendar
+exit
+sudo pkill redshift
+exit
+sudo pacman -S neofetch
+neofetch
+lsd
+lsd -v
+lsd -V
+lsd -h
+lsd --help
+lsd --help -V
+tmux
+cd
+ll
+ll
+lsd
+ll
+lsd
+lsd --grid
+ll --grid
+ll
+lsd
+lsd
+cd Downloads
+lsd
+lsd
+lsd
+lsd
+lsd
+ll
+ll
+ll
+ll
+ll
+ll
+ll
+lsd
+exit
+ll
+mv lsd.yaml config.yaml
+lsd
+ll
+vim config.yaml
+vim config.yaml
+vim config.yaml
+exit
+ll
+cd .config/lsd
+ll
+vim lsd.yaml
+lsd
+ll
+..
+ll
+ll
+cd lsd
+ll
+vim lsd.yaml
+lsd
+lsd ~/
+ll
+tmux
+exit
+ll
+zip q1.js q2.js challenge.zip
+ll
+curl cheat.sh/zip
+zip challenge.zip q1.js q2.js
+ll
+ll
+git init .
+ll
+git add .
+git commit -m "add solutions"
+git remote add origin https://github.com/fabricio7p/dcspark_challenge.git
+git push origin master
+sudo systemctl start teamviewerd
+ll
+cp -r SFUIDisplay /usr/share/fonts
+sudo cp -r SFUIDisplay /usr/share/fonts
+exit
+sudo cp -r San-Francisco /usr/share/fonts
+exit
+sudo thunar
+yay san-francisco
+cd /usr/share/fonts
+ll
+sudo rm -rf SF-UI-Display-Regular.otf  SFUIText
+ll
+exit
+sudo pacman -S nautilus
+yay
+ssh 192.168.1.7
+ssh 192.168.1.77
+ssh 192.168.1.7
+date %c
+date %D
+curl cheat.sh/date
+date +"%c"
+date +"%w"
+date +"%W"
+date +"%C"
+date +"%X"
+date +"%A"
+date +"%a"
+date +"%w"
+tmux a
+sudo pacman -S geary
+sudo pacman -S thunderbird
+yay
+lsd -V --help
+lsd --help -V
+lsd --help
+sudo pacman -Rcns geary
+sudo systemctl start teamviewerd
+yay signal-desktop
+yay signal
+yay singal
+yay signal
+yay discord
+sudo pacman -S firefox
+yay
+yay
+yay
+yay
+yay
+sudo pacman -Syyuu
+yay
+sudo pacman -R yay
+pacman -S --needed git base-devel\
+git clone https://aur.archlinux.org/yay.git\
+cd yay\
+makepkg -si
+yay
+vim /tmp/1.json
+xcolor
+yay
+yay gnome-draw
+yay draw
+sudo pacman -S draw
+sudo pacman -S drawing
+uptime
+xcolor
+xcolor
+python]
+python
+neofetch
+sudo pacman -S scrot
+curl cheat.sh/scrot
+l
+scrot -u -d 5 -c\
+
+node
+yay segoe-ui
+yay segoe
+ll
+yay
+node
+node
+node
+node
+redshift -P -O 4500
+redshift -O -P 4500
+redshift -P -O
+redshift -P -O 4000
+the sky is blue
+ehe sky is blut
+yay
+sudo pacman -S calibre
+sudo pacman -S seahorse
+seahorse
+neofetch
+xcolor
+plank
+ll
+yay
+plank
+neofetch
+cd Documents/Documentos\ work
+ll
+vim rec-key-atlassian.txt
+cd Documents/Documentos\ work
+ll
+vim rec-key-slack.txt
+yay slack
+vim test.js
+l
+ll
+node test.js
+node test.js
+node test.js
+node test.js
+node test.js
+node test.js
+ll
+vim exercise5.py
+ll
+rm -rf test.js
+ll
+vim test.cpp
+ll
+g++ test.cpp
+g++ test.cpp
+ll
+./a.out
+g++ test.cpp
+g++ test.cpp
+./a.out
+./a.out
+g++ test.cpp
+./a.out
+g++ test.cpp
+./a.out
+g++ test.cpp
+./a.out
+g++ test.cpp
+./a.out
+g++ test.cpp
+./a.out
+g++ test.cpp
+./a.out
+g++ test.cpp
+./a.out
+g++ test.cpp
+./a.out
+g++ test.cpp
+./a.out
+g++ test.cpp
+./a.out
+g++ test.cpp
+./a.out
+g++ test.cpp
+./a.out
+g++ test.cpp
+./a.out
+g++ test.cpp
+./a.out
+g++ test.cpp
+./a.out
+g++ test.cpp
+g++ test.cpp
+g++ test.cpp
+./a.out
+g++ test.cpp
+./a.out
+g++ test.cpp
+./a.out
+g++ test.cpp
+./a.out
+g++ test.cpp
+./a.out
+g++ test.cpp
+./a.out
+g++ test.cpp
+./a.out
+g++ test.cpp
+./a.out
+python
+ll
+vim test.py
+ll
+ll
+cd Documents
+ll
+cd USP
+ll
+vim test.js
+ll
+tmux
+yay
+sudo systemctl start teamviewerd
+yay
+yay prospect-mail
+yay prospect
+cd Downloads
+ll
+curl cheat.sh/pacman
+sudo pacman -U prospect-mail-0.3.0.pacman
+node
+yay datagrip
+yay datagrip
+datagrip
+sudo pacman -Rcns datagrip
+sudo pacman -Rcns datagrip-jre
+yay jre
+datagrip
+datagrip
+sudo pkill datagrip
+datagrip
+yay datagrip
+datagrip
+sudo pacman -Rcns datagrip
+sudo pacman -S datagrip
+yay datagrip
+datagrip
+datagrip init
+ps aux | grep clion
+ps aux | grep -i clion
+sudo pkill clion
+cd Downloads/idea-IC-211.7628.21
+ll
+cd bin
+ll
+./idea.sh
+..
+..
+..
+..
+cd
+cd Downloads/DataGrip-2021.1.3
+cd bin
+ll
+./datagrip.sh
+./inspect.sh
+./inspect.sh
+..
+ll
+cd bin
+./datagrip.sh
+yay datagrip
+datagrip
+htop
+sudo pacman -S htop
+htop
+yay postman
+yay openvpn
+openvpn
+curl localhost:3306
+curl localhost:3307
+curl http://localhost:3306
+curl http://localhost:3306/
+curl https://localhost:3306/
+curl http://localhost:3306/index.html
+curl -l http://localhost:3306/index.html
+curl -L http://localhost:3306/index.html
+curl -L http://localhost:3306
+curl -l http://localhost:3306
+ll
+cd Documents
+cp vpn /usr/local/bin
+sudo cp vpn /usr/local/bin
+curl cheat.sh/ssh
+openvpn
+sudo pacman -S openresolv
+ll
+cd Documents/Documentos\ work/
+ll
+sudo openvpn --config client.ovpn
+vim client.ovpn
+sudo openvpn --config client.ovpn
+sudo pacman -S network-manager
+sudo pacman -S networkmanager
+sudo pacman -S network-manager-openvpn
+yay network-manager-openvpn
+yay network-manager
+yay openvpn
+sudo systemctl start NetworkManager
+yay xfce4-indicator-plugin
+..
+..
+cd Downloads
+ll
+git clone https://github.com/xfce-mirror/xfce4-indicator-plugin.git
+cd xfce4-indicator-plugin
+ll
+./autogen.sh
+yay xfce-dev-tools
+yay xfce-dev
+yay xfce
+yay xfce
+./autogen.sh
+make
+make install
+sudo make install
+sudo pacman -S mysqldump
+yay mysqldump
+sudo pacman -S mariadb
+sudo pacman -S mysql
+ll
+cd Documents
+ll
+cd SQLDumps
+ll
+ll
+mysql -u sqitch -p Pilot -h dev-db.showseeker53.net
+mysqldump -u sqitch -p Pilot -h dev-db.showseeker53.net Office > sqldump.sql
+ll
+mysql -u root -p Pilot -h 172.20.0.200:3306
+mysql -u root -p Pilot -h 192.168.1.7:3306
+mysql -u root -p Pilot -h localhost:3306
+mysql -u root -p Pilot
+curl cheat.sh/ssh
+mysql -u root -p Pilot -h localhost
+mysql -u root -p -h localhost
+mysql -u root -p -h localhost
+mysql -u root -p -h localhost:3306
+mysql -u root -p Pilot -h localhost:3306
+mysql --version
+mysql -u root -p Pilot
+mysql -u root -p Pilot -h localhost:3306
+sudo pacman -S mycli
+yay mycli
+mycli -u root -p Pilot
+mycli -u root -p Pilot < sqldump.sql
+mysql -u root -p Pilot < sqldump.sql
+sudo pacman -Rcns mysql
+mariadb
+mariadb -u root -p Pilot < sqldump.sql
+mariadb -u root -p Pilot -h localhost:3306
+mycli -u root -p Pilot < sqldump.sql
+cd Documents/SQLDumps
+ll
+mysqldump -u sqitch -p Pilot -h dev-db.showseeker53.net -B > sqldump.sql
+mysqldump -u sqitch -p Pilot -B -h dev-db.showseeker53.net > sqldump.sql
+mysqldump -u sqitch -p Pilot -h dev-db.showseeker53.net > sqldump.sql
+mysqldump -u sqitch -p Pilot -h dev-db.showseeker53.net > sql1dump.sql
+mysqldump -u sqitch -p Pilot Office -h dev-db.showseeker53.net -B > sqldump.sql
+mysqldump -u sqitch -p Pilot Office -h dev-db.showseeker53.net > sqldump.sql
+mysqldump -u sqitch -p --databases Pilot Office -h dev-db.showseeker53.net > sqldump.sql
+mysqldump -u sqitch -p Pilot Office -h dev-db.showseeker53.net -B Pilot > sqldump.sql
+mysqldump -u sqitch -p Pilot Office -h dev-db.showseeker53.net > sqldump.sql
+mycli -u root -p Pilot < sqldump.sql
+cd Downloads
+\
+$ sudo wget -O /etc/openvpn/update-resolv-conf https://raw.githubusercontent.com/alfredopalhares/openvpn-update-resolv-conf/master/update-resolv-conf.sh\
+$ sudo chmod a+x /etc/openvpn/update-resolv-conf
+\
+ sudo wget -O /etc/openvpn/update-resolv-conf https://raw.githubusercontent.com/alfredopalhares/openvpn-update-resolv-conf/master/update-resolv-conf.sh\
+ sudo chmod a+x /etc/openvpn/update-resolv-conf
+\
+ sudo wget -O /etc/openvpn/update-resolv-conf https://raw.githubusercontent.com/alfredopalhares/openvpn-update-resolv-conf/master/update-resolv-conf.sh\
+
+sudo chmod a+x /etc/openvpn/update-resolv-conf
+ll
+..
+ll
+cd Documents/Documentos\ work
+ll
+sudo openvpn --config client.ovpn
+sudo openvpn --config client.ovpn
+ssh -L 3306:localhost:3306 -N -T fabricio7p@snake1234#
+ssh -L 3306:localhost:3306 -N -T fabricio7p@192.168.1.7
+ssh -L 3306:172.20.0.200:3306 -N -T fabricio7p@192.168.1.7
+ssh -L 3306:172.20.0.200:3306 -N -T fabricio7p@192.168.1.7
+ssh -L 3306:172.20.0.200:3306 -N -T fabricio7p@192.168.1.7
+ssh -L 3306:example.org:80 -N -T fabricio7p@192.168.1.7
+ssh -L 3306:172.20.0.200:3306 -N -T fabricio7p@192.168.1.7
+sudo pacman -S networkmanager-openvpn
+sudo pacman -S network-manager-applet
+nm-applet
+sudo pacman -Rcns teams
+mysql
+sudo systemctl start mysql
+systemctl status mariadb.service
+mysql_install_db --user=root --basedir=~/Documents/Learning/MySQL --datadir=~/Documents/Learning/MySQL/data
+mysql_install_db
+sudo systemctl mysql start
+sudo systemctl start mysql
+sudo systemctl status mariadb.service
+sudo mysql_install_db
+mysql_upgrade
+sudo mysql_upgrade
+mysql
+sudo systemctl start mariadb
+journalctl -xeu mariadb.service
+sudo mysql_install_db --user=mysql --ldata=/var/lib/mysql
+sudo systemctl start mariadb
+mysql
+mysql -u root
+mysql -u mysql
+mysql -u fabricio7p
+mycli
+mysql -u mysql
+mycli
+mycli -u mysql
+mycli -u mysql -p
+mycli -u mysql -p learn
+sudo usermod -aG mysql fabricio7p
+mycli -u mysql -p learn
+mycli -u mysql -p
+mycli -u mysql
+mycli -u root
+sudo systemctl stop mysql
+mycli
+mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+sudo mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+mysqld
+sudo mysqld_safe --skip-grant-tables --skip-syslog --skip-networking
+fg
+mysql -u root
+mysqladmin shutdown
+sudo mysqladmin shutdown
+sudo systemctl start mysql
+mysql -u root
+sudo mysqld_safe --skip-grant-tables --skip-syslog --skip-networking
+sudo systemctl stop mysql
+sudo mysqld_safe --skip-grant-tables --skip-syslog --skip-networking
+mysql -u root
+mysql -u root
+mysql -u root -p
+mysql -u root -p
+sudo systemctl stop mysql
+sudo systemctl start mysql
+sudo systemctl start mysql
+sudo pkill mysql
+sudo systemctl start mysql
+sudo pkill mysql
+htop
+sudo pkill mariadb
+htop
+sudo systemctl start mariadb
+cd Documents/Learning/MySQL
+ll
+vim ref.txt
+ll
+rm -rf ref.txt
+ll
+vim mysql_create_table_excs.sql
+vimtutor
+sudo pacman -S vimtutor
+vim
+nvim tutor
+nvim-tutor
+uname -r
+uname -a
+curl cheat.sh/uname
+ll
+ll
+cd Documents
+ll
+cd Learning
+ll
+..
+..
+ll
+vim .bashrc
+vim
+ll
+vim .zshrc
+sudo pacman -S filemanager-actions
+cd Documents/Learning
+ll
+cd MySQL
+ll
+mysql -u root -p Learn
+mysql -u root -p Learn
+mycli
+sudo systemctl status mariadb
+sudo systemctl start mariadb
+mysql -u root -p Learn
+mysql -u root -p Learn < db.sql
+mysql -u root -p Learn < northwind.sql/wrpracti_northwind.sql
+mysql -u root -p
+mysql -u root -p northwind < northwind.sql/wrpracti_northwind.sql
+mysql -u root -p hr < db.sql
+ll
+..
+ll
+cd MySQL
+ll
+touch mysql_insert_excs.sql
+cd Documents/Learning/MySQL
+ll
+touch mysql_update_excs.sql
+yay
+curl cheat.sh/ssh
+curl cheat.sh/ssh
+ssh -L 3306:localhost:3306 -N -T fabricio7p@192.168.1.7
+sudo systemctl stop mariadb
+ssh -L 3306:localhost:3306 -N -T fabricio7p@192.168.1.7
+yay
+ssh -L 3306:localhost:3306 -N -T fabricio7p@192.168.1.7
+ssh -L 3306:localhost:3306 -N -T fabricio7p@192.168.1.7
+sudo systemctl start mariadb
+cd Documents/Learning/MySQL
+touch mysql_select_excs.sql
+ssh -L 3306:localhost:3306 -N -T fabricio7p@192.168.1.7
+sudo systemctl stop mariadb
+ssh -L 3306:localhost:3306 -N -T fabricio7p@192.168.1.7
+neofetch
+sudo systemctl start mariadb
+ssh -L 3306:localhost:3306 -N -T fabricio7p@192.168.1.7
+sudo systemctl stop mariadb
+ssh -L 3306:localhost:3306 -N -T fabricio7p@192.168.1.7
+yay
+sudo datagrip
+cd /opt
+ll
+cd datagrip
+ll
+..
+ll
+sudo chmod 555 -R datagrip
+sudo chown fabricio7p:wheel -R datagrip
+ll
+cd datagrip
+ll
+gorups
+groups
+..
+ll
+yay
+ssh -L 3306:localhost:3306 -N -T fabricio7p@192.168.1.7
+ssh -L 3306:localhost:3306 -N -T fabricio7p@192.168.1.7
+sudo systemctl stop mariadb
+ssh -L 3306:localhost:3306 -N -T fabricio7p@192.168.1.7
+ssh -L 3306:localhost:3306 -N -T fabricio7p@192.168.1.7
+sudo systemctl start mariadb
+yay
+ssh -L 3306:localhost:3306 -N -T fabricio7p@192.168.1.7
+ssh -L 3306:localhost:3306 -N -T fabricio7p@192.168.1.7
+ssh -L 3306:localhost:3306 -N -T fabricio7p@192.168.1.7
+vim /tmp/1.cpp
+ll
+cpp 1.cpp
+ll
+g++ 1.cpp
+vim 1.cpp
+g++ 1.cpp
+vim 1.cpp
+g++ 1.cpp
+vim 1.cpp
+g++ 1.cpp
+vim 1.cpp
+./a.out
+ll
+vim 1.cpp
+./a.out
+ssh -L 3306:localhost:3306 -N -T fabricio7p@192.168.1.7
+ssh -L 3306:localhost:3306 -N -T fabricio7p@192.168.1.7
+yay xfce4-rss
+yay xfce4
+yay fluent-reader
+yay fluent-reader
+yay rss-xfce4
+yay xfce-rss
+yay rss-xf
+cargo install rssrsr
+cargo install rsrssplugin
+yay xfce4-newsreader
+yay xfce4-newsreader-plugin
+yay
+yay feeds
+ssh -L 3306:localhost:3306 -N -T fabricio7p@192.168.1.7
+ssh -L 3306:localhost:3306 -N -T fabricio7p@192.168.1.7
+ssh -L 3306:localhost:3306 -N -T fabricio7p@192.168.1.7
+yay
+ssh -L 3306:localhost:3306 -N -T fabricio7p@192.168.1.7
+sudo systemctl ssh
+sudo systemctl sshd
+sudo systemctl start sshds
+sudo systemctl start sshd
+nvim -v
+ssh -L 3306:localhost:3306 -N -T fabricio7p@192.168.1.7
+node
+lua
+sudo pacman -S lua-5.1
+luajit
+ll
+ll
+yay
+redshift -P -O 4500
+redshift -P -O 4500
+redshift -P -O 4000
+yay gnvim
+ll
+gnvim .zshrc
+yay
+ssh -L 3306:localhost:3306 -N -T fabricio7p@192.168.1.7
+yay wine-lol
+yay wine-lol
+cd
+cd .config/nvim
+ll
+vim init.vim
+ll
+cd
+cd .config/nvim
+ll
+vim init.vim
+ll
+cd Documents/USP
+ll
+cd Algos\ classes
+ll
+cd Casos\ de\ Teste\ -\ Stable\ Matching
+ll
+ll
+vim res.cpp
+ll
+tmux
+yay zenity
+ll
+g++ res.cpp
+g++ res.cpp
+ll
+./a.out
+./a.out 2\
+4\
+1 4 3 1 2\
+2 2 1 3 4\
+3 1 3 4 2\
+4 4 3 1 2\
+1 3 2 4 1\
+2 2 3 1 4\
+3 3 1 2 4\
+4 3 2 4 1
+./a.out 2
+ll
+rm -rf a.out res
+ll
+g++ res.cpp
+./a.out 2
+g++ res.cpp
+ll
+./a.out 2
+./a.out 
+./a.out 
+4
+1 4 3 1 2
+2 2 1 3 4
+3 1 3 4 2
+4 4 3 1 2
+1 3 2 4 1
+2 2 3 1 4
+3 3 1 2 4
+4 3 2 4 1
+./a.out 
+./a.out
+4
+1 4 3 1 2
+2 2 1 3 4
+3 1 3 4 2
+4 4 3 1 2
+1 3 2 4 1
+2 2 3 1 4
+3 3 1 2 4
+4 3 2 4 1
+g++ res.cpp
+g++ res.cpp
+g++ res.cpp
+./a.out
+2 2 1 3 4
+3 1 3 4 2
+4 4 3 1 2
+1 3 2 4 1
+2 2 3 1 4
+3 3 1 2 4
+4 3 2 4 1
+g++ a.out
+g++ a.out
+g++ res.cpp
+./a.out
+./a.out
+ll
+g++ res.cpp
+ll
+cd
+cd -
+ll
+ll
+g++ res.cpp
+./a.out
+1 3 2 4 1
+2 2 3 1 4
+3 3 1 2 4
+4 3 2 4 1
+g++ res.cpp
+./a.out
+1 3 2 4 1
+2 2 3 1 4
+3 3 1 2 4
+./a.out
+1 3 2 4 1
+2 2 3 1 4
+3 3 1 2 4
+4 3 2 4 1
+g++ res.cpp
+./a.out
+1 3 2 4 1
+2 2 3 1 4
+3 3 1 2 4
+4 3 2 4 1
+g++ res.cpp
+./a.out
+1 3 2 4 1
+2 2 3 1 4
+3 3 1 2 4
+g++ res.cpp
+./a.out
+./a.out
+g++ res.cpp
+./a.out
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+ *
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+./a.out
+g++ res.cpp
+./a.out
+g++ res.cpp
+./a.out
+g++ res.cpp
+./a.out
+g++ res.cpp
+./a.out
+g++ res.cpp
+./a.out
+g++ res.cpp
+./a.out
+./a.out
+g++ res.cpp
+./a.out
+./a.out
+g++ res.cpp
+./a.out
+./a.out
+./a.out
+g++ res.cpp
+./a.out
+g++ res_commented.cpp
+ll
+./a.out
+g++ res_commented.cpp
+./a.out
+2 2 1 3 4
+3 1 3 4 2
+4 4 3 1 2
+1 3 2 4 1
+2 2 3 1 4
+3 3 1 2 4
+./a.out
+1 3 2 4 1
+2 2 3 1 4
+3 3 1 2 4
+g++ res_commented.cpp
+./a.out
+1 3 2 4 1
+2 2 3 1 4
+3 3 1 2 4
+g++ res_commented.cpp
+./a.out
+./a.out
+./a.out
+g++ res_commented.cpp
+./a.out
+g++ res_commented.cpp
+./a.out
+g++ res_commented.cpp
+./a.out
+g++ res_commented.cpp
+./a.out
+./a.out
+./a.out
+ll
+vim res.cpp
+vim res.cpp
+vim res.cpp
+ll
+vim res_commented.cpp
+ll
+sudo pacman -S mycli
+yay mysql
+mycli mysql://sqitch:2gCYwZdgiPBUPxpyFxcnY4sz@dev-db.showseeker53.net/Pilot
+sudo systemctl stop mariadb
+sudo systemctl start mariadb
+sudo systemctl start mariadb
+journalctl -xeu mariadb.service
+yay
+yay
+ping youtube.com
+yay
+sudo pacman -S gnome
+ll
+ll
+history | grep ssh
+history
+ssh -L 3306:localhost:3306 -N -T fabricio7p@192.168.1.7
+ssh -L 3306:localhost:3306 -N -T fabricio7p@192.168.1.7
+sudo pacman -S gnome-tweaks
+sudo pacman -S chrome-gnome-shell
+yay chrome-gnome-shell
+yay
+ssh -L 3306:localhost:3306 -N -T fabricio7p@192.168.1.7
+yay
+a
+./Games 
+ll
+vim input.txt
+ll
+ll
+cd Downloads
+ll
+vim tata.html
+ll
+vim sol.cpp
+l
+ll
+ll
+vim sol.cpp
+tmux
+ll
+g++ sol.cpp
+./a.out
+./a.out
+./a.out 
+ll
+./a.out
+./a.out 3\
+2\
+5 3\
+2 1\
+3\
+1 10\
+1 5\
+1 7\
+3\
+10 1\
+5 1\
+7 1
+./a.out
+./a.out |
+cat input.txt | ./a.out
+ll
+cat input.txt
+cat input.txt | ./a.out
+g++ sol.cpp
+cat input.txt | ./a.out
+g++ sol.cpp
+cat input.txt | ./a.out
+g++ sol.cpp
+cat input.txt | ./a.out
+ll
+vim input.txt
+cat input.txt | ./a.out
+g++ sol.cpp
+cat input.txt | ./a.out
+g++ sol.cpp
+cat input.txt | ./a.out
+g++ sol.cpp
+cat input.txt | ./a.out
+g++ sol.cpp
+cat input.txt | ./a.out
+cat input.txt
+g++ sol.cpp
+cat input.txt
+cat input.txt | ./a.out
+g++ sol.cpp
+cat input.txt | ./a.out
+g++ sol.cpp
+cat input.txt | ./a.out
+g++ sol.cpp
+cat input.txt | ./a.out
+g++ sol.cpp
+cat input.txt | ./a.out
+g++ sol.cpp
+cat input.txt | ./a.out
+g++ sol.cpp
+cat input.txt | ./a.out
+g++ sol.cpp
+cat input.txt | ./a.out
+g++ sol.cpp
+cat input.txt | ./a.out
+g++ sol.cpp
+cat input.txt | ./a.out
+g++ sol.cpp
+cat input.txt | ./a.out
+g++ sol.cpp
+cat input.txt | ./a.out
+g++ sol.cpp
+cat input.txt | ./a.out
+g++ sol.cpp
+cat input.txt | ./a.out
+vim input.txt
+cat input.txt | ./a.out
+yay
+curl 'https://pilot.dev.showseeker.com/api/pilot/version' \\
+  -H 'authority: pilot.dev.showseeker.com' \\
+  -H 'sec-ch-ua: "Chromium";v="92", " Not A;Brand";v="99", "Google Chrome";v="92"' \\
+  -H 'dnt: 1' \\
+  -H 'sec-ch-ua-mobile: ?0' \\
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36' \\
+  -H 'content-type: application/json' \\
+  -H 'accept: application/json' \\
+  -H 'userid: 9381' \\
+  -H 'apikey: 42fd018184f5371ba856121e09ea9bab' \\
+  -H 'origin: http://localhost:3000' \\
+  -H 'sec-fetch-site: cross-site' \\
+  -H 'sec-fetch-mode: cors' \\
+  -H 'sec-fetch-dest: empty' \\
+  -H 'referer: http://localhost:3000/' \\
+  -H 'accept-language: en-GB,en;q=0.9,pt-BR;q=0.8,pt;q=0.7,en-US;q=0.6' \\
+  --data-raw '{"startRow":0,"endRow":100,"rowGroupCols":[],"valueCols":[],"pivotCols":[],"pivotMode":false,"groupKeys":[],"filterModel":{},"sortModel":[],"quickFilter":{"search":""}}' \\
+  --compressed
+curl 'https://pilot.dev.showseeker.com/version' \\
+  -H 'authority: pilot.dev.showseeker.com' \\
+  -H 'sec-ch-ua: "Chromium";v="92", " Not A;Brand";v="99", "Google Chrome";v="92"' \\
+  -H 'dnt: 1' \\
+  -H 'sec-ch-ua-mobile: ?0' \\
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36' \\
+  -H 'content-type: application/json' \\
+  -H 'accept: application/json' \\
+  -H 'userid: 9381' \\
+  -H 'apikey: 42fd018184f5371ba856121e09ea9bab' \\
+  -H 'origin: http://localhost:3000' \\
+  -H 'sec-fetch-site: cross-site' \\
+  -H 'sec-fetch-mode: cors' \\
+  -H 'sec-fetch-dest: empty' \\
+  -H 'referer: http://localhost:3000/' \\
+  -H 'accept-language: en-GB,en;q=0.9,pt-BR;q=0.8,pt;q=0.7,en-US;q=0.6' \\
+  --data-raw '{"startRow":0,"endRow":100,"rowGroupCols":[],"valueCols":[],"pivotCols":[],"pivotMode":false,"groupKeys":[],"filterModel":{},"sortModel":[],"quickFilter":{"search":""}}' \\
+  --compressed
+ln -s /usr/lib/libpcre.so /usr/lib64/libpcre.so.3
+sudo ln -s /usr/lib/libpcre.so /usr/lib64/libpcre.so.3
+LD_PRELOAD="/usr/lib/libgio-2.0.so.0 /usr/lib/libglib-2.0.so.0" steam-native
+LD_PRELOAD="/usr/lib/libgio-2.0.so.0 /usr/lib/libglib-2.0.so.0" steam
+LD_PRELOAD="/usr/lib/libgio-2.0.so.0 /usr/lib/libglib-2.0.so.0" steam
+sudo pacman -U https://archive.archlinux.org/packages/path/freetype2-2.10.4-1-x86_64.pkg.tar.zst
+yay freetype
+cd Downloads
+ll
+sudo pacman -U freetype2-2.10.4-1-x86_64.pkg.tar.zst
+iwctl
+libreoffice
+ll
+gcc sol.c
+./a.out
+./a.out
+vim sol.c
+ll
+cd Documents
+ll
+vim sol.c
+gcc sol.c
+vim sol.c
+gcc sol.c
+vim sol.c
+tmux
+ll
+vim sol.c
+gcc sol.c
+./a.out
+gcc sol.c
+./a.out
+ll
+rm -rf a.out sol.c
+ll
+ssh -L 3306:localhost:3306 -N -T fabricio7p@192.168.1.7
+ll
+cd Documents
+ll
+tmux
+yay
+ll
+cd Dow
+cd Downloads
+ll
+vim tata.html
+sudo systemctl start teamviewerd
+sudo systemctl stop teamviewerd
+l
+ll
+vim sol.cpp
+ll
+..
+ll
+l
+yay
+yay
+vim sol.cpp
+g++ sol.cpp
+./a.out
+ll
+ll
+vim sol.cpp
+tmux
+yay obsidian
+yay zoom
+yay
+yay
+sudo pacman -Qs gnome
+ll
+npx degit sveltejs/template svelte-typescript-app
+ll
+cd svelte-typescript-app
+node scripts/setupTypeScript.js
+ll
+ll
+npm install
+ssh -L 5000:localhost:5000 -N -T fabricio7p@192.168.1.7
+yay
+gistit arquivo
+gistit -v UHAhduhasuhsau
+gs
+node
+ssh -L 3306:localhost:3306 -N -T fabricio7p@192.168.1.7
+xcolor
+xcolor
+ssh -L 3306:localhost:3306 -N -T fabricio7p@192.168.1.7
+yay transmission
+yay
+sudo systemctl start teamviewerd
+cd .ssh/
+ll
+vim config
+ssh -L 3306:localhost:3306 -N -T fabricio7p@192.168.1.7
+sudo systemctl mariadb start
+sudo systemctl start mariadb
+which vpn
+cd /usr/local/bin
+vim vpn
+vim vpn
+sudo vpn up
+sudo vpn up
+sudo vpn status
+sudo vpn status
+yay ifconfig
+sudo vpn status
+yay
+ssh 192.168.1.7
+cd .ssh
+vim config
+yay xauth
+ll
+ssh 192.168.1.7
+ssh -Y 192.168.1.7
+ssh -Y 192.168.1.7
+ssh -Y 192.168.1.7
+ssh -Y 192.168.1.7
+scp fabricio7p@192.168.1.7:~/xcookie ~/xcookie
+cd
+xauth nmerge ~/xcookie
+ll
+cat .Xauthority
+cat xcookie
+xauth list
+ssh 192.168.1.7
+ssh 192.168.1.7
+xauth list
+xauth remove \#ffff\#6661627269732d61726368\#:
+xauth remove $DISPLAY \#ffff\#6661627269732d61726368\#:
+man xauth
+xauth --help
+vim .Xauthority
+ll
+cd .ssh
+vim config
+ssh 192.168.1.7
+ssh 192.168.1.7
+ll
+ssh 192.168.1.7
+ll
+vim config
+ssh 192.168.1.7
+ssh 192.168.1.7
+scp fabricio7p@192.168.1.7:~/xcookie ~/xcookie
+xauth nmerge ~/xcookie
+ssh 192.168.1.7
+ssh -Y 192.168.1.7
+sudo systemctl restart sshd
+cd .ssh
+vim config
+cd
+ll
+vim .Xauthority
+vim xcookie
+yay xsel
+xsel -o
+yay alacritty
+cd .ssh
+ll
+vim config
+ssh -X 192.168.1.7
+ssh -X 192.168.1.7
+echo $DISPLAY
+vim .zshrc
+xauth list
+xauth add $DISPLAY - `mcookie`
+ll
+xauth list
+xauth add $DISPLAY - `mcookie`
+xauth list
+cat .Xauthority
+xauth list
+xauth list
+xauth list
+rm -rf .Xauthority
+xauth list
+xauth remove fabris-arch/unix:1
+xauth remove fabris-gentoo/unix:10
+xauth list
+ssh 192.168.1.7
+ssh -v -x
+ssh -v -x 192.168.1.7
+ssh -v -x 192.168.1.7
+ssh -v -X 192.168.1.7
+cd .ssh
+vim config
+vim config
+cd
+ssh gentoo
+vim
+ll
+vim .zshrc
+echo $DISPLAY
+xauth list
+xauth list
+xauth list
+xauth merge xcookie
+xauth nmerge xcookie
+xauth list
+xclip
+xclip fabris-gento/unix:10
+man xclip
+yay manpages
+sudo pacman -S man
+man xclip
+xclip -d fabris-gentoo:10.0
+man xclip
+xclip -d fabris-gentoo:10.0 -verbose
+cd .ssh
+vim config
+cd /etc/ssh
+sudo nvim ssh_config
+which xauth
+sudo nvim ssh_config
+cd
+vim .zshrc
+ssh gentoo
+echo $DISPLAY
+ssh -v gentoo
+ssh gentoo
+ssh gentoo
+ssh -v gentoo
+cd /etc/ssh
+sudo nvim sshd_config
+cd
+cp -r /etc/ssh/* ~/dummy-sshd/
+mkdir dummy-sshd
+cp -r /etc/ssh/* ~/dummy-sshd/
+ssh-keygen -t rsa -f ~/dummy-sshd/ssh_host_rsa_key
+ssh-keygen -t dsa -f ~/dummy-sshd/ssh_host_dsa_key
+ll
+cd dummy-sshd
+ll
+vim sshd_config
+ll
+..
+rm -rf dummy-sshd
+ll
+cd .ssh/
+ll
+vim config
+ssh -v -X gentoo
+ssh -v -X gentoo
+ssh -v -X gentoo
+ssh gentoo
+ssh gentoo
+ssh gentoo
+ssh gentoo
+ssh -v -X -Y gentoo
+ssh -v -X -Y gentoo
+ssh -v -X -Y gentoo
+ssh -v -X -Y gentoo
+xauth remove fabris-gentoo/unix:10
+xauth list
+xauth generate :0
+xauth generate $DISPLAY
+xauth list
+echo $DISPLAY
+cd
+vim .zshrc
+echo $DISPLAY
+DISPLAY=:localhost:0
+echo $DISPLAY
+DISPLAY=localhost:0
+xauth generate $DISPLAY
+DISPLAY=localhost:0.0
+xauth generate $DISPLAY
+ssh gentoo
+echo $DISPLAY
+xauth list
+xauth generate $DISPLAY
+vim .zshrc
+xauth list
+xauth merge xcookie
+xauth nmerge xcookie
+xauth list
+echo $DISPLAY
+xclip
+ssh -v gentoo
+ssh -v gentoo
+ssh -v gentoo
+ssh -v gentoo
+ssh gentoo
+ll
+cd .ssh
+ll
+vim config
+ssh gentoo
+sudo systemctl start mariadb
+mysql -u root
+mysql -u admin
+mysql -u admin -p
+mysql -u admin
+mysql -u root -p
+mysql -u root -p
+sudo mariadb-secure-installation
+sudo vpn up
+ssh -Y 192.168.1.7
+ll
+cd .ssh
+ll
+vim config
+vim known_hosts
+rm -rf known_hosts
+ssh -Y 192.168.1.7
+ssh -Y 192.168.1.7
+ll
+ssh -X -Y 192.168.1.7
+ssh -X -Y -v 192.168.1.7
+ssh -X -Y -v 192.168.1.7
+ssh -X -Y -v 192.168.1.7
+ll
+cd /usr/share/X11/xkb
+ll
+cd symbols
+ll
+sudo nvim br
+cd
+ssh 192.168.1.7
+cd .ssh
+ll
+vim config
+ll
+ssh 192.168.1.7
+ll
+vim config
+ll
+ssh gentoo
+ssh gentoo
+ssh gentoo
+ssh gentoo
+ssh gentoo
+ssh gentoo
+cd /etc
+ssh gentoo
+ssh gentoo
+ssh gentoo
+ssh gentoo
+ssh gentoo
+yay joplin
+ssh gentoo
+vim .ssh
+cd .ssh
+ll
+vim config
+ssh laptop
+ssh laptop
+ssh laptop
+ssh laptop
+ssh laptop
+ssh laptop
+mariadb localhost:3306
+sudo systemctl stop mariadb
+sudo systemctl disable mariadb
+mariadb -u fabris
+mariadb -u fabris -h localhost
+mariadb -u fabris -h 192.168.1.7
+mariadb -u fabris -h 192.168.1.7
+mariadb -u fabris -p -h 192.168.1.7
+ssh -v laptop
+ssh -X -Y -v 192.168.1.7
+ll
+cd .ssh
+ll
+vim config
+ll
+ll
+ll
+ssh -X -Y laptop
+sudo vpn up
+ssh -X -Y laptop
+ssh -L 3306:localhost:3306 -N -T fabricio7p@192.168.1.7
+sudo systemctl start teamviewerd
+sudo vpn up
+ssh -X -Y laptop
+ssh -Y -X laptop
+cd .config/
+mkdir alacritty
+vim alacritty.yml
+cd .config/alacritty
+ll
+ll
+..
+ll
+l
+ll
+vim alacritty.yml
+cd
+ssh -Y -X laptop
+ssh -Y -X laptop
+ll
+ll
+ll
+ll
+kk
+ll
+ll
+ll
+l
+ll
+sudo systemctl start teamviewerd
+joplin
+joplin-desktop
+joplin-desktop
+joplin-desktop -v
+yay
+cd .joplin
+ll
+./Joplin.AppImage
+sudo pkill joplin
+./Joplin.AppImage
+htop
+joplin-desktop
+sudo pacman -Rcns joplin
+yay joplin
+cd
+cd Downloads
+./Joplin-2.4.9.AppImage
+sudo chmod +x Joplin-2.4.9.AppImage
+./Joplin-2.4.9.AppImage
+yay joplin
+joplin-desktop
+joplin
+sudo vpn up
+sudo vpn up
+sudo vpn up
+mycli mysql://sqitch:2gCYwZdgiPBUPxpyFxcnY4sz@dev-db.showseeker53.net/Pilot\
+
+sudo vpn down
+cd /usr/local/bin
+sudo nvim vpn
+ps aux | grep openvpn
+sudo vpn up
+ps aux | grep openvpn
+ps aux | grep openvpn
+ps aux | grep openvpn
+ps aux | grep openvpn
+ps aux | grep openvpn
+ps aux | grep openvpn
+ps aux | grep openvpn
+ps aux | grep openvpn
+ps aux | grep openvpn
+ps aux | grep openvpn
+ps aux | grep openvpn
+ps aux | grep openvpn
+ps aux | grep openvpn
+ps aux | grep openvpn
+ps aux | grep openvpn
+ps aux | grep openvpn
+ps aux | grep openvpn
+ps aux | grep openvpn
+ps aux | grep openvpn
+ps aux | grep openvpn
+ps aux | grep openvpn
+ps aux | grep openvpn
+ps aux | grep openvpn
+ps aux | grep openvpn
+vim vpn
+ps aux | grep openvpn
+vim vpn
+cd
+ssh -L 3306:localhost:3306 -N -T fabricio7p@192.168.1.7
+sudo vpn up
+yay simplenote
+ll
+cd .config
+ll
+cd alacritty
+ll
+vim alacritty.yml
+man alacritty
+sudo pacman -Rcns joplin
+sudo pacman -Rcns joplin-beta
+xcolor
+yay
+yay
+joplin --help
+joplin -v
+joplin
+sudo pacman -Rcns joplin
+joplin
+yay joplin
+sudo pacman -Rcns joplin
+yay joplin
+yay joplin
+yay microsof-ttf
+yay microsoft-ttf
+yay
+yay postman
+sudo vpn up
+env
+cd Downloads
+ll
+git clone git@github.com:fabricio7p/gistit.git
+git clone https://github.com/fabricio7p/gistit.git
+ll
+cd gistit
+ll
+cd cli
+ll
+cargo build --release
+ll
+l
+ll
+./gistit send -f clipboard.rs
+./gistit send -f clipboard.rs -c
+cargo run -- send -f clipboard.rs
+cargo run -- send -f clipboard.rs -c
+RUST_LOG=trace cargo run -- send -f clipboard.rs -c
+RUST_LOG=trace cargo run -- send -f clipboard.rs -c
+ssh -X -Y laptop
+ssh -Y -X laptop
+cd Downloads
+git clone https://github.com/TheKiteEatingTree/cli-clipboard.git
+cd cli-clipboard
+ll
+cd examples
+ll
+vim hello_world.rs
+cargo run
+cargo run --example
+cargo run --example hello_world
+ll
+vim hello_world.rs
+cargo run --example hello_world
+..
+ll
+cd examples
+ll
+vim primary_selection.rs
+cargo run --example primary_selection
+vim primary_selection.rs
+..
+ll
+cd src
+ll
+cargo text
+cargo test
+RUST_BACKTRACE=1 cargo test
+cargo test
+sudo vpn up
+sudo vpn up
+sudo vpn up
+cd Documents/Tata
+ll
+touch index.html
+touch main.css
+touch index.js
+tmux
+yay
+sudo vpn up
+sudo vpn up
+xrandr
+pacman-key --keyserver hkps://keys.openpgp.org --recv-keys 6E58E886A8E07538A2485FAED6A4F386B4881229\
+pacman-key --lsign-key 6E58E886A8E07538A2485FAED6A4F386B4881229\
+
+sudo pacman-key --keyserver hkps://keys.openpgp.org --recv-keys 6E58E886A8E07538A2485FAED6A4F386B4881229\
+pacman-key --lsign-key 6E58E886A8E07538A2485FAED6A4F386B4881229\
+
+sudo pacman-key --lsign-key 6E58E886A8E07538A2485FAED6A4F386B4881229
+sudo pacman-key --keyserver hkps://keys.openpgp.org --recv-keys 6E58E886A8E07538A2485FAED6A4F386B4881229
+cd /etc
+sudo nvim pacman.conf
+sudo pacman -Syyuu
+sudo nvim pacman.conf
+sudo pacman -Syyu
+cd
+cd .local/share/gnome-shell/extensions/dash-to-panel@jderose9.github.com
+ll
+rm -rf overview.js
+vim overview.js
+yay gnome-software
+sudo pacman -S dconf
+sudo pacman -S dconf-editor
+rustup install stable
+sudo pacman -Rcns redshift
+sudo pacman -Rcns redshift-gtk
+sudo pacman -S geary
+ll
+ll
+ll
+vim .zshrc
+ll
+cd Documents
+ll
+cd Learning
+ll
+vim test.cpp
+tmux
+ll
+ll
+ll
+l
+ll
+tmux a
+ll
+g++ test.cpp
+./a.out
+ll
+vim test.cpp
+vim test.cpp
+g++ test.cpp
+./a.out
+g++ test.cpp
+./a.out
+g++ test.cpp
+./a.out
+g++ test.cpp
+./a.out
+g++ test.cpp
+./a.out
+ll
+vim .zshrc
+ll
+tmux a
+sudo vpn up
+sudo vpn up
+yay brave-beta
+sudo pacman -Rcns brave-beta-bin
+sudo vpn up
+sudo vpn up
+sudo pkill spotify
+sudo vpn up
+sudo vpn up
+sudo vpn up
+ssh -X -Y 192.168.1.7
+sudo vpn up
+ssh -X -Y 192.168.1.7
+sudo vpn up
+xcolor
+xcolor
+yay
+tmux a
+yay
+makepkg -i https://aur.archlinux.org/etcher-bin.git
+git clone https://aur.archlinux.org/etcher-bin.git
+ll
+cd etcher-bin
+ll
+makepkg -i
+sudo vpn up
+cd /etc
+ll
+sudo nvim sudoers
+sudo vpn up
+curl 177.198.64.149
+ll
+curl cheat.sh/curl
+ncat
+yay ncat
+yay netcat
+netcat 
+curl cheat.sh/netcat
+curl cheat.sh/ncat
+ncat 177.198.64.149
+netcat 177.198.64.149 44405
+netcat 177.198.64.149 44405 -v
+netcat 177.198.64.149 44405 -v
+netcat 177.198.64.149 44405 -v
+sudo os-prober
+lsblk
+ll
+mkdir tmp
+lsblk
+sudo mount /dev/nvme0n1p3 tmp
+lsblk
+sudo umount /dev/nvme0n1p3
+ll
+cd Documents
+ll
+vim first.rs
+vim first.rs
+ssh -L 5000:localhost:5000 -N -T fabricio7p@192.168.1.7
+ssh -L 42263:localhost:42263 -N -T fabricio7p@192.168.1.7
+ssh -L 4000:localhost:4000 -N -T fabricio7p@192.168.1.7
+ssh -L 4001:localhost:4001 -N -T fabricio7p@192.168.1.7
+ssh -L 4500:localhost:4500 -N -T fabricio7p@192.168.1.7
+curl cheat.sh/ssh
+man ssh
+man ssh
+history | grep ssh
+ssh -L 3306:localhost:3306 -N -T fabricio7p@192.168.1.7
+ssh -L 4000:localhost:4000 -N -T fabricio7p@192.168.1.7
+ssh -L 4001:localhost:4001 -N -T fabricio7p@192.168.1.7
+ssh -L 4001:localhost:4001 -N -T fabricio7p@192.168.1.7 &
+ssh -L 4000:localhost:4000 -N -T fabricio7p@192.168.1.7 &
+ssh -L 5000:localhost:5000 -N -T fabricio7p@192.168.1.7 &
+fg
+fg
+fg
+fg
+ll
+ssh -L 4000:localhost:4000 -N -T fabricio7p@192.168.1.7 -p
+ssh -L 4000:localhost:4000 -N -T fabricio7p@192.168.1.7
+ssh -L 4001:localhost:4001 -N -T fabricio7p@192.168.1.7
+ssh -L 5000:localhost:5000 -N -T fabricio7p@192.168.1.7
+fg
+fg
+fg
+tmux
+sudo vpn up
+tmux a
+tmux
+ssh -L 4000:localhost:4000 -N -T fabricio7p@192.168.1.7
+ssh -L 4002:localhost:4002 -N -T fabricio7p@192.168.1.7
+fg
+ssh -L 4001:localhost:4001 -N -T fabricio7p@192.168.1.7
+ssh -L 5000:localhost:5000 -N -T fabricio7p@192.168.1.7
+ssh 192.168.1.7
+tmux
+ssh -L 4000:localhost:4000 -N -T fabricio7p@192.168.1.7
+ssh -L 5000:localhost:5000 -N -T fabricio7p@192.168.1.7
+ssh -L 4002:localhost:4002 -N -T fabricio7p@192.168.1.7
+ssh -L 4001:localhost:4001 -N -T fabricio7p@192.168.1.7
+sudo vpn up
+sudo vpn up
+yay
+git clone https://github.com/ZorinOS/zorin-icon-themes.git
+git clone https://github.com/vinceliuice/Fluent-gtk-theme.git
+cd Fluent-gtk-theme
+ll
+./install.sh
+ll
+cd release
+ll
+..
+..
+ll
+git clone -b Wallpaper https://github.com/vinceliuice/Fluent-gtk-theme.git
+cd Fluent-gtk-theme
+git pull origin Wallpaper
+git clone -b Wallpaper https://github.com/vinceliuice/Fluent-gtk-theme.git
+l
+ll
+./install-wallpapers.sh
+xcolor
+cd Downloads
+ll
+cd Fluent-gtk-theme
+ll
+./parse-sass.sh
+cd release
+ll
+tar xvz Fluent-teal.tar.xz
+tar xvfz Fluent-teal.tar.xz
+tar xvzf Fluent-teal.tar.xz
+curl cheat-sh/tar
+curl cheat.sh/tar
+ll
+..
+ll
+./install.sh --tweaks round
+./install.sh --tweaks round square
+./install.sh --tweaks round
+./install.sh --tweaks orange solid blur
+./install.sh --tweaks solid blur -t orange
+./install.sh --tweaks solid -t orange
+./install.sh --tweaks solid
+./install.sh
+yay plank
+plank
+yay station
+yay station-git
+yay ulauncher
+ll
+cd Documents
+ll
+mv GoogleSans-Regular.ttf /usr/share/fonts
+sudo mv GoogleSans-Regular.ttf /usr/share/fonts
+ll
+mv Google-sans-Font-Family.zip /usr/share/fonts
+sudo mv Google-sans-Font-Family.zip /usr/share/fonts
+cd /usr/share/fonts
+ll
+rm -rf GoogleSans-Regular.ttf
+sudo rm -rf GoogleSans-Regular.ttf
+ll
+sudo unzip Google-sans-Font-Family.zip
+ll
+rm -rf Product*
+sudo rm -rf Product*
+ll
+ll
+rm -rf Google-sans-Font-Family.zip
+sudo rm -rf Google-sans-Font-Family.zip
+sudo mkdir google-sans
+sudo mv font.zip google-sans
+cd google-sans
+sudo unzip font.zip
+cd Documents
+ll
+sudo mv font.zip /usr/share/fonts
+yay inter
+yay inter-ttf
+yay inter-font
+npm --help
+ll --help
+ll
+ll
+l
+cd
+ll
+scp laptop:/home/fabricio7p/Documentos/Projects/Development/gistit/cli/graph.png .\
+
+ll
+tmux a
+ssh laptop
+tmux
+ssh -L 4000:localhost:4000 -N -T fabricio7p@192.168.1.7
+ssh -L 4000:localhost:4000 -N -T fabricio7p@192.168.1.7
+ssh -L 4000:localhost:4000 -N -T fabricio7p@192.168.1.7
+ssh -L 5000:localhost:5000 -N -T fabricio7p@192.168.1.7
+ssh -L 5000:localhost:5000 -N -T fabricio7p@192.168.1.7
+ssh -L 5000:localhost:5000 -N -T fabricio7p@192.168.1.7
+ssh -L 4001:localhost:4001 -N -T fabricio7p@192.168.1.7
+ssh -L 4001:localhost:4001 -N -T fabricio7p@192.168.1.7
+vim
+node
+node
+node
+yay
+sudo vpn up
+sudo vpn up
+vim 1.json
+neofetch
+node
+ll
+l
+ll
+cd Documents
+ll
+cd cd Ta
+cd Tata
+ll
+vim test1.json
+vim test2.json
+ll
+curl cheat.sh/diff
+diff test1.json test2.json -y
+diff -u test1.json test2.json
+ll
+vim test1.json
+vim test2.json
+diff -u test1.json test2.json
+diff test1.json test2.json -y
+diff test1.json test2.json > diff.diff
+ll
+vim diff.diff
+sudo vpn up
+sudo vpn down
+htop
+sudo vpn up
+uptime
+ssh -L 3306:localhost:3306 -N -T fabricio7p@192.168.1.7
+tmux
+ssh -L 5000:localhost:5000 -N -T fabricio7p@192.168.1.7
+ssh -L 4001:localhost:4001 -N -T fabricio7p@192.168.1.7
+ssh -L 4000:localhost:4000 -N -T fabricio7p@192.168.1.7
+sudo vpn up
+sudo pacman -S exfatprogs
+yay
+echo $FPATH
+bash
+sudo vpn up
+yay minecraft
+java -jar forge-1.12.2-14.23.5.2855-installer.jar
+java -jar forge-1.12.2-14.23.5.2855-installer.jar
+cd /etc/pulse
+sudo nvim default.pa
+pacmd list-sources | grep -e 'index:' -e device.string -e 'name:'
+yay
+tmux a
+ll
+sudo pacman -Rcns thunderbird
+sudo vpn up
+fc --list
+fc -l
+fc
+fc -l
+echo $PATH
+cargo install lapce
+ll
+cargo install
+cargo install .
+cargo install --manifest .
+cargo build --release
+l
+l
+ll
+l
+ll
+cd target/release
+ll
+./lapce
+sudo pacman -Rcns thunar
+sudo pacman -R thunar
+rustup update stable
+cd
+ll
+cd Documents
+ll
+mkdir Projects
+cd Projects
+ll
+git clone https://github.com/fabricio7p/gistit.git
+ll
+cd gistit
+ll
+yay
+cd Documents
+ll
+cd Projects
+ll
+git clone https://github.com/libp2p/rust-libp2p.git
+cd rust-libp2p
+ll
+cargo run --example file-sharing -- --peer /ip4/127.0.0.1/tcp/40837/p2p/12D3KooWPjceQrSwdWXPyLLeABRXmuqt69Rg3sBYbU1Nft9HyQ6X get --name readme
+cargo run --example file-sharing -- --peer /ip4/192.168.1.7/tcp/40837/p2p/12D3KooWPjceQrSwdWXPyLLeABRXmuqt69Rg3sBYbU1Nft9HyQ6X get --name readme
+cargo run --example file-sharing -- --peer /ip4/192.168.1.7/tcp/40837/p2p/12D3KooWPjceQrSwdWXPyLLeABRXmuqt69Rg3sBYbU1Nft9HyQ6X get --name readme
+cargo run --example file-sharing -- --peer /ip4/192.168.1.7/tcp/40837/p2p/12D3KooWPjceQrSwdWXPyLLeABRXmuqt69Rg3sBYbU1Nft9HyQ6X get --name readme
+yay hexchat
+yay Element
+sudo vpn up
+gsettings set org.gnome.shell.app-switcher current-workspace-only true
+yay
+yay qjackctl jack-rack
+yay qjackctl
+yay jack-rack
+yay tap-plugins
+yay pulseaudio-module-jack
+yay pulseaudio-jack
+qjackctl
+sudo vpn up
+sudo vpn up
+touch asdasd
+ll
+touch zxczxc
+touch zxczxc
+touch zxczxc
+touch asdasd
+touch asdasd
+touch asdasdassd
+touch asdasd
+touch asdasdasd
+touch asdasdasd
+touch asdasdasdasd
+pwd
+touch asdasdasdasdazxc
+touch asdasdasdasdazxczzz
+yay
+yay
+yay feral
+pacman -S meson systemd git dbus libinih
+sudo pacman -S meson systemd git dbus libinih
+yay gamemode
+cd Documents
+ll
+git clone https://fabricio7p@bitbucket.org/showseekerpilot/pilot-react.git
+sudo vpn up
+sudo vpn up
+mycli
+mycli mysql://sqitch:2gCYwZdgiPBUPxpyFxcnY4sz@db.onmedia.showseeker.com/Pilot\
+
+ll
+vim .tmux.conf
+yay
+htop
+cd Downloads
+git clone https://gitlab.gnome.org/GNOME/gnome-control-center.git
+cd gnome-control-center
+ll
+vim meson.build
+sudo pacman -S meson
+meson build /build
+ll
+cd build
+ll
+..
+ll
+meson build build
+meson build
+sudo pacman -S gtk4
+yay gtk4
+..
+git clone https://github.com/GNOME/gtk.git
+cd gtk
+ll
+meson _build .
+cd _build
+ninja
+sudo ninja install
+..
+ll
+..
+ll
+cd gnome-control-center
+ll
+meson build .
+l
+..
+ll
+cd gtk
+cd _build
+sudo ninja install --replace
+sudo ninja install
+cd Downloads
+ll
+cd gnome-control-center
+cd build
+..
+meson build .
+yay
+..
+git clone https://gitlab.gnome.org/GNOME/nautilus.git
+cd nautilus
+ll
+meson _build .
+sudo pacman -S gobject-introspection
+meson _build .
+ninja
+cd build-aux
+..
+cd _build
+ninja
+sudo ninja install
+cd /usr/local/bin
+./nautilus
+yay libadwaita
+cd 
+cd Downloads
+git clone https://gitlab.gnome.org/GNOME/adwaita-icon-theme.git
+git clone https://gitlab.gnome.org/GNOME/libadwaita.git
+cd gtk
+ll
+gl
+git checkout 4.5.1
+git pull
+git pull origin 4.5.1
+meson _build .
+cd _build
+ninja
+sudo ninja install
+cd ..
+cd ..
+cd gnome-control-center
+ll
+git checkout .
+git clean -a
+git clean -f
+gs
+cd subprojects
+ll
+cd libadwaita
+ll
+..
+..
+ll
+meson build .
+yay gnome-desktop-4
+touch 8098300-log-ticket
+yay blanket
+menulibre
+menulibre-menu-validate
+sudo pacman -Rcns menulibre
+yay menulibre
+menulibre
+yay
+sudo pacman -Rcns menulibre
+yay menulibre
+yay menulibre
+menulibre
+cd .config/alacritty
+ll
+vim alacritty.yml
+ll
+vim alacritty.yml
+ll
+l
+ll
+ll
+gs
+ll
+vim alacritty.yml
+ll
+cd
+ll
+vim .tmux.conf
+ll
+ll
+ll
+l
+ll
+ll
+l
+nnn
+ll
+exit
+l
+cd .config/alacritty
+ll
+vim alacritty.yml
+tmux
+ll
+..
+ll
+ll
+cd .config/alacritty
+ll
+vim alacritty.yml
+cd
+vim .tmux.conf
+ll
+tmux
+xcolor
+xcolor
+ll
+cd
+ll
+cd .vim
+ll
+cd plugged
+ll
+rm -rf vim-fugitive
+..
+ll
+rm -rf plugged
+ll
+ll
+ll
+vim init.vim
+vim init.vim
+vim init.vim
+vim init.vim
+ll
+ll
+cd .config
+cd alacritty
+ll
+vim alacritty.yml
+ll
+cd
+ll
+ll
+ll
+yay
+cd .config
+ll
+cd alacritty
+ll
+vim alacritty.yml
+ll
+..
+cd nvim
+ll
+vim init.vim
+vim init.vim
+vim init.vim
+vim init.vim
+tmux
+tmux a
+sudo vpn up
+yay
+sudo pacman -Rcns vscoode
+sudo pacman -Rcns vscode
+sudo pacman -Rcns visual-studio-code-bin
+yay vscode
+node -v
+code --ignore-certificate-errors
+sudo pacman -Rcns visual-studio-code-bin
+yay vscode
+yay vscode
+sudo pacman -Rcsn code
+yay vscode
+sudo pacman -Rcns code
+yay vscodium
+sudo pacman -Rcns vscodium-bin
+yay vscode
+l
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+yay packer
+yay rust-analyzer
+yay google-emoji
+yay emoji
+yay noto-emoji
+yay noto
+l
+cd 
+cd .config/nvim
+l
+mv completions.lua lsp.lua
+vim lsp.lua
+vim lsp.lua
+vim lsp.lua
+vim lsp.lua
+vim lsp.lua
+vim lsp.lua
+vim lsp.lua
+vim lsp.lua
+ll
+vim statusline.lua
+vim statusline.lua
+vim statusline.lua
+vim statusline.lua
+vim statusline.lua
+vim statusline.lua
+vim statusline.lua
+vim statusline.lua
+vim statusline.lua
+ll
+l
+ll
+ll
+ll
+l
+cd
+ll
+cd Documents
+ll
+cd Work
+..
+ll
+cd Projects
+ll
+cd gistit
+ll
+git pull origin master
+l
+l
+l
+fg
+l
+!
+l
+..
+..
+ll
+ll
+cd
+ll
+cd Documents/Projects
+l
+ll
+l
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+l
+l
+l
+ll
+vim ui.lua
+vim ui.lua
+vim ui.lua
+vim ui.lua
+vim ui.lua
+vim ui.lua
+vim ui.lua
+vim ui.lua
+vim ui.lua
+vim ui.lua
+vim ui.lua
+vim ui.lua
+vim ui.lua
+vim ui.lua
+vim ui.lua
+vim ui.lua
+vim ui.lua
+vim ui.lua
+vim ui.lua
+ll
+vim lsp.lua
+l
+ll
+vim completion.lua
+vim completion.lua
+vim completion.lua
+vim completion.lua
+vim completion.lua
+vim completion.lua
+vim completion.lua
+vim completion.lua
+vim completion.lua
+vim completion.lua
+vim completion.lua
+vim completion.lua
+vim completion.lua
+vim completion.lua
+vim completion.lua
+vim completion.lua
+vim completion.lua
+rg
+yay ripgrep
+ll
+vim
+l
+ll
+vim keymaps.lua
+vim keymaps.lua
+vim keymaps.lua
+vim keymaps.lua
+vim keymaps.lua
+vim keymaps.lua
+vim keymaps.lua
+vim keymaps.lua
+vim keymaps.lua
+vim keymaps.lua
+vim keymaps.lua
+vim keymaps.lua
+vim keymaps.lua
+vim keymaps.lua
+vim keymaps.lua
+vim keymaps.lua
+vim keymaps.lua
+vim keymaps.lua
+vim keymaps.lua
+vim keymaps.lua
+vim keymaps.lua
+vim keymaps.lua
+vim keymaps.lua
+vim keymaps.lua
+vim keymaps.lua
+vim keymaps.lua
+vim keymaps.lua
+l
+ll
+vim autocmds.lua
+vim autocmds.lua
+vim autocmds.lua
+l
+ll
+vim ui.lua
+vim ui.lua
+vim ui.lua
+vim ui.lua
+vim ui.lua
+vim ui.lua
+vim ui.lua
+vim ui.lua
+vim ui.lua
+l
+ll
+l
+ll
+..
+ll
+l
+ll
+vim .tmux.conf
+vim .tmux.conf
+ll
+vim .tmux.conf
+vim .tmux.conf
+ll
+rm -rf .tmux
+rm -rf .tmux-status.conf
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+cd
+cd Downloads/gistit
+l
+..
+l
+ll
+ll
+nvim host.rs
+nvim host.rs
+nvim host.rs
+nvim host.rs
+nvim host.rs
+nvim host.rs
+nvim host.rs
+nvim host.rs
+ll
+l
+..
+..
+ll
+vim .tmux.conf
+ll

@@ -17,11 +17,6 @@ cmd([[
     augroup END
 ]])
 
--- load auto completion for crates only when a toml file is open
-cmd([[
-    autocmd FileType toml lua require('cmp').setup.buffer { sources = { { name = 'crates' } } }
-]])
-
 -- auto format file on save
 cmd([[
     augroup Format

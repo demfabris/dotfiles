@@ -61,3 +61,38 @@ global.bufferline = {
     semantic_letters = true,
     letters = 'asdfjkl;ghnmxcvbziowerutyqpASDFJKLGHNMXCVBZIOWERUTYQP',
 }
+
+-- Terminal
+require('toggleterm').setup({
+    size = function(term)
+        if term.direction == 'horizontal' then
+            return 15
+        elseif term.direction == 'vertical' then
+            return Vim.o.columns * 0.4
+        end
+    end,
+    hide_numbers = true,
+    shade_terminals = true,
+    start_in_insert = true,
+    insert_mappings = false, -- no default mapping
+    persist_size = true,
+    direction = 'float',
+		shading_factor = 3,
+    close_on_exit = true,
+    shell = Vim.o.shell,
+		open_mapping = [[<C-t>]],
+    float_opts = {
+        border = 'curved',
+        highlights = {
+            border = 'Normal',
+            background = 'Normal',
+        },
+    },
+})
+
+function _G.set_terminal_keymaps()
+    local opts = { noremap = true }
+    Vim.api.nvim_buf_set_keymap(0, 't', '<C-t>', [[<C-\><C-n><C-W>j]], opts)
+end
+
+Vim.cmd('autocmd! TermOpen term://*toggleterm#* lua set_terminal_keymaps()')

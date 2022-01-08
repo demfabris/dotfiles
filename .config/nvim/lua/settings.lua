@@ -29,6 +29,9 @@ set.clipboard:append('unnamedplus')
 -- Mouse mode
 set.mouse = 'a'
 
+-- Allow closed terminals
+set.hidden = true
+
 -- Sensible
 set.encoding = 'utf-8'
 set.fileformat = 'unix'

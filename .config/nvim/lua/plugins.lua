@@ -47,6 +47,7 @@ require('packer').startup({function()
 		use 'arkav/lualine-lsp-progress'
 		use { 'lewis6991/gitsigns.nvim', requires = { 'nvim-lua/plenary.nvim' } }
 		use 'lukas-reineke/indent-blankline.nvim'
+		use 'akinsho/toggleterm.nvim' -- better terminal
 
 		use {
 			"luukvbaal/stabilize.nvim",

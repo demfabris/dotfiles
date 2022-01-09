@@ -1,3 +1,5 @@
+Vim = vim
+
 local lsp_status = require('lsp-status')
 local coq = require('coq')
 
@@ -12,25 +14,10 @@ local function ensure_server(name)
     return server
 end
 
-local capabilities = coq.lsp_ensure_capabilities(vim.lsp.protocol.make_client_capabilities())
+local capabilities = coq.lsp_ensure_capabilities(Vim.lsp.protocol.make_client_capabilities())
 capabilities.textDocument.completion.completionItem.snippetSupport = true
-capabilities = vim.tbl_extend('keep', capabilities, lsp_status.capabilities)
+capabilities = Vim.tbl_extend('keep', capabilities, lsp_status.capabilities)
 
---lua
-ensure_server('sumneko_lua'):setup({
-    on_attach = lsp_status.on_attach,
-    capabilities = capabilities,
-})
--- bash
-ensure_server('bashls'):setup({
-    on_attach = lsp_status.on_attach,
-    capabilities = capabilities,
-})
--- python
-ensure_server('pyright'):setup({
-    on_attach = lsp_status.on_attach,
-    capabilities = capabilities,
-})
 -- typescript
 ensure_server('tsserver'):setup({
     init_options = require('nvim-lsp-ts-utils').init_options,
@@ -92,9 +79,9 @@ ensure_server('tsserver'):setup({
 
         -- no default maps, so you may want to define some here
         local opts = { silent = true }
-        vim.api.nvim_buf_set_keymap(bufnr, 'n', 'gs', ':TSLspOrganize<CR>', opts)
-        vim.api.nvim_buf_set_keymap(bufnr, 'n', 'gf', ':TSLspRenameFile<CR>', opts)
-        vim.api.nvim_buf_set_keymap(bufnr, 'n', 'go', ':TSLspImportAll<CR>', opts)
+        Vim.api.nvim_buf_set_keymap(bufnr, 'n', 'gs', ':TSLspOrganize<CR>', opts)
+        Vim.api.nvim_buf_set_keymap(bufnr, 'n', 'gf', ':TSLspRenameFile<CR>', opts)
+        Vim.api.nvim_buf_set_keymap(bufnr, 'n', 'go', ':TSLspImportAll<CR>', opts)
     end,
 })
 
@@ -114,7 +101,7 @@ require('rust-tools').setup({
     },
     server = {
         on_attach = lsp_status.on_attach,
-        capabilities = coq.lsp_ensure_capabilities(capabilities),
+        capabilities = capabilities,
         settings = {
             ['rust-analyzer'] = {
                 assist = {
@@ -158,12 +145,6 @@ require('rust-tools').setup({
 -- Cargo.toml
 require('crates').setup()
 
--- yaml
-ensure_server('yamlls'):setup({
-    on_attach = lsp_status.on_attach,
-    capabilities = capabilities,
-})
-
 -- json
 local jsonls = ensure_server('jsonls')
 jsonls:setup({
@@ -172,27 +153,47 @@ jsonls:setup({
     commands = {
         Format = {
             function()
-                vim.lsp.buf.range_formatting({}, { 0, 0 }, { vim.fn.line('$'), 0 })
+                Vim.lsp.buf.range_formatting({}, { 0, 0 }, { Vim.fn.line('$'), 0 })
             end,
         },
     },
 })
 
--- docker
-ensure_server('dockerls'):setup({
+--lua
+ensure_server('sumneko_lua'):setup({
     on_attach = lsp_status.on_attach,
     capabilities = capabilities,
 })
-
--- sql
-ensure_server('sqlls'):setup({
+-- bash
+ensure_server('bashls'):setup({
     on_attach = lsp_status.on_attach,
     capabilities = capabilities,
-    cmd = { 'sql-language-server', 'up', '--method', 'stdio' },
 })
+-- Not useful to me atm
+-- -- docker
+-- ensure_server('dockerls'):setup({
+--     on_attach = lsp_status.on_attach,
+--     capabilities = capabilities,
+-- })
+-- -- sql
+-- ensure_server('sqlls'):setup({
+--     on_attach = lsp_status.on_attach,
+--     capabilities = capabilities,
+--     cmd = { 'sql-language-server', 'up', '--method', 'stdio' },
+-- })
+-- -- yaml
+-- ensure_server('yamlls'):setup({
+--     on_attach = lsp_status.on_attach,
+--     capabilities = capabilities,
+-- })
+-- -- python
+-- ensure_server('pyright'):setup({
+--     on_attach = lsp_status.on_attach,
+--     capabilities = capabilities,
+-- })
 
 -- general LSP config
-vim.lsp.handlers['textDocument/publishDiagnostics'] = vim.lsp.with(vim.lsp.diagnostic.on_publish_diagnostics, {
+Vim.lsp.handlers['textDocument/publishDiagnostics'] = Vim.lsp.with(Vim.lsp.diagnostic.on_publish_diagnostics, {
     signs = true,
 })
 
@@ -200,11 +201,16 @@ vim.lsp.handlers['textDocument/publishDiagnostics'] = vim.lsp.with(vim.lsp.diagn
 local signs = { Error = ' ', Warn = ' ', Hint = ' ', Information = ' ' }
 for type, icon in pairs(signs) do
     local hl = 'DiagnosticSign' .. type
-    vim.fn.sign_define(hl, { text = icon, texthl = hl, numhl = hl })
+    Vim.fn.sign_define(hl, { text = icon, texthl = hl, numhl = hl })
 end
 
-vim.diagnostic.config({
+Vim.diagnostic.config({
     severity_sort = true,
+		update_in_insert = true,
+		virtual_text = false,
+  	float = {
+    	source = "always",
+  	},
 })
 
 require('lsp_signature').setup({})

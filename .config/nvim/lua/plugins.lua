@@ -12,7 +12,11 @@ require('packer').startup({function()
 					end
 		}
 
+		-- Rust
 		use 'simrat39/rust-tools.nvim'
+
+		-- Typescript
+		use 'jose-elias-alvarez/nvim-lsp-ts-utils'
 
 		-- Lsp
 		use 'neovim/nvim-lspconfig'
@@ -21,7 +25,7 @@ require('packer').startup({function()
 		use 'nvim-lua/plenary.nvim'
 		use 'ray-x/lsp_signature.nvim'
   	use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
-		use 'jose-elias-alvarez/nvim-lsp-ts-utils'
+		use 'folke/lsp-colors.nvim'
 		use {
 				'saecki/crates.nvim',
 				tag = 'v0.1.0',
@@ -31,14 +35,9 @@ require('packer').startup({function()
 		-- Completer
 		use { 'ms-jpq/coq_nvim', branch = 'coq' }
 		use { 'ms-jpq/coq.artifacts', branch = 'artifacts' }
-		use { 'ms-jpq/coq.thirdparty', branch = '3p' }
 
 		use 'Shatur/neovim-ayu'
-		use { 'numToStr/Comment.nvim',
-					config = function()
-						require('Comment').setup()
-					end
-				} -- Comment with 'gc'
+  	use 'numToStr/Comment.nvim' -- Comment with 'gc'
 		use 'windwp/nvim-autopairs'
 
 		-- UI
@@ -62,7 +61,6 @@ require('packer').startup({function()
 		}
 
 		use { 'ms-jpq/chadtree', branch = 'chad', run = 'python3 -m chadtree deps' }
-		use 'rmagatti/auto-session' -- Session management
 		use {
 				'nvim-telescope/telescope.nvim',
 				requires = {
@@ -70,7 +68,6 @@ require('packer').startup({function()
 						'kyazdani42/nvim-web-devicons',
 						'gbrlsnchs/telescope-lsp-handlers.nvim',
 						'nvim-telescope/telescope-live-grep-raw.nvim',
-						{ 'rmagatti/session-lens', requires = { 'rmagatti/auto-session' } },
 						{ 'nvim-telescope/telescope-fzf-native.nvim', run = 'make' },
 				},
     }
@@ -81,35 +78,10 @@ end,
   }
 })
 
-require('nvim-treesitter.configs').setup({
-    ensure_installed = 'maintained', -- one of 'all', 'maintained' (parsers with maintainers), or a list of languages
-    highlight = {
-        enable = true,
-    },
-    indent = {
-        enable = true,
-    },
-    matchup = {
-        enable = true,
-    },
-    textobjects = {
-        select = {
-            keymaps = {
-                ['uc'] = '@comment.outer',
-            },
-        },
-    },
-    incremental_selection = {
-        enable = true,
-        keymaps = {
-            init_selection = '<CR>',
-            scope_incremental = '<CR>',
-            node_incremental = '<TAB>',
-            node_decremental = '<S-TAB>',
-        },
-    },
-})
-
-require('ayu').setup({})
-
-require('rust-tools').setup()
+ require('nvim-treesitter.configs').setup({
+     ensure_installed = 'maintained', -- one of 'all', 'maintained' (parsers with maintainers)
+     highlight = {
+         enable = true,
+         additional_vim_regex_highlighting = true,
+     },
+ })

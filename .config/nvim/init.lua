@@ -1,9 +1,9 @@
 -- Faster startup
 require('impatient').enable_profile()
--- Completer
-require('completion')
 -- Plugins
 require('plugins')
+-- Completer
+require('completion')
 -- Settings
 require('settings')
 -- Lsp

@@ -15,9 +15,9 @@ local settings = {
 		ghost_text = {
 			enabled = false,
 		},
-		preview = {
-			resolve_timeout = 0.5
-		},
+		-- preview = {
+		-- 	resolve_timeout = 0.1
+		-- },
 		icons = {
 			spacing = 2
 		}
@@ -25,7 +25,8 @@ local settings = {
 
 	-- Completion
 	completion = {
-		smart = false,
+		smart = true,
+		always = true,
 	},
 
 	-- Sources
@@ -34,25 +35,30 @@ local settings = {
 			enabled = false
 		},
 		snippets = {
-			weight_adjust = 1.4
+			enabled = false
 		},
-		lsp = {
-			resolve_timeout = 0.1
-		}
-	}
+		-- lsp = {
+		-- 	resolve_timeout = 0.1
+		-- }
+	},
+	-- Big objects will not show all completions. have to CTRL-Space to show
+	-- limits = {
+	-- 	completion_auto_timeout = 1,
+	-- }
 }
 
--- Auto pairs config
 local remap = Vim.api.nvim_set_keymap
 local npairs = require('nvim-autopairs')
 
 npairs.setup({ map_bs = false, map_cr = false })
 
+-- these mappings are coq recommended mappings unrelated to nvim-autopairs
 remap('i', '<esc>', [[pumvisible() ? "<c-e><esc>" : "<esc>"]], { expr = true, noremap = true })
 remap('i', '<c-c>', [[pumvisible() ? "<c-e><c-c>" : "<c-c>"]], { expr = true, noremap = true })
 remap('i', '<tab>', [[pumvisible() ? "<c-n>" : "<tab>"]], { expr = true, noremap = true })
 remap('i', '<s-tab>', [[pumvisible() ? "<c-p>" : "<bs>"]], { expr = true, noremap = true })
 
+-- skip it, if you use another global object
 _G.MUtils= {}
 
 MUtils.CR = function()

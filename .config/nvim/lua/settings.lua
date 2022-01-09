@@ -9,6 +9,7 @@ set.tabstop = 2
 set.shiftwidth = 2
 set.textwidth = 80
 set.scrolloff = 8
+set.expandtab = true
 
 -- Show line numbers
 set.number = true
@@ -35,6 +36,8 @@ set.hidden = true
 -- Sensible
 set.encoding = 'utf-8'
 set.fileformat = 'unix'
+set.autoindent = true
+set.backspace = 'indent,eol,start'
 
 -- Proper search
 set.incsearch = true
@@ -58,7 +61,7 @@ set.splitbelow = true
 set.timeoutlen = 300 -- http://stackoverflow.com/questions/2158516/delay-before-o-opens-a-new-line
 
 -- You will have bad experience for diagnostic messages when it's default 4000.
-setg.updatetime = 300
+setg.updatetime = 250
 
 set.printoptions = 'paper:letter'
 

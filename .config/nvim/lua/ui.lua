@@ -16,12 +16,13 @@ require('nvim-web-devicons').setup({ default = true })
 
 -- Identline
 require('indent_blankline').setup({
-    char = '|',
+    char = '┊',
     filetype_exclude = { 'packer', 'alpha' },
     buftype_exclude = { 'terminal' },
 		space_char_blankline = " ",
     show_current_context = true,
-		show_current_context_start = true,
+		show_current_context_start = false,
+		use_treesitter = true,
 })
 
 -- Colorscheme

@@ -29,3 +29,7 @@ cmd([[
 Vim.api.nvim_command(
     [[autocmd TextYankPost * lua require'vim.highlight'.on_yank({ higroup = 'IncSearch', timeout = 1000 })]]
 )
+
+-- Show hover diagnostics
+Vim.cmd [[autocmd CursorHold,CursorHoldI * lua vim.diagnostic.open_float(nil, {focus=false, scope="cursor"})]]
+

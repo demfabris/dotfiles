@@ -51,17 +51,11 @@ set.list = true
 -- Avoid showing extra messages when using completion
 set.shortmess:append('c')
 
--- Remove trailing whitespaces
-cmd('command! FixWhitespace :%s/\\s\\+$//e')
-
 -- Sane splits
 set.splitright = true
 set.splitbelow = true
 
-set.timeoutlen = 300 -- http://stackoverflow.com/questions/2158516/delay-before-o-opens-a-new-line
-
 -- You will have bad experience for diagnostic messages when it's default 4000.
-setg.updatetime = 250
+setg.updatetime = 300
 
 set.printoptions = 'paper:letter'
-

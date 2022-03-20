@@ -4,15 +4,15 @@ require('impatient').enable_profile()
 require('plugins')
 -- Completer
 require('completion')
--- Settings
+-- -- Settings
 require('settings')
--- Lsp
+-- -- Lsp
 require('lsp')
--- Statusbar
+-- -- Statusbar
 require('statusline')
--- Ui
+-- -- Ui
 require('ui')
--- Keybindings
+-- -- Keybindings
 require('keymaps')
--- Auto commands
+-- -- Auto commands
 require('autocmds')

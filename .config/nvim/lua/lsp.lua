@@ -124,6 +124,9 @@ require('rust-tools').setup({
                 procMacro = {
                     enable = true,
                 },
+                experimental = {
+                  procAttrMacros = false,
+                },
                 lens = {
                     enable = true,
                     run = true,
@@ -136,8 +139,10 @@ require('rust-tools').setup({
                 checkOnSave = {
                     enable = true,
                     command = 'clippy',
-                    allFeatures = true,
                 },
+                diagnostics = {
+                  disabled = {'macro-error'}
+                }
             },
         },
     },
@@ -159,6 +164,11 @@ jsonls:setup({
     },
 })
 
+--cpp
+ensure_server('clangd'):setup({
+    on_attach = lsp_status.on_attach,
+    capabilities = capabilities,
+})
 --lua
 ensure_server('sumneko_lua'):setup({
     on_attach = lsp_status.on_attach,

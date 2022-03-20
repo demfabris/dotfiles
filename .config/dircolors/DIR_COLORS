@@ -34,7 +34,7 @@
 BLK                   38;5;68
 CAPABILITY            38;5;17
 CHR                   38;5;113;1
-DIR                   38;5;30
+DIR                   38;5;39
 DOOR                  38;5;127
 EXEC                  38;5;208;1
 FIFO                  38;5;126
@@ -155,6 +155,10 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 *known_hosts          1
 .ini                  1
 .plist                1
+#   zsh,tmux
+.zshrc                38;5;125
+.tmux.conf            38;5;125
+.gitconfig            38;5;121
 #   vim
 .viminfo              1
 #   cisco VPN client configuration

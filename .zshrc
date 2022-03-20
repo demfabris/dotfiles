@@ -56,3 +56,5 @@ source ${HOME}/.config/nnn/config.sh
 
 # Load starship
 eval "$(starship init zsh)"
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"

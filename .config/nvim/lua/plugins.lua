@@ -14,6 +14,7 @@ require('packer').startup({function()
 
 		-- Rust
 		use 'simrat39/rust-tools.nvim'
+    use 'rust-lang/rust.vim'
 
 		-- Typescript
 		use 'jose-elias-alvarez/nvim-lsp-ts-utils'
@@ -45,17 +46,10 @@ require('packer').startup({function()
 		use { 'nvim-lualine/lualine.nvim', requires = { 'kyazdani42/nvim-web-devicons', opt = true } }
 		use 'arkav/lualine-lsp-progress'
 		use { 'lewis6991/gitsigns.nvim', requires = { 'nvim-lua/plenary.nvim' } }
-		use 'lukas-reineke/indent-blankline.nvim'
 		use 'akinsho/toggleterm.nvim' -- better terminal
 
 		use {
-			"luukvbaal/stabilize.nvim",
-			config = function() require("stabilize").setup() end
-		}
-
-		use {
-      'zeertzjq/which-key.nvim',
-      branch = 'patch-1',
+      'folke/which-key.nvim',
       config = function() require('which-key').setup() end
     }
 
@@ -80,7 +74,7 @@ end,
  require('nvim-treesitter.configs').setup({
      ensure_installed = 'maintained', -- one of 'all', 'maintained' (parsers with maintainers)
      highlight = {
-         enable = true,
-         additional_vim_regex_highlighting = true,
+         enable = false,
+         additional_vim_regex_highlighting = false,
      },
  })
